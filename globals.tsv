@@ -1,0 +1,2480 @@
+addr	class	name	evidence
+80090000	PROVEN	psx_80090000	PSXMAP 80090000 x59, 136 fns
+80090001	PROVEN	psx_80090001	PSXMAP 80090001 x13, 52 fns
+80090002	PROVEN	psx_80090002	PSXMAP 80090002 x8, 30 fns
+80090003	PROVEN	psx_80090003	PSXMAP 80090003 x1, 7 fns
+80090004	PROVEN	psx_80090004	PSXMAP 80090004 x11, 35 fns
+80090005	PROVEN	var_cam_80090005	RW 3 refs by 2 fns (e.g. cam_CalcTileWrapShift,team_PushRankingEntry)
+80090006	DEAD	g_80090006	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090007	DEAD	g_80090007	written never read (static) 1 refs by 1 fns (e.g. gpu_SetFrameDrawRects)
+80090008	PROVEN	psx_80090008	PSXMAP 80090008 x6, 26 fns
+8009000a	PROVEN	psx_8009000a	PSXMAP 8009000a x2, 10 fns
+8009000b	DEAD	g_8009000b	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+8009000c	PROVEN	psx_8009000c	PSXMAP 8009000c x2, 12 fns
+8009000e	DEAD	g_8009000e	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+8009000f	DEAD	g_8009000f	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090010	PROVEN	psx_80090010	PSXMAP 80090010 x1, 16 fns
+80090012	DEAD	g_80090012	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090014	PROVEN	tbl_hud_80090014	read-only/addr-taken 1 refs by 1 fns (e.g. hud_LinkRoundWinMarksLayer)
+80090016	DEAD	g_80090016	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090018	DEAD	g_80090018	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090019	PROVEN	tbl_cam_80090019	read-only/addr-taken 2 refs by 2 fns (e.g. cam_CalcTileWrapShift,stage_UpdateTileFromCameraYaw_2)
+8009001a	PROVEN	psx_8009000b	PSXMAP 8009000b x1, 4 fns
+8009001c	PROVEN	psx_8008001c	PSXMAP 8008001c x1, 8 fns
+8009001e	DEAD	g_8009001e	written never read (static)
+8009001f	DEAD	g_8009001f	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090020	PROVEN	psx_8009000f	PSXMAP 8009000f x1, 10 fns
+80090021	DEAD	g_80090021	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090022	DEAD	g_80090022	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090023	DEAD	g_80090023	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090028	DEAD	g_80090028	written never read (static)
+8009002c	DEAD	g_8009002c	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+8009002e	DEAD	g_8009002e	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090030	PROVEN	tbl_str_80090030	read-only/addr-taken 1 refs by 1 fns (e.g. str_RunPlayerSlotSelect)
+80090032	PROVEN	tbl_cpu_80090032	read-only/addr-taken 1 refs by 1 fns (e.g. cpu_RunControlThread)
+80090033	DEAD	g_80090033	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090034	PROVEN	psx_8009002e	PSXMAP 8009002e x4, 4 fns
+80090035	DEAD	g_80090035	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090037	DEAD	g_80090037	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090038	PROVEN	tbl_menu_80090038	read-only/addr-taken 1 refs by 1 fns (e.g. menu_InitBackgroundScreen)
+80090039	DEAD	g_80090039	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+8009003b	DEAD	g_8009003b	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+8009003c	DEAD	g_8009003c	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090040	DEAD	g_80090040	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090041	PROVEN	var_hud_80090041	RW 2 refs by 1 fns (e.g. hud_UpdateBattleStatusLayers)
+80090042	DEAD	g_80090042	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090046	DEAD	g_80090046	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090048	DEAD	g_80090048	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+8009004c	PROVEN	tbl_hud_8009004c	read-only/addr-taken 1 refs by 1 fns (e.g. hud_UpdateBattleStatusLayers)
+8009004e	DEAD	g_8009004e	written never read (static)
+80090050	DEAD	g_80090050	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090051	PROVEN	psx_8009004a	PSXMAP 8009004a x2, 4 fns
+80090054	PROVEN	tbl_hud_80090054	read-only/addr-taken 6 refs by 2 fns (e.g. hud_DrawPlayTimeClock,hud_DrawRoundTimer)
+80090058	PROVEN	psx_80090058	PSXMAP 80090058 x2, 1 fns
+8009005a	DEAD	g_8009005a	written never read (static)
+8009005b	DEAD	g_8009005b	written never read (static)
+8009005d	DEAD	g_8009005d	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090060	PROVEN	psx_80090058	PSXMAP 80090058 x4, 24 fns
+80090064	PROVEN	var_fx_80090064	RW 6 refs by 1 fns (e.g. fx_SetupCalloutSprite)
+80090068	DEAD	g_80090068	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090070	DEAD	g_80090070	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090078	DEAD	g_80090078	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090080	PROVEN	psx_800f0080	PSXMAP 800f0080 x1, 2 fns
+80090084	DEAD	g_80090084	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090098	DEAD	g_80090098	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+800900bc	DEAD	g_800900bc	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+800900c0	DEAD	g_800900c0	written never read (static)
+800900c2	DEAD	g_800900c2	written never read (static)
+800900c3	DEAD	g_800900c3	written never read (static)
+800900e3	DEAD	g_800900e3	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+8009015c	DEAD	g_8009015c	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+800901fc	DEAD	g_800901fc	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80090200	PROVEN	tbl_gfx_80090200	read-only/addr-taken 2 refs by 2 fns (e.g. gfx_DrawSplitColorBackdrop,cam_FollowFighter2Eye)
+800902bc	PROVEN	psx_800902bc	PSXMAP 800902bc x2, 1 fns
+80090304	PROVEN	tbl_hud_80090304	read-only/addr-taken 1 refs by 1 fns (e.g. hud_DrawPopupQueue)
+80090314	PROVEN	tbl_hud_80090314	read-only/addr-taken 1 refs by 1 fns (e.g. hud_DrawPopupQueue)
+80090320	DEAD	g_80090320	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+800903e8	PROVEN	tbl_cam_800903e8	read-only/addr-taken 2 refs by 2 fns (e.g. cam_CalcMinDistanceClamp,cam_DecaySpinZoomEffect)
+80090400	PROVEN	psx_80080400	PSXMAP 80080400 x2, 6 fns
+80090564	DEAD	g_80090564	written never read (static)
+800905b8	DEAD	g_800905b8	written never read (static)
+800905c7	PROVEN	tbl_cam_800905c7	read-only/addr-taken 1 refs by 1 fns (e.g. cam_KOAngleViewVariantC)
+8009060c	DEAD	g_8009060c	written never read (static)
+80090610	DEAD	g_80090610	written never read (static)
+80090614	DEAD	g_80090614	written never read (static)
+80090618	DEAD	g_80090618	written never read (static)
+800906bc	DEAD	g_800906bc	written never read (static)
+800907b7	PROVEN	tbl_cam_800907b7	read-only/addr-taken 4 refs by 4 fns (e.g. cam_ClampEyeDistance,cam_FollowFighter2Eye)
+80090800	PROVEN	psx_80080800	PSXMAP 80080800 x5, 18 fns
+80090a00	PROVEN	tbl_cam_80090a00	read-only/addr-taken 2 refs by 2 fns (e.g. cam_FollowFighter2Eye,cam_KOAngleViewVariantA)
+80090bb8	PROVEN	tbl_cam_80090bb8	read-only/addr-taken 1 refs by 1 fns (e.g. cam_CalcTileWrapShift)
+80090e38	PROVEN	tbl_cam_80090e38	read-only/addr-taken 1 refs by 1 fns (e.g. cam_KOAngleViewVariantB)
+80090fa0	PROVEN	tbl_cam_80090fa0	read-only/addr-taken 1 refs by 1 fns (e.g. cam_CalcTileWrapShift)
+80090fff	PROVEN	psx_80080fff	PSXMAP 80080fff x1, 18 fns
+80091000	DEAD	g_80091000	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80091b58	DEAD	g_80091b58	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80091fff	DEAD	g_80091fff	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+800932c8	DEAD	g_800932c8	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80094ea8	PROVEN	g_handicap_p1	PSXMAP 8008de28 x1, 6 fns
+80094ea9	PROVEN	g_handicap_p2	PSXMAP 8008de2c x1, 5 fns
+80094eaa	PROVEN	g_round_timer_setting	PSXMAP 8008de2d x3, 5 fns
+80094eac	PROVEN	var_fight_80094eac	RW 3 refs by 2 fns (e.g. fight_ResolveMatchWinner,charsel_Finalize)
+80094eb0	PROVEN	psx_800fce20	PSXMAP 800fce20 x1, 2 fns
+80094f30	DEAD	g_80094f30	written never read (static)
+80094f38	PROVEN	var_fight_80094f38	RW 5 refs by 2 fns (e.g. fight_ResolveMatchWinner,fight_SetupMatchStart)
+80094f43	DEAD	g_80094f43	written never read (static)
+80094f44	PROVEN	g_hitbox_param_a	PSXMAP 8008ded4 x4, 5 fns
+80094f46	PROVEN	g_hitbox_param_c	PSXMAP 8008ded6 x5, 5 fns
+80094f4c	PROVEN	g_gfx_draw_buffer_idx	PSXMAP 8008dedc x19, 75 fns
+80094f50	PROVEN	g_hitbox_param_d	PSXMAP 8008df0e x3, 3 fns
+80094f58	PROVEN	tbl_hud_80094f58	read-only/addr-taken 2 refs by 2 fns (e.g. hud_InitOtAndDrawModes,charsel_Init)
+80094f80	PROVEN	tbl_fighter_bone_rot	PSXMAP 8008e170 x2, 2 fns
+80095034	PROVEN	tbl_hit_body_objects	PSXMAP 8008e224 x1, 1 fns
+800950ea	PROVEN	g_fight_hold_lock	PSXMAP 8008e2dc x6, 3 fns
+800950f4	PROVEN	g_hitbox_param_b	PSXMAP 8008e2e4 x5, 5 fns
+800950f8	PROVEN	var_test_800950f8	RW 16 refs by 13 fns (e.g. game_UpdateCoinInput,game_InitSystemsAndEnterMenu)
+800950fe	PROVEN	g_ko_flag	PSXMAP 8008e2e8 x2, 5 fns
+800950ff	PROVEN	g_main_loop_state	PSXMAP 8008e2e9 x3, 14 fns
+80095100	PROVEN	g_result_timer_reload	PSXMAP 8008e2ea x1, 1 fns
+80095108	PROVEN	tbl_charsel_80095108	read-only/addr-taken 3 refs by 3 fns (e.g. vs_RestartMatchOrCharSel,charsel_RecordPick)
+80095124	PROVEN	psx_8008e2f4	PSXMAP 8008e2f4 x4, 5 fns
+80095128	PROVEN	tbl_fight_80095128	read-only/addr-taken 5 refs by 3 fns (e.g. fight_AccumulateMatchStats,fight_AccumulateWinTimeStats)
+80095156	PROVEN	g_damage_state	PSXMAP 8008e354 x4, 3 fns
+8009515c	PROVEN	g_mode_init_e35c	PSXMAP 8008e35c x1, 1 fns
+8009515d	PROVEN	var_fight_8009515d	RW 12 refs by 3 fns (e.g. hud_UpdateDamageLag,fight_WaitEndAndDecideRoundOutcome)
+80095160	PROVEN	var_fight_80095160	RW 14 refs by 6 fns (e.g. fight_StartTasksAndInitModeDefaults,fight_SetupMatchStart)
+80095168	PROVEN	g_fighter_hit_range_x_max	PSXMAP 8008e368 x2, 2 fns
+8009516a	DEAD	g_8009516a	written never read (static)
+80095170	DEAD	g_80095170	written never read (static)
+80095172	DEAD	g_80095172	written never read (static)
+80095174	PROVEN	g_ranking_player_index	PSXMAP 8008e374 x10, 28 fns
+80095178	PROVEN	g_stage_camera_x	PSXMAP 8008e378 x1, 1 fns
+8009517c	PROVEN	g_game_paused	PSXMAP 8008e37c x17, 38 fns
+80095180	PROVEN	g_stage_half_width	PSXMAP 8008e380 x1, 5 fns
+80095184	PROVEN	g_stage_camera_y	PSXMAP 8008e384 x1, 1 fns
+80095188	PROVEN	g_stage_camera_z	PSXMAP 8008e388 x1, 1 fns
+8009518c	PROVEN	g_stage_half_depth	PSXMAP 8008e38c x1, 5 fns
+80095190	PROVEN	g_pad_held_p1	PSXMAP 8008e390 x4, 9 fns
+80095194	PROVEN	var_test_80095194	RW 38 refs by 32 fns (e.g. pad_UpdateArcadeInputs,game_HandlePauseToggle)
+80095198	PROVEN	g_pad_held_p2	PSXMAP 8008e398 x3, 2 fns
+8009519c	PROVEN	tbl_fight_8009519c	read-only/addr-taken 5 refs by 5 fns (e.g. game_HandlePauseToggle,game_ComboQuitToTitleBody)
+800951a0	DEAD	g_800951a0	written never read (static)
+800951a2	DEAD	g_800951a2	written never read (static)
+800951a4	PROVEN	g_life_max_p1	PSXMAP 8008e464 x2, 10 fns
+800951a6	PROVEN	g_life_max_p2	PSXMAP 8008e466 x1, 5 fns
+800951a8	DEAD	g_800951a8	written never read (static)
+800951b0	PROVEN	psx_8008e488	PSXMAP 8008e488 x1, 3 fns
+800951f3	DEAD	g_800951f3	written never read (static)
+800951f8	PROVEN	psx_8008e6d0	PSXMAP 8008e6d0 x2, 3 fns
+80095238	PROVEN	tbl_team_roster_p1	PSXMAP 8008e710 x1, 10 fns
+8009523a	PROVEN	tbl_charsel_8009523a	read-only/addr-taken 1 refs by 1 fns (e.g. charsel_CheckPicksMatch)
+80095242	PROVEN	tbl_fight_80095242	read-only/addr-taken 6 refs by 3 fns (e.g. fight_SelectNextOpponentChars,fight_RunMatchTaskLoop)
+800952d0	PROVEN	var_fight_800952d0	RW 8 refs by 3 fns (e.g. fight_ShuffleOpponentList,fight_ShuffleRemainingOpponents)
+800952d6	DEAD	g_800952d6	written never read (static)
+800952d7	DEAD	g_800952d7	written never read (static)
+800952de	PROVEN	g_play_time_seconds	PSXMAP 8008fc8c x2, 7 fns
+800952e0	PROVEN	var_nameentry_800952e0	RW 3 refs by 3 fns (e.g. cam_CalcEyeAnglesFromTarget,nameentry_InitLetterSlot)
+800952e8	PROVEN	g_cam_yaw_saved	PSXMAP 800907d4 x5, 4 fns
+800952ec	PROVEN	var_game_800952ec	RW 10 refs by 6 fns (e.g. fight_SelectStageIdByMode,game_ResetMatchTimers)
+800952ee	PROVEN	var_fight_800952ee	RW 5 refs by 2 fns (e.g. fight_RoundStateContinuePrompt,fight_ApplyQueuedHitDamage)
+800952f0	PROVEN	g_play_time_hours	PSXMAP 80092858 x2, 9 fns
+800952f1	DEAD	g_800952f1	written never read (static)
+800952f4	DEAD	g_800952f4	written never read (static)
+800952f8	PROVEN	g_second_player_active	PSXMAP 8009285b x1, 12 fns
+800952fc	DEAD	g_800952fc	written never read (static)
+80095300	DEAD	g_80095300	written never read (static)
+80095304	PROVEN	g_play_time_minutes	PSXMAP 80092868 x2, 9 fns
+80095305	DEAD	g_80095305	written never read (static)
+80095306	PROVEN	g_survival_win_count	PSXMAP 8009286e x1, 6 fns
+80095307	PROVEN	g_camera_shake_index	PSXMAP 80092874 x5, 8 fns
+80095308	PROVEN	var_gfx_80095308	RW 43 refs by 30 fns (e.g. menu_RunRankingScreenLoop,cam_RunFighterIntroCamera)
+80095309	DEAD	g_80095309	written never read (static)
+8009530c	PROVEN	g_cam_param_a_target	PSXMAP 8009287c x2, 8 fns
+80095310	PROVEN	g_cam_param_b_target	PSXMAP 80092880 x1, 4 fns
+80095314	PROVEN	g_cam_param_c_target	PSXMAP 80092894 x2, 8 fns
+80095318	PROVEN	tbl_motion_joint_flags short[2]	PSXMAP 80092898 x29, 29 fns
+8009531a	PROVEN	g_motion_end_marker	PSXMAP 8009289a x1, 1 fns
+8009531c	PROVEN	g_continue_timer	PSXMAP 8009289c x13, 6 fns
+80095380	PROVEN	psx_800fdd18	PSXMAP 800fdd18 x1, 2 fns
+80095418	PROVEN	psx_800929c0	PSXMAP 800929c0 x2, 2 fns
+80095490	PROVEN	var_pad_80095490	RW 2 refs by 2 fns (e.g. pad_UpdateArcadeInputs,cpu_RunControlThread)
+80095494	PROVEN	g_stage_update_flag	PSXMAP 80092a3c x1, 2 fns
+800954a8	PROVEN	var_vs_800954a8	RW 6 refs by 4 fns (e.g. vs_HandleJoinInRequests,charsel_Init)
+800954a9	PROVEN	var_vs_800954a9	RW 4 refs by 2 fns (e.g. vs_HandleJoinInRequests,charsel_Init)
+800954c0	PROVEN	var_game_800954c0	RW 9 refs by 7 fns (e.g. fight_RequestFighterDataLoad,gfx_SetRedWhiteColorTable)
+800954c1	PROVEN	var_game_800954c1	RW 7 refs by 6 fns (e.g. fight_LoadFighterDataIfChanged,gfx_SetRedWhiteColorTable)
+800954c2	PROVEN	var_game_800954c2	RW 7 refs by 6 fns (e.g. fight_LoadFighterDataIfChanged,gfx_SetRedWhiteColorTable)
+800954c3	PROVEN	var_menu_800954c3	RW 14 refs by 10 fns (e.g. fight_RequestFighterDataLoad,fight_LoadFighterDataIfChanged)
+800954c4	PROVEN	var_gfx_800954c4	RW 10 refs by 7 fns (e.g. fight_LoadFighterDataIfChanged,fight_RequestFighterDataLoad)
+800954c5	PROVEN	var_fight_800954c5	RW 6 refs by 4 fns (e.g. fight_LoadFighterDataIfChanged,gfx_SetRedWhiteColorTable)
+800954c6	PROVEN	var_fight_800954c6	RW 6 refs by 4 fns (e.g. fight_LoadFighterDataIfChanged,gfx_SetRedWhiteColorTable)
+800954c7	DEAD	g_800954c7	written never read (static)
+800954c8	PROVEN	var_game_800954c8	RW 6 refs by 5 fns (e.g. hud_StepRoundClockTimer,game_InitVsModeDefaults)
+80095500	PROVEN	var_nvram_80095500	RW 23 refs by 15 fns (e.g. str_RunPlayerSlotSelect,game_SetPlaytimeBonusFlag)
+80095501	PROVEN	var_option_80095501	RW 13 refs by 9 fns (e.g. str_RunPlayerSlotSelect,vs_HandleJoinInRequests)
+80095502	PROVEN	var_menu_80095502	RW 6 refs by 3 fns (e.g. menu_InitDefaultOptions,fight_StartTasksAndInitModeDefaults)
+80095503	PROVEN	var_menu_80095503	RW 6 refs by 3 fns (e.g. fight_StartTasksAndInitModeDefaults,option_ValidateSettings)
+80095504	PROVEN	var_menu_80095504	RW 5 refs by 3 fns (e.g. fight_StartTasksAndInitModeDefaults,menu_InitDefaultOptions)
+80095505	PROVEN	var_option_80095505	RW 5 refs by 4 fns (e.g. fight_StartTasksAndInitModeDefaults,menu_InitDefaultOptions)
+80095506	PROVEN	var_option_80095506	RW 5 refs by 4 fns (e.g. fight_StartTasksAndInitModeDefaults,menu_InitDefaultOptions)
+80095507	PROVEN	var_menu_80095507	RW 5 refs by 3 fns (e.g. fight_StartTasksAndInitModeDefaults,option_ValidateSettings)
+80095508	PROVEN	var_menu_80095508	RW 3 refs by 3 fns (e.g. menu_InitDefaultOptions,fight_StartTasksAndInitModeDefaults)
+80095509	PROVEN	var_menu_80095509	RW 5 refs by 3 fns (e.g. fight_StartTasksAndInitModeDefaults,option_ValidateSettings)
+8009550a	PROVEN	var_fighter_8009550a	RW 5 refs by 4 fns (e.g. option_ValidateSettings,menu_InitDefaultOptions)
+8009550b	PROVEN	var_menu_8009550b	RW 5 refs by 4 fns (e.g. option_ResetPartialDefaults,menu_InitDefaultOptions)
+8009550c	PROVEN	var_menu_8009550c	RW 5 refs by 4 fns (e.g. option_ValidateSettings,menu_InitDefaultOptions)
+800955bc	PROVEN	g_time_attack_best_c	PSXMAP 80092d98 x1, 1 fns
+800956fc	PROVEN	var_option_800956fc	RW 4 refs by 3 fns (e.g. option_CopyDefaultTables,stat_FindRankingSlot)
+8009579c	PROVEN	tbl_fight_8009579c	read-only/addr-taken 12 refs by 5 fns (e.g. ranking_StateCharacterUsageScreen,fight_UpdateMatchStats)
+800957c8	PROVEN	var_game_800957c8	RW 12 refs by 5 fns (e.g. vs_RunTeamBattleState,fight_AccumulateMatchStats)
+800957cc	PROVEN	var_menu_800957cc	RW 7 refs by 5 fns (e.g. time_UpdatePlayTime,menu_InitDefaultOptions)
+8009584c	PROVEN	tbl_menu_8009584c	read-only/addr-taken 5 refs by 5 fns (e.g. menu_InitDefaultOptions,menu_DrawFighterWinRateRanking)
+80095a4c	PROVEN	var_menu_80095a4c	RW 4 refs by 3 fns (e.g. option_ValidateSettings,menu_InitDefaultOptions)
+80095a4d	PROVEN	var_menu_80095a4d	RW 4 refs by 3 fns (e.g. option_ValidateSettings,menu_InitDefaultOptions)
+80095a4e	PROVEN	var_menu_80095a4e	RW 4 refs by 3 fns (e.g. option_ValidateSettings,menu_InitDefaultOptions)
+80095a4f	PROVEN	var_menu_80095a4f	RW 4 refs by 3 fns (e.g. option_ValidateSettings,menu_InitDefaultOptions)
+80095a50	PROVEN	var_fight_80095a50	RW 13 refs by 5 fns (e.g. fight_UpdateMatchStats,option_ValidateSettings)
+80095a52	PROVEN	var_charsel_80095a52	RW 9 refs by 7 fns (e.g. team_InitBattleScene,option_ValidateSettings)
+80095a54	PROVEN	var_menu_80095a54	RW 7 refs by 3 fns (e.g. stat_RecordMatchEnd,fight_AccumulateMatchStats)
+80095a58	PROVEN	var_menu_80095a58	RW 4 refs by 2 fns (e.g. fight_UpdateMatchStats,menu_InitDefaultOptions)
+80095a5c	PROVEN	var_game_80095a5c	RW 11 refs by 6 fns (e.g. vs_RunTeamBattleState,stat_RecordMatchEnd)
+80095a60	PROVEN	var_menu_80095a60	RW 3 refs by 2 fns (e.g. fight_UpdateMatchStats,menu_InitDefaultOptions)
+80095b0c	PROVEN	var_fight_80095b0c	RW 7 refs by 4 fns (e.g. stat_RecordMatchEnd,fight_AccumulateMatchStats)
+80095b10	PROVEN	var_menu_80095b10	RW 3 refs by 2 fns (e.g. fight_AccumulateWinTimeStats,menu_InitDefaultOptions)
+80095b18	PROVEN	var_fight_80095b18	RW 9 refs by 3 fns (e.g. fight_AccumulateMatchStats,fight_AccumulateWinTimeStats)
+80095bbc	PROVEN	var_menu_80095bbc	RW 5 refs by 2 fns (e.g. fight_ResolveMatchWinner,menu_InitDefaultOptions)
+80095bc8	PROVEN	var_vs_80095bc8	RW 6 refs by 4 fns (e.g. vs_HandleJoinInRequests,charsel_Init)
+80095bc9	PROVEN	tbl_vs_80095bc9	read-only/addr-taken 3 refs by 2 fns (e.g. charsel_Init,vs_HandleJoinInRequests)
+80095bd0	PROVEN	tbl_fighter_80095bd0	read-only/addr-taken 1 refs by 1 fns (e.g. fighter_BuildPartMatrices)
+80095bf0	PROVEN	psx_800932f0	PSXMAP 800932f0 x1, 5 fns
+80095bf4	PROVEN	tbl_fighter_80095bf4	read-only/addr-taken 1 refs by 1 fns (e.g. fighter_SetHeadMatrixFromAngles)
+80095bf8	PROVEN	tbl_fighter_80095bf8	read-only/addr-taken 1 refs by 1 fns (e.g. fighter_SetHeadMatrixFromAngles)
+80095bfc	PROVEN	tbl_fighter_80095bfc	read-only/addr-taken 1 refs by 1 fns (e.g. fighter_SetHeadMatrixFromAngles)
+80095c00	PROVEN	tbl_fighter_80095c00	read-only/addr-taken 1 refs by 1 fns (e.g. fighter_SetHeadMatrixFromAngles)
+80095c04	PROVEN	var_fighter_80095c04	RW 3 refs by 2 fns (e.g. fighter_SetHeadMatrixFromAngles,fighter_HeadTrackClampApplyEntry)
+80095c08	PROVEN	var_fighter_80095c08	RW 3 refs by 2 fns (e.g. fighter_SetHeadMatrixFromAngles,fighter_HeadTrackClampApplyEntry)
+80095c0c	PROVEN	var_fighter_80095c0c	RW 3 refs by 2 fns (e.g. fighter_SetHeadMatrixFromAngles,fighter_HeadTrackClampApplyEntry)
+80095f98	PROVEN	tbl_reaction_enable_flags	PSXMAP 80093698 x2, 3 fns
+80095fb6	PROVEN	tbl_hitobj_enable_flags_b	PSXMAP 800936b6 x1, 1 fns
+80095fd8	PROVEN	psx_80103398	PSXMAP 80103398 x1, 2 fns
+800962d8	PROVEN	var_hud_800962d8	RW 6 refs by 3 fns (e.g. fight_StartTasksAndInitModeDefaults,hud_DrawLifeBars)
+800962d9	DEAD	g_800962d9	written never read (static)
+800962da	DEAD	g_800962da	written never read (static)
+800962dc	PROVEN	var_hud_800962dc	RW 21 refs by 12 fns (e.g. game_UpdateCoinInput,hud_BuildBottomRoundNumberPrimsCore)
+800962e0	PROVEN	var_hud_800962e0	RW 22 refs by 12 fns (e.g. game_UpdateCoinInput,opt_ApplyCoinCreditSettings)
+800962e4	PROVEN	var_ai_800962e4	RW 19 refs by 10 fns (e.g. fight_SetupMatchStart,ai_StepMoveScript)
+800962e5	PROVEN	g_stage_scene_active	PSXMAP 800939da x2, 3 fns
+800962e6	PROVEN	g_fight_end_type	PSXMAP 800939de x1, 11 fns
+800962e7	PROVEN	var_fight_800962e7	RW 17 refs by 8 fns (e.g. fight_ResetFightersToStartPositions,fighter_ThreadMain)
+800962e8	PROVEN	var_fight_800962e8	RW 11 refs by 6 fns (e.g. game_UpdateCoinInput,fight_TickContinueCountdownSilent)
+800962ec	PROVEN	g_game_mode	PSXMAP 80093a71 x5, 39 fns
+800962f0	PROVEN	var_fight_800962f0	RW 8 refs by 5 fns (e.g. game_UpdateCoinInput,opt_ApplyCoinCreditSettings)
+800962f4	PROVEN	var_game_800962f4	RW 7 refs by 4 fns (e.g. test_RunPadLoopPageWithCursor,game_UpdateCoinInput)
+800962f9	PROVEN	g_round_index_x2	PSXMAP 80093a76 x1, 13 fns
+80096300	PROVEN	tbl_charsel_80096300	read-only/addr-taken 3 refs by 3 fns (e.g. vs_RestartMatchOrCharSel,charsel_RecordPick)
+80096318	PROVEN	g_cam_fight_dist	PSXMAP 80093a7c x13, 25 fns
+8009631c	PROVEN	var_hud_8009631c	RW 29 refs by 15 fns (e.g. hud_UpdateBattleStatusLayers,vs_HandleJoinInRequests)
+80096324	PROVEN	var_pad_80096324	RW 2 refs by 2 fns (e.g. pad_UpdateArcadeInputs,cpu_RunControlThread)
+8009632c	PROVEN	var_game_8009632c	RW 15 refs by 12 fns (e.g. game_VsModeLoopNoSlotClear,game_VsModeLoopClearSlots)
+80096330	PROVEN	var_game_80096330	RW 13 refs by 11 fns (e.g. game_VsModeLoopNoSlotClear,game_VsModeLoopClearSlots)
+80096334	PROVEN	var_game_80096334	RW 6 refs by 4 fns (e.g. stat_RecordMatchEnd,fight_ResolveMatchWinner)
+80096335	PROVEN	var_fight_80096335	RW 5 refs by 3 fns (e.g. hud_UpdateDamageLag,fight_SetupRoundIntro)
+80096338	PROVEN	var_pad_80096338	RW 3 refs by 3 fns (e.g. pad_UpdateArcadeInputs,cpu_RunControlThread)
+8009633a	PROVEN	tbl_ai_8009633a	read-only/addr-taken 1 refs by 1 fns (e.g. ai_PickReactionChoice)
+80096340	PROVEN	g_player0_header DOA_Player[2]	PSXMAP 80093c10 x31, 106 fns
+80096341	PROVEN	g_p1_01_char_id	PSXMAP 80093c11 x6, 55 fns
+80096342	PROVEN	g_p1_02_costume	PSXMAP 80093c12 x3, 23 fns
+80096343	PROVEN	g_p1_03_round_wins	PSXMAP 80093c13 x6, 17 fns
+80096344	PROVEN	g_fighter_state	PSXMAP 80093c14 x9, 41 fns
+80096348	PROVEN	g_p1_08_pos_y	PSXMAP 80093c18 x5, 21 fns
+8009634c	PROVEN	g_p1_0c_pos_z	PSXMAP 80093c1c x10, 40 fns
+80096350	PROVEN	g_p1_10_motion_speed	PSXMAP 80093c20 x1, 5 fns
+80096354	PROVEN	g_p1_14_facing_angle	PSXMAP 80093c24 x5, 14 fns
+80096358	PROVEN	var_fight_80096358	RW 4 refs by 3 fns (e.g. fight_ChooseCounterMoveId,fighter_ResetPlayerSlot)
+8009635c	PROVEN	g_p1_1c_target_facing	PSXMAP 80093c2c x1, 4 fns
+80096360	PROVEN	g_p1_20_life	PSXMAP 80093c30 x2, 13 fns
+80096362	PROVEN	var_hud_80096362	RW 10 refs by 6 fns (e.g. hud_ResolveDamageLagAmounts,fighter_ResetPlayerSlot)
+80096364	PROVEN	var_hud_80096364	RW 5 refs by 4 fns (e.g. hud_ResolveDamageLagAmounts,fighter_ResetPlayerSlot)
+80096366	DEAD	g_80096366	written never read (static)
+80096368	PROVEN	var_hud_80096368	RW 10 refs by 6 fns (e.g. hud_UpdateDamageLag,hud_ResolveDamageLagAmounts)
+8009636a	PROVEN	var_hud_8009636a	RW 8 refs by 3 fns (e.g. hud_UpdateDamageLag,hud_ResolveDamageLagAmounts)
+8009636c	PROVEN	g_p1_28_motion_id	PSXMAP 80093c38 x2, 9 fns
+8009636e	PROVEN	g_p1_2a_move_id	PSXMAP 80093c3a x1, 45 fns
+80096370	PROVEN	var_fighter_80096370	RW 16 refs by 8 fns (e.g. cpu_RunControlThread,fighter_RunMainLoop)
+80096372	PROVEN	g_p1_2b_move_flag	PSXMAP 80093c3b x15, 25 fns
+80096373	PROVEN	g_p1_2d_state	PSXMAP 80093c3d x15, 35 fns
+80096374	PROVEN	g_p1_2e_side_flip	PSXMAP 80093c3e x2, 6 fns
+80096375	DEAD	g_80096375	written never read (static)
+80096376	PROVEN	var_fighter_80096376	RW 3 refs by 3 fns (e.g. fighter_ResetPlayerSlot,fight_ResetFightersToStartPositions)
+80096377	DEAD	g_80096377	written never read (static)
+80096378	DEAD	g_80096378	written never read (static)
+80096379	PROVEN	g_p1_33_flag	PSXMAP 80093c43 x3, 6 fns
+8009637a	PROVEN	g_p1_34_flag	PSXMAP 80093c44 x2, 7 fns
+8009637b	PROVEN	g_p1_35_motion_end_flag	PSXMAP 80093c45 x1, 14 fns
+8009637c	PROVEN	g_p1_36_flag	PSXMAP 80093c46 x1, 10 fns
+8009637d	PROVEN	g_p1_37_flag	PSXMAP 80093c47 x3, 7 fns
+8009637e	PROVEN	g_p1_38_flag	PSXMAP 80093c48 x3, 6 fns
+8009637f	DEAD	g_8009637f	written never read (static)
+80096380	DEAD	g_80096380	written never read (static)
+80096381	DEAD	g_80096381	written never read (static)
+80096382	DEAD	g_80096382	written never read (static)
+80096383	DEAD	g_80096383	written never read (static)
+80096384	PROVEN	g_p1_3e_flag	PSXMAP 80093c4e x1, 2 fns
+80096385	PROVEN	g_p1_3f_flag	PSXMAP 80093c4f x1, 2 fns
+80096386	DEAD	g_80096386	written never read (static)
+80096387	DEAD	g_80096387	written never read (static)
+80096388	DEAD	g_80096388	written never read (static)
+80096389	DEAD	g_80096389	written never read (static)
+8009638a	PROVEN	g_p1_44_flag	PSXMAP 80093c54 x2, 4 fns
+8009638b	DEAD	g_8009638b	written never read (static)
+8009638c	DEAD	g_8009638c	written never read (static)
+8009638e	DEAD	g_8009638e	written never read (static)
+8009638f	PROVEN	g_p1_48_active_flag	PSXMAP 80093c58 x1, 9 fns
+80096390	PROVEN	g_p1_49_flag	PSXMAP 80093c59 x1, 8 fns
+80096391	DEAD	g_80096391	written never read (static)
+80096392	DEAD	g_80096392	written never read (static)
+80096393	DEAD	g_80096393	written never read (static)
+80096395	DEAD	g_80096395	written never read (static)
+80096396	PROVEN	g_p1_4f_flag	PSXMAP 80093c5f x1, 5 fns
+80096397	DEAD	g_80096397	written never read (static)
+80096398	DEAD	g_80096398	written never read (static)
+80096399	PROVEN	var_hud_80096399	RW 9 refs by 7 fns (e.g. hud_DrawComboCounter,hud_UpdateDamageLag)
+8009639a	PROVEN	g_p1_53_flag	PSXMAP 80093c63 x1, 5 fns
+8009639b	PROVEN	var_fighter_8009639b	RW 4 refs by 4 fns (e.g. fighter_ResetPlayerSlot,hud_UpdateDamageLag)
+8009639c	DEAD	g_8009639c	written never read (static)
+8009639d	DEAD	g_8009639d	written never read (static)
+800963a0	PROVEN	g_player1_header	PSXMAP 80093c68 x1, 16 fns
+800963a1	PROVEN	g_p2_01_char_id	PSXMAP 80093c69 x5, 20 fns
+800963a2	PROVEN	g_p2_02_costume	PSXMAP 80093c6a x2, 13 fns
+800963a3	PROVEN	g_p2_03_round_wins	PSXMAP 80093c6b x5, 10 fns
+800963a4	PROVEN	g_p2_04_pos_x	PSXMAP 80093c6c x3, 14 fns
+800963a8	PROVEN	var_cam_800963a8	RW 11 refs by 8 fns (e.g. attract_AdvanceStateAndStartDemoMatch,fight_ResetFightersToStartPositions)
+800963ac	PROVEN	g_p2_0c_pos_z	PSXMAP 80093c74 x2, 14 fns
+800963b0	DEAD	g_800963b0	written never read (static)
+800963b4	PROVEN	g_p2_14_facing_angle	PSXMAP 80093c7c x1, 5 fns
+800963b8	DEAD	g_800963b8	written never read (static)
+800963bc	PROVEN	g_p2_1c_target_facing	PSXMAP 80093c84 x1, 2 fns
+800963c0	PROVEN	var_fight_800963c0	RW 10 refs by 4 fns (e.g. hud_UpdateDamageLag,fight_ResetFightersToStartPositions)
+800963c2	DEAD	g_800963c2	written never read (static)
+800963c4	DEAD	g_800963c4	written never read (static)
+800963c6	DEAD	g_800963c6	written never read (static)
+800963c8	DEAD	g_800963c8	written never read (static)
+800963cc	PROVEN	var_fighter_800963cc	RW 4 refs by 3 fns (e.g. nameentry_RunResultPose,fighter_ResetAndInitPair)
+800963ce	PROVEN	var_fight_800963ce	RW 14 refs by 5 fns (e.g. fight_DecideFighterActions,fight_InitRoundFighterState)
+800963d0	PROVEN	var_fight_800963d0	RW 5 refs by 4 fns (e.g. cpu_RunControlThread,fight_ResetFightersToStartPositions)
+800963d2	PROVEN	g_p2_2b_move_flag	PSXMAP 80093c93 x1, 2 fns
+800963d3	PROVEN	var_fighter_800963d3	RW 8 refs by 7 fns (e.g. fight_DecideFighterActions,fighter_SetDefaultControlModes)
+800963d4	PROVEN	var_fight_800963d4	RW 3 refs by 3 fns (e.g. fight_ResetFightersToStartPositions,cpu_RunControlThread)
+800963d5	DEAD	g_800963d5	written never read (static)
+800963d6	DEAD	g_800963d6	written never read (static)
+800963d7	DEAD	g_800963d7	written never read (static)
+800963d8	DEAD	g_800963d8	written never read (static)
+800963d9	PROVEN	var_fight_800963d9	RW 4 refs by 3 fns (e.g. fight_DecideFighterActions,fighter_ResetAndInitPair)
+800963da	DEAD	g_800963da	written never read (static)
+800963db	PROVEN	var_fight_800963db	RW 7 refs by 4 fns (e.g. fight_InitRoundFighterState,fight_DecideFighterActions)
+800963dc	DEAD	g_800963dc	written never read (static)
+800963dd	PROVEN	g_p2_37_flag	PSXMAP 80093c9f x1, 4 fns
+800963de	PROVEN	g_p2_38_flag	PSXMAP 80093ca0 x2, 5 fns
+800963df	DEAD	g_800963df	written never read (static)
+800963e0	DEAD	g_800963e0	written never read (static)
+800963e1	DEAD	g_800963e1	written never read (static)
+800963e2	DEAD	g_800963e2	written never read (static)
+800963e3	DEAD	g_800963e3	written never read (static)
+800963e4	DEAD	g_800963e4	written never read (static)
+800963e5	DEAD	g_800963e5	written never read (static)
+800963e6	DEAD	g_800963e6	written never read (static)
+800963e7	DEAD	g_800963e7	written never read (static)
+800963e8	DEAD	g_800963e8	written never read (static)
+800963e9	DEAD	g_800963e9	written never read (static)
+800963ea	DEAD	g_800963ea	written never read (static)
+800963eb	DEAD	g_800963eb	written never read (static)
+800963ec	DEAD	g_800963ec	written never read (static)
+800963ee	DEAD	g_800963ee	written never read (static)
+800963ef	DEAD	g_800963ef	written never read (static)
+800963f0	DEAD	g_800963f0	written never read (static)
+800963f1	DEAD	g_800963f1	written never read (static)
+800963f2	DEAD	g_800963f2	written never read (static)
+800963f3	DEAD	g_800963f3	written never read (static)
+800963f5	DEAD	g_800963f5	written never read (static)
+800963f6	DEAD	g_800963f6	written never read (static)
+800963f7	DEAD	g_800963f7	written never read (static)
+800963f8	DEAD	g_800963f8	written never read (static)
+800963f9	DEAD	g_800963f9	written never read (static)
+800963fa	DEAD	g_800963fa	written never read (static)
+800963fb	DEAD	g_800963fb	written never read (static)
+800963fc	DEAD	g_800963fc	written never read (static)
+800963fd	DEAD	g_800963fd	written never read (static)
+80096400	PROVEN	var_fight_80096400	RW 5 refs by 4 fns (e.g. fight_SetupRoundIntro,hud_DrawRoundTimer)
+80096408	PROVEN	buf_bone_rot_table_c	PSXMAP 80093cd8 x2, 2 fns
+80096444	PROVEN	buf_hit_body_objects	PSXMAP 80093d14 x1, 1 fns
+80096480	DEAD	g_80096480	written never read (static)
+80096488	PROVEN	var_hud_80096488	RW 15 refs by 13 fns (e.g. hud_RunBattleOverlay,hud_InitOtAndDrawModes)
+8009648c	PROVEN	var_hud_8009648c	RW 56 refs by 22 fns (e.g. hud_DrawLifeBars,hud_DrawPopupQueue)
+800964b0	PROVEN	g_ot_table	PSXMAP 80093e30 x2, 28 fns
+800964b4	PROVEN	var_gfx_800964b4	RW 171 refs by 49 fns (e.g. charsel_DrawSpriteRows,transition_RunIntroBoxFade)
+800964d8	DEAD	g_800964d8	written never read (static)
+800964da	PROVEN	var_game_800964da	RW 14 refs by 13 fns (e.g. hud_RunBattleOverlay,menu_InitState)
+800964db	PROVEN	var_fight_800964db	RW 7 refs by 2 fns (e.g. fight_StartTasksAndInitModeDefaults,fight_UpdateHitDamageAndEffects)
+800964dc	PROVEN	g_match_type	PSXMAP 80093e86 x4, 30 fns
+800964dd	DEAD	g_800964dd	written never read (static)
+80096667	DEAD	g_80096667	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+800966c4	PROVEN	g_round_goal_p0	PSXMAP 800940bc x3, 14 fns
+800966c6	PROVEN	g_round_goal_p1	PSXMAP 800940be x2, 6 fns
+800966c8	DEAD	g_800966c8	written never read (static)
+800966c9	PROVEN	g_stage_tile_wrap_count	PSXMAP 800940c1 x10, 17 fns
+800966ca	PROVEN	var_game_800966ca	RW 14 refs by 13 fns (e.g. attract_RunSequenceThread,menu_InitState)
+800966d0	PROVEN	g_battle_scene_active	PSXMAP 800940d4 x3, 17 fns
+800966d8	PROVEN	tbl_head_track_origin_x	PSXMAP 800940d8 x1, 2 fns
+800966dc	DEAD	g_800966dc	written never read (static)
+800966e0	DEAD	g_800966e0	written never read (static)
+800966f0	PROVEN	tbl_team_roster_chars	PSXMAP 800940f0 x1, 20 fns
+800966f2	PROVEN	tbl_fight_800966f2	read-only/addr-taken 3 refs by 2 fns (e.g. fight_UpdateMatchStats,charsel_CheckPicksMatch)
+800966fa	PROVEN	tbl_fight_800966fa	read-only/addr-taken 9 refs by 6 fns (e.g. fight_SelectNextOpponentChars,fight_RunMatchTaskLoop)
+80096708	PROVEN	g_fighter_world_pos_x	PSXMAP 80094108 x4, 6 fns
+8009670c	PROVEN	var_cam_8009670c	RW 9 refs by 7 fns (e.g. fighter_ShiftBonePosHistory,fight_SelectHitReactionMove)
+80096710	PROVEN	var_fighter_80096710	RW 3 refs by 2 fns (e.g. fighter_ShiftBonePosHistory,charsel_SyncPreviewFighters)
+80096714	PROVEN	g_fighter_head_pos_x	PSXMAP 80094114 x6, 7 fns
+80096718	PROVEN	tbl_fighter_80096718	read-only/addr-taken 1 refs by 1 fns (e.g. fighter_EndFrameBookkeeping)
+8009671c	PROVEN	g_fighter_head_pos_y	PSXMAP 8009411c x4, 4 fns
+80096720	PROVEN	tbl_fighter_80096720	read-only/addr-taken 4 refs by 4 fns (e.g. fighter_ComputeOpponentAngles,math_CalcYawPitchBetweenPoints)
+80096724	PROVEN	tbl_fighter_80096724	read-only/addr-taken 7 refs by 6 fns (e.g. fighter_CalcHitLaunchVelocity,fighter_UpdateTimerExpiredFlag)
+80096728	PROVEN	tbl_fighter_80096728	read-only/addr-taken 3 refs by 3 fns (e.g. math_CalcYawPitchBetweenPoints,fighter_SetDrawOrderByDepth)
+8009672c	PROVEN	g_fighter_pos_pad_412c	PSXMAP 8009412c x2, 1 fns
+80096734	PROVEN	g_fighter_limb_a_pos_x	PSXMAP 80094134 x2, 1 fns
+8009675c	PROVEN	tbl_fighter_8009675c	read-only/addr-taken 1 refs by 1 fns (e.g. fighter_UpdateBonePose)
+80096774	PROVEN	g_fighter_limb_hist_4174	PSXMAP 80094174 x2, 1 fns
+8009677c	PROVEN	g_fighter_limb_a_pos_z	PSXMAP 8009417c x2, 1 fns
+80096888	PROVEN	tbl_fighter_80096888	read-only/addr-taken 1 refs by 1 fns (e.g. fighter_ResolveTradeHitsAndPush)
+8009688c	PROVEN	tbl_fighter_8009688c	read-only/addr-taken 1 refs by 1 fns (e.g. fighter_ResolveTradeHitsAndPush)
+80096890	PROVEN	tbl_fighter_80096890	read-only/addr-taken 1 refs by 1 fns (e.g. fighter_ResolveTradeHitsAndPush)
+800969da	DEAD	g_800969da	written never read (static)
+800969db	PROVEN	g_mcard_busy	PSXMAP 800943dd x2, 17 fns
+800969dc	DEAD	g_800969dc	written never read (static)
+800969e0	PROVEN	g_game_mode_type	PSXMAP 800943e3 x13, 43 fns
+800969e8	DEAD	g_800969e8	written never read (static)
+800969ec	DEAD	g_800969ec	written never read (static)
+800969f0	DEAD	g_800969f0	written never read (static)
+80096a18	PROVEN	g_stage_scroll_offset	PSXMAP 80094418 x1, 2 fns
+80096a20	DEAD	g_80096a20	written never read (static)
+80096a26	PROVEN	var_fight_80096a26	RW 5 refs by 4 fns (e.g. fight_ResetFightersToStartPositions,game_OpenModeLoopThreads)
+80096c38	DEAD	g_80096c38	written never read (static)
+80096c40	PROVEN	tbl_stage_anim_tex_frame_b	PSXMAP 80092cc0 x2, 2 fns
+80096c48	PROVEN	var_game_80096c48	RW 6 refs by 5 fns (e.g. hud_ResolveDamageLagAmounts,game_InitVsModeDefaults)
+80096c50	PROVEN	var_fight_80096c50	RW 2 refs by 2 fns (e.g. fight_SetupMatchStart,fight_SelectNextOpponentChars)
+80096c59	DEAD	g_80096c59	written never read (static)
+80096c61	PROVEN	var_game_80096c61	RW 6 refs by 3 fns (e.g. attract_AdvanceStateAndStartDemoMatch,game_InitSystemsAndEnterMenu)
+80096c68	DEAD	g_80096c68	written never read (static)
+80096c69	DEAD	g_80096c69	written never read (static)
+80096c7e	DEAD	g_80096c7e	written never read (static)
+80096c7f	DEAD	g_80096c7f	written never read (static)
+80096ca8	PROVEN	g_stage_anim_state	PSXMAP 800943e4 x7, 6 fns
+80096caa	PROVEN	var_fight_80096caa	RW 5 refs by 3 fns (e.g. fight_SetupMatchStart,game_OpenModeLoopThreads)
+8009756c	PROVEN	var_game_8009756c	RW 7 refs by 6 fns (e.g. fight_SelectNextOpponentChars,game_ResetModeVars)
+8009756e	PROVEN	var_vs_8009756e	RW 10 refs by 8 fns (e.g. vs_StartWipeTransition,vs_UpdateMatchStateMachine)
+80097570	PROVEN	psx_80100000	PSXMAP 80100000 x1, 4 fns
+80097574	PROVEN	g_prev_ctrl_type_p0	PSXMAP 800943da x3, 3 fns
+80097575	PROVEN	g_prev_ctrl_type_p1	PSXMAP 800943db x1, 2 fns
+80097620	PROVEN	var_vs_80097620	RW 4 refs by 3 fns (e.g. vs_RunCharacterDemoThread,vs_RunCharacterDemoAndCloseThreadsAlt)
+80097e1c	PROVEN	tbl_motion_angle_offset_a	PSXMAP 80094424 x1, 1 fns
+80097e28	PROVEN	tbl_80097e28	in-region read-only/addr-taken by 1 fns (static xrefs)
+80097e2c	PROVEN	tbl_80097e2c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80097e64	PROVEN	psx_8009446c	PSXMAP 8009446c x1, 1 fns
+80097e70	PROVEN	tbl_80097e70	in-region read-only/addr-taken by 1 fns (static xrefs)
+80097e80	PROVEN	tbl_80097e80	in-region read-only/addr-taken by 2 fns (static xrefs)
+80097f84	PROVEN	tbl_80097f84	in-region read-only/addr-taken by 1 fns (static xrefs)
+80097f98	PROVEN	tbl_80097f98	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098020	PROVEN	tbl_80098020	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098060	PROVEN	tbl_80098060	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098074	PROVEN	tbl_80098074	in-region read-only/addr-taken by 1 fns (static xrefs)
+800980a0	PROVEN	tbl_800980a0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800980f0	PROVEN	tbl_800980f0	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098164	PROVEN	tbl_80098164	in-region read-only/addr-taken by 1 fns (static xrefs)
+8009817c	PROVEN	tbl_8009817c	in-region read-only/addr-taken by 1 fns (static xrefs)
+800981a4	PROVEN	psx_80094bb8	PSXMAP 80094bb8 x1, 1 fns
+800981bc	PROVEN	tbl_800981bc	in-region read-only/addr-taken by 1 fns (static xrefs)
+800981dc	PROVEN	tbl_800981dc	in-region read-only/addr-taken by 1 fns (static xrefs)
+8009827c	PROVEN	psx_80094c58	PSXMAP 80094c58 x1, 1 fns
+80098290	PROVEN	psx_80094c6c	PSXMAP 80094c6c x1, 1 fns
+800982a4	PROVEN	psx_80094c80	PSXMAP 80094c80 x1, 1 fns
+800982ac	PROVEN	s_team_roster_panel_a	PSXMAP 80094c88 x2, 1 fns
+800982b0	PROVEN	psx_80094c8c	PSXMAP 80094c8c x1, 1 fns
+800982b8	PROVEN	s_team_roster_panel_b	PSXMAP 80094c94 x2, 1 fns
+800982bc	PROVEN	psx_80094c98	PSXMAP 80094c98 x1, 1 fns
+800982c8	PROVEN	s_next_match_label	PSXMAP 80094ca4 x2, 2 fns
+800982cc	PROVEN	s_team_result_text_a	PSXMAP 80094ca8 x1, 1 fns
+800982d4	PROVEN	psx_80094cb0	PSXMAP 80094cb0 x1, 1 fns
+800982e0	PROVEN	psx_80094cbc	PSXMAP 80094cbc x1, 1 fns
+800982ec	PROVEN	psx_80094cc8	PSXMAP 80094cc8 x1, 1 fns
+800982fc	PROVEN	psx_80094cd8	PSXMAP 80094cd8 x1, 1 fns
+8009830c	PROVEN	s_result_screen_text_a	PSXMAP 80094ce8 x3, 3 fns
+80098310	PROVEN	s_team_result_text_b	PSXMAP 80094cec x1, 1 fns
+80098314	PROVEN	psx_80094cf0	PSXMAP 80094cf0 x1, 1 fns
+8009831c	PROVEN	s_result_screen_text_b	PSXMAP 80094cf8 x3, 3 fns
+80098324	PROVEN	s_result_screen_text_c	PSXMAP 80094d00 x2, 2 fns
+8009832c	PROVEN	psx_80094d08	PSXMAP 80094d08 x1, 1 fns
+80098334	PROVEN	s_kumite_result_text_a	PSXMAP 80094d10 x2, 1 fns
+80098338	PROVEN	s_kumite_result_text_b	PSXMAP 80094d14 x4, 1 fns
+8009833c	PROVEN	s_kumite_result_text_c	PSXMAP 80094d18 x2, 1 fns
+80098340	PROVEN	s_kumite_result_text_d	PSXMAP 80094d1c x1, 1 fns
+80098348	PROVEN	s_kumite_result_text_e	PSXMAP 80094d24 x1, 1 fns
+80098350	PROVEN	s_kumite_result_text_f	PSXMAP 80094d2c x1, 1 fns
+80098354	PROVEN	s_kumite_result_text_g	PSXMAP 80094d30 x1, 1 fns
+80098358	PROVEN	psx_80094d34	PSXMAP 80094d34 x1, 1 fns
+80098368	PROVEN	psx_80094d44	PSXMAP 80094d44 x1, 1 fns
+80098374	PROVEN	s_timeattack_result_text_a	PSXMAP 80094d50 x2, 1 fns
+80098378	PROVEN	s_timeattack_result_text_b	PSXMAP 80094d54 x2, 1 fns
+8009837c	PROVEN	psx_80094d58	PSXMAP 80094d58 x1, 1 fns
+80098384	PROVEN	psx_80094d60	PSXMAP 80094d60 x1, 1 fns
+80098398	PROVEN	tbl_80098398	in-region read-only/addr-taken by 1 fns (static xrefs)
+800983d0	PROVEN	tbl_800983d0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800983d4	PROVEN	tbl_800983d4	in-region read-only/addr-taken by 1 fns (static xrefs)
+800983d8	PROVEN	tbl_800983d8	in-region read-only/addr-taken by 1 fns (static xrefs)
+800983f0	PROVEN	tbl_800983f0	in-region read-only/addr-taken by 7 fns (static xrefs)
+800983f8	PROVEN	psx_80094dd4	PSXMAP 80094dd4 x1, 1 fns
+8009840c	PROVEN	tbl_8009840c	in-region read-only/addr-taken by 5 fns (static xrefs)
+80098418	PROVEN	tbl_80098418	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098424	PROVEN	tbl_80098424	in-region read-only/addr-taken by 2 fns (static xrefs)
+80098430	PROVEN	tbl_80098430	in-region read-only/addr-taken by 2 fns (static xrefs)
+80098438	PROVEN	psx_80094e14	PSXMAP 80094e14 x1, 1 fns
+8009843e	PROVEN	tbl_8009843e	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098440	PROVEN	tbl_80098440	in-region read-only/addr-taken by 1 fns (static xrefs)
+8009844c	PROVEN	tbl_8009844c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098460	PROVEN	tbl_80098460	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098478	PROVEN	tbl_80098478	in-region read-only/addr-taken by 1 fns (static xrefs)
+8009847c	PROVEN	tbl_8009847c	in-region read-only/addr-taken by 2 fns (static xrefs)
+80098480	PROVEN	tbl_80098480	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098484	PROVEN	tbl_80098484	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098494	PROVEN	tbl_80098494	in-region read-only/addr-taken by 1 fns (static xrefs)
+800984a0	PROVEN	psx_800a15f4	PSXMAP 800a15f4 x1, 14 fns
+800984b8	PROVEN	tbl_800984b8	in-region read-only/addr-taken by 1 fns (static xrefs)
+800984bc	PROVEN	tbl_800984bc	in-region read-only/addr-taken by 1 fns (static xrefs)
+800984f4	PROVEN	tbl_800984f4	in-region read-only/addr-taken by 1 fns (static xrefs)
+800984f8	PROVEN	tbl_800984f8	in-region read-only/addr-taken by 1 fns (static xrefs)
+8009852c	PROVEN	tbl_8009852c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098530	PROVEN	tbl_80098530	in-region read-only/addr-taken by 1 fns (static xrefs)
+8009853c	PROVEN	tbl_8009853c	in-region read-only/addr-taken by 1 fns (static xrefs)
+8009854c	PROVEN	tbl_8009854c	in-region read-only/addr-taken by 5 fns (static xrefs)
+8009855c	PROVEN	tbl_8009855c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098560	PROVEN	tbl_80098560	in-region read-only/addr-taken by 1 fns (static xrefs)
+8009856c	PROVEN	tbl_8009856c	in-region read-only/addr-taken by 11 fns (static xrefs)
+80098570	PROVEN	tbl_80098570	in-region read-only/addr-taken by 1 fns (static xrefs)
+8009858c	PROVEN	tbl_8009858c	in-region read-only/addr-taken by 1 fns (static xrefs)
+8009859c	PROVEN	tbl_8009859c	in-region read-only/addr-taken by 1 fns (static xrefs)
+800985ac	PROVEN	tbl_800985ac	in-region read-only/addr-taken by 1 fns (static xrefs)
+800985b0	PROVEN	tbl_800985b0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800985bc	PROVEN	tbl_800985bc	in-region read-only/addr-taken by 1 fns (static xrefs)
+800985c8	PROVEN	tbl_800985c8	in-region read-only/addr-taken by 1 fns (static xrefs)
+800985d8	PROVEN	tbl_800985d8	in-region read-only/addr-taken by 1 fns (static xrefs)
+800985ec	PROVEN	tbl_800985ec	in-region read-only/addr-taken by 2 fns (static xrefs)
+800985f0	PROVEN	tbl_800985f0	in-region read-only/addr-taken by 4 fns (static xrefs)
+800985f4	PROVEN	tbl_800985f4	in-region read-only/addr-taken by 1 fns (static xrefs)
+800985f8	PROVEN	tbl_800985f8	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098604	PROVEN	tbl_80098604	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098614	PROVEN	tbl_80098614	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098624	PROVEN	tbl_80098624	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098630	PROVEN	tbl_80098630	in-region read-only/addr-taken by 2 fns (static xrefs)
+80098634	PROVEN	tbl_80098634	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098648	PROVEN	tbl_80098648	in-region read-only/addr-taken by 4 fns (static xrefs)
+80098650	PROVEN	tbl_80098650	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098654	PROVEN	tbl_80098654	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098670	PROVEN	tbl_80098670	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098698	PROVEN	tbl_80098698	in-region read-only/addr-taken by 2 fns (static xrefs)
+800986a0	PROVEN	tbl_800986a0	in-region read-only/addr-taken by 2 fns (static xrefs)
+800986ac	PROVEN	tbl_800986ac	in-region read-only/addr-taken by 2 fns (static xrefs)
+800986b0	PROVEN	tbl_800986b0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800986b4	PROVEN	tbl_800986b4	in-region read-only/addr-taken by 1 fns (static xrefs)
+800986b8	PROVEN	tbl_800986b8	in-region read-only/addr-taken by 1 fns (static xrefs)
+800986c0	PROVEN	tbl_800986c0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800986d0	PROVEN	tbl_800986d0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800986e8	PROVEN	psx_800950ec	PSXMAP 800950ec x1, 1 fns
+800986f8	PROVEN	tbl_800986f8	in-region read-only/addr-taken by 1 fns (static xrefs)
+800986fc	PROVEN	tbl_800986fc	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098708	PROVEN	tbl_80098708	in-region read-only/addr-taken by 1 fns (static xrefs)
+8009872c	PROVEN	tbl_ai_counter_hold	PSXMAP 80095130 x1, 1 fns
+80098731	PROVEN	tbl_80098731	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098734	PROVEN	tbl_80098734	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098748	PROVEN	tbl_80098748	in-region read-only/addr-taken by 1 fns (static xrefs)
+8009874c	PROVEN	tbl_8009874c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098750	PROVEN	tbl_80098750	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098764	PROVEN	tbl_80098764	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098768	PROVEN	tbl_80098768	in-region read-only/addr-taken by 1 fns (static xrefs)
+8009877c	PROVEN	tbl_8009877c	in-region read-only/addr-taken by 1 fns (static xrefs)
+8009878c	PROVEN	tbl_8009878c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098794	PROVEN	tbl_80098794	in-region read-only/addr-taken by 2 fns (static xrefs)
+800987a0	PROVEN	tbl_800987a0	in-region read-only/addr-taken by 2 fns (static xrefs)
+800987a8	PROVEN	tbl_800987a8	in-region read-only/addr-taken by 3 fns (static xrefs)
+800987ac	PROVEN	tbl_800987ac	in-region read-only/addr-taken by 2 fns (static xrefs)
+800987b4	PROVEN	tbl_800987b4	in-region read-only/addr-taken by 1 fns (static xrefs)
+800987b8	PROVEN	tbl_800987b8	in-region read-only/addr-taken by 1 fns (static xrefs)
+800987bc	PROVEN	tbl_800987bc	in-region read-only/addr-taken by 1 fns (static xrefs)
+800987c0	PROVEN	tbl_800987c0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800987c4	PROVEN	tbl_800987c4	in-region read-only/addr-taken by 1 fns (static xrefs)
+800987e8	PROVEN	tbl_800987e8	in-region read-only/addr-taken by 1 fns (static xrefs)
+800987ec	PROVEN	tbl_800987ec	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098818	PROVEN	tbl_80098818	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098830	PROVEN	tbl_80098830	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098868	PROVEN	tbl_80098868	in-region read-only/addr-taken by 1 fns (static xrefs)
+800988a0	PROVEN	tbl_800988a0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800988c0	PROVEN	psx_800951dc	PSXMAP 800951dc x1, 1 fns
+80098900	PROVEN	tbl_80098900	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098930	PROVEN	tbl_80098930	in-region read-only/addr-taken by 1 fns (static xrefs)
+8009895c	PROVEN	tbl_8009895c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098984	PROVEN	psx_80095438	PSXMAP 80095438 x1, 1 fns
+800989bc	PROVEN	tbl_800989bc	in-region read-only/addr-taken by 1 fns (static xrefs)
+800989e4	PROVEN	psx_80095480	PSXMAP 80095480 x1, 1 fns
+80098a0c	PROVEN	tbl_80098a0c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098a24	PROVEN	psx_800954c0	PSXMAP 800954c0 x1, 1 fns
+80098a38	PROVEN	psx_800954d4	PSXMAP 800954d4 x1, 1 fns
+80098a50	PROVEN	psx_800954ec	PSXMAP 800954ec x1, 1 fns
+80098a90	PROVEN	tbl_80098a90	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098ab0	PROVEN	tbl_80098ab0	in-region read-only/addr-taken by 2 fns (static xrefs)
+80098ab8	PROVEN	tbl_80098ab8	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098ac0	PROVEN	tbl_80098ac0	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098ad8	PROVEN	tbl_80098ad8	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098aec	PROVEN	tbl_80098aec	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098b04	PROVEN	tbl_80098b04	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098b1c	PROVEN	tbl_80098b1c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098b34	PROVEN	tbl_80098b34	in-region read-only/addr-taken by 1 fns (static xrefs)
+80098b3c	PROVEN	tbl_80098b3c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80099044	PROVEN	tbl_80099044	in-region read-only/addr-taken by 1 fns (static xrefs)
+8009906c	PROVEN	tbl_8009906c	in-region read-only/addr-taken by 2 fns (static xrefs)
+80099074	PROVEN	tbl_80099074	in-region read-only/addr-taken by 1 fns (static xrefs)
+8009f000	PROVEN	tbl_8009f000	in-region read-only/addr-taken by 1 fns (static xrefs)
+8009ffff	PROVEN	tbl_8009ffff	in-region read-only/addr-taken by 2 fns (static xrefs)
+800a0000	PROVEN	psx_80090000	PSXMAP 80090000 x3, 4 fns
+800a0001	PROVEN	tbl_800a0001	in-region read-only/addr-taken by 2 fns (static xrefs)
+800a0004	PROVEN	psx_80090004	PSXMAP 80090004 x1, 4 fns
+800a0005	PROVEN	tbl_800a0005	in-region read-only/addr-taken by 2 fns (static xrefs)
+800a0008	PROVEN	psx_80090008	PSXMAP 80090008 x1, 2 fns
+800a000c	PROVEN	psx_8009000c	PSXMAP 8009000c x1, 2 fns
+800a0010	PROVEN	psx_80090010	PSXMAP 80090010 x2, 1 fns
+800a0030	PROVEN	psx_80090030	PSXMAP 80090030 x2, 1 fns
+800a6667	PROVEN	psx_80096667	PSXMAP 80096667 x1, 1 fns
+800a7d2c	PROVEN	tbl_800a7d2c	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a7d38	PROVEN	tbl_800a7d38	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a7d90	PROVEN	tbl_800a7d90	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a7da4	PROVEN	tbl_800a7da4	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a7db8	PROVEN	tbl_800a7db8	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a7ddc	PROVEN	tbl_800a7ddc	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a7df0	PROVEN	tbl_800a7df0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a7e18	PROVEN	tbl_800a7e18	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a7e58	PROVEN	tbl_800a7e58	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a7e80	PROVEN	tbl_800a7e80	in-region read-only/addr-taken by 2 fns (static xrefs)
+800a7e84	PROVEN	tbl_800a7e84	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a7e88	PROVEN	tbl_800a7e88	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a7e8c	PROVEN	tbl_800a7e8c	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a7e98	PROVEN	tbl_800a7e98	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a7eb0	PROVEN	tbl_800a7eb0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a7eb8	PROVEN	tbl_800a7eb8	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a7ec4	PROVEN	tbl_800a7ec4	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a7ed8	PROVEN	tbl_800a7ed8	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a7eda	PROVEN	tbl_800a7eda	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a8a84	PROVEN	tbl_800a8a84	in-region read-only/addr-taken by 2 fns (static xrefs)
+800a9a3c	PROVEN	tbl_800a9a3c	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9a5c	PROVEN	tbl_800a9a5c	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9a7c	PROVEN	tbl_800a9a7c	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9b54	PROVEN	tbl_800a9b54	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9b90	PROVEN	tbl_800a9b90	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9ba0	PROVEN	tbl_800a9ba0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9bb0	PROVEN	tbl_800a9bb0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9bd0	PROVEN	tbl_800a9bd0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9c58	PROVEN	tbl_800a9c58	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9c78	PROVEN	tbl_800a9c78	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9c80	PROVEN	tbl_800a9c80	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9c88	PROVEN	tbl_800a9c88	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9c8c	PROVEN	tbl_800a9c8c	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9ce0	PROVEN	tbl_800a9ce0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9ce4	PROVEN	tbl_800a9ce4	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9d38	PROVEN	tbl_800a9d38	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9d64	PROVEN	tbl_800a9d64	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9d70	PROVEN	tbl_800a9d70	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9d7c	PROVEN	psx_800a1514	PSXMAP 800a1514 x1, 2 fns
+800a9d88	PROVEN	tbl_800a9d88	in-region read-only/addr-taken by 2 fns (static xrefs)
+800a9d94	PROVEN	psx_800a152c	PSXMAP 800a152c x1, 4 fns
+800a9dd0	PROVEN	tbl_800a9dd0	in-region read-only/addr-taken by 2 fns (static xrefs)
+800a9de8	PROVEN	tbl_800a9de8	in-region read-only/addr-taken by 2 fns (static xrefs)
+800a9e00	PROVEN	psx_800a15bc	PSXMAP 800a15bc x2, 4 fns
+800a9e38	PROVEN	tbl_800a9e38	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9e92	PROVEN	tbl_800a9e92	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9eb0	PROVEN	tbl_800a9eb0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9ece	PROVEN	tbl_800a9ece	in-region read-only/addr-taken by 1 fns (static xrefs)
+800a9f78	PROVEN	tbl_800a9f78	in-region read-only/addr-taken by 4 fns (static xrefs)
+800aa004	PROVEN	psx_800a168c	PSXMAP 800a168c x1, 2 fns
+800aa090	PROVEN	tbl_800aa090	in-region read-only/addr-taken by 7 fns (static xrefs)
+800aa094	PROVEN	tbl_800aa094	in-region read-only/addr-taken by 1 fns (static xrefs)
+800aa098	PROVEN	tbl_800aa098	in-region read-only/addr-taken by 4 fns (static xrefs)
+800aa09c	PROVEN	tbl_800aa09c	in-region read-only/addr-taken by 4 fns (static xrefs)
+800aa0a0	PROVEN	tbl_800aa0a0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800aa0a4	PROVEN	tbl_800aa0a4	in-region read-only/addr-taken by 5 fns (static xrefs)
+800aa0bc	PROVEN	tbl_800aa0bc	in-region read-only/addr-taken by 1 fns (static xrefs)
+800aa0be	PROVEN	tbl_800aa0be	in-region read-only/addr-taken by 1 fns (static xrefs)
+800aa0c0	PROVEN	tbl_800aa0c0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800aa0c2	PROVEN	tbl_800aa0c2	in-region read-only/addr-taken by 1 fns (static xrefs)
+800aa0c4	PROVEN	tbl_800aa0c4	in-region read-only/addr-taken by 1 fns (static xrefs)
+800aa158	PROVEN	var_800aa158	in-region RW by 2 fns (static xrefs)
+800aa15c	PROVEN	var_800aa15c	in-region RW by 2 fns (static xrefs)
+800aa160	PROVEN	var_800aa160	in-region RW by 2 fns (static xrefs)
+800aa168	PROVEN	var_800aa168	in-region RW by 2 fns (static xrefs)
+800aa16c	PROVEN	var_800aa16c	in-region RW by 2 fns (static xrefs)
+800aa170	PROVEN	var_800aa170	in-region RW by 3 fns (static xrefs)
+800aa1ec	PROVEN	var_800aa1ec	in-region RW by 2 fns (static xrefs)
+800aa1f0	PROVEN	var_800aa1f0	in-region RW by 4 fns (static xrefs)
+800aa1f4	PROVEN	var_800aa1f4	in-region RW by 2 fns (static xrefs)
+800aa1f8	PROVEN	var_800aa1f8	in-region RW by 4 fns (static xrefs)
+800aa1fc	PROVEN	var_800aa1fc	in-region RW by 4 fns (static xrefs)
+800aa200	PROVEN	var_800aa200	in-region RW by 4 fns (static xrefs)
+800aa204	PROVEN	var_800aa204	in-region RW by 4 fns (static xrefs)
+800aa208	PROVEN	var_800aa208	in-region RW by 4 fns (static xrefs)
+800aa20c	PROVEN	var_800aa20c	in-region RW by 4 fns (static xrefs)
+800aa210	PROVEN	var_800aa210	in-region RW by 4 fns (static xrefs)
+800aa214	PROVEN	var_800aa214	in-region RW by 4 fns (static xrefs)
+800aa218	PROVEN	var_800aa218	in-region RW by 4 fns (static xrefs)
+800aa240	PROVEN	var_800aa240	in-region RW by 2 fns (static xrefs)
+800aa241	PROVEN	var_800aa241	in-region RW by 2 fns (static xrefs)
+800aa242	PROVEN	var_800aa242	in-region RW by 2 fns (static xrefs)
+800aa243	PROVEN	var_800aa243	in-region RW by 2 fns (static xrefs)
+800aa244	PROVEN	var_800aa244	in-region RW by 2 fns (static xrefs)
+800aa245	PROVEN	var_800aa245	in-region RW by 2 fns (static xrefs)
+800aa246	PROVEN	var_800aa246	in-region RW by 2 fns (static xrefs)
+800aa247	PROVEN	var_800aa247	in-region RW by 2 fns (static xrefs)
+800aa248	PROVEN	var_800aa248	in-region RW by 2 fns (static xrefs)
+800aa249	PROVEN	var_800aa249	in-region RW by 2 fns (static xrefs)
+800aa24a	PROVEN	var_800aa24a	in-region RW by 2 fns (static xrefs)
+800aa24b	PROVEN	var_800aa24b	in-region RW by 2 fns (static xrefs)
+800aa24c	PROVEN	var_800aa24c	in-region RW by 2 fns (static xrefs)
+800aa24d	DEAD	g_800aa24d	in-region, written never read (static)
+800aa24e	DEAD	g_800aa24e	in-region, written never read (static)
+800aa250	PROVEN	var_800aa250	in-region RW by 9 fns (static xrefs)
+800aa254	PROVEN	var_800aa254	in-region RW by 12 fns (static xrefs)
+800aa258	PROVEN	var_800aa258	in-region RW by 2 fns (static xrefs)
+800aa259	PROVEN	var_800aa259	in-region RW by 2 fns (static xrefs)
+800aa25a	PROVEN	var_800aa25a	in-region RW by 2 fns (static xrefs)
+800aa25b	PROVEN	var_800aa25b	in-region RW by 2 fns (static xrefs)
+800aa25c	PROVEN	var_800aa25c	in-region RW by 2 fns (static xrefs)
+800aa25d	PROVEN	var_800aa25d	in-region RW by 2 fns (static xrefs)
+800aa25e	DEAD	g_800aa25e	in-region, written never read (static)
+800aa25f	DEAD	g_800aa25f	in-region, written never read (static)
+800aa260	PROVEN	tbl_800aa260	in-region read-only/addr-taken by 11 fns (static xrefs)
+800aa268	PROVEN	tbl_800aa268	in-region read-only/addr-taken by 1 fns (static xrefs)
+800aa26c	DEAD	g_800aa26c	in-region, written never read (static)
+800aa26d	DEAD	g_800aa26d	in-region, written never read (static)
+800aa26e	DEAD	g_800aa26e	in-region, written never read (static)
+800aa270	DEAD	g_800aa270	in-region, written never read (static)
+800aa272	DEAD	g_800aa272	in-region, written never read (static)
+800aa274	DEAD	g_800aa274	in-region, written never read (static)
+800aa276	DEAD	g_800aa276	in-region, written never read (static)
+800aa3c8	PROVEN	var_800aa3c8	in-region RW by 3 fns (static xrefs)
+800aa3d0	PROVEN	tbl_800aa3d0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800aa3d4	DEAD	g_800aa3d4	in-region, written never read (static)
+800aa3d5	DEAD	g_800aa3d5	in-region, written never read (static)
+800aa3d6	DEAD	g_800aa3d6	in-region, written never read (static)
+800aa3d7	DEAD	g_800aa3d7	in-region, written never read (static)
+800aa3d8	DEAD	g_800aa3d8	in-region, written never read (static)
+800aa3da	DEAD	g_800aa3da	in-region, written never read (static)
+800aa3dc	DEAD	g_800aa3dc	in-region, written never read (static)
+800aa3de	DEAD	g_800aa3de	in-region, written never read (static)
+800aa531	PROVEN	var_800aa531	in-region RW by 3 fns (static xrefs)
+800aa534	PROVEN	var_800aa534	in-region RW by 5 fns (static xrefs)
+800aa538	PROVEN	var_800aa538	in-region RW by 2 fns (static xrefs)
+800affd0	PROVEN	tbl_800affd0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800afff0	PROVEN	tbl_800afff0	in-region read-only/addr-taken by 1 fns (static xrefs)
+800afffe	PROVEN	tbl_800afffe	in-region read-only/addr-taken by 1 fns (static xrefs)
+800affff	PROVEN	tbl_800affff	in-region read-only/addr-taken by 7 fns (static xrefs)
+800b0000	PROVEN	var_800b0000	in-region RW by 18 fns (static xrefs)
+800b0001	PROVEN	tbl_800b0001	in-region read-only/addr-taken by 10 fns (static xrefs)
+800b0002	PROVEN	tbl_800b0002	in-region read-only/addr-taken by 1 fns (static xrefs)
+800b0004	PROVEN	var_800b0004	in-region RW by 2 fns (static xrefs)
+800b0005	PROVEN	psx_800a0005	PSXMAP 800a0005 x1, 2 fns
+800b0006	DEAD	g_800b0006	in-region, written never read (static)
+800b000a	DEAD	g_800b000a	in-region, written never read (static)
+800b000c	PROVEN	psx_800a000c	PSXMAP 800a000c x1, 1 fns
+800b0010	PROVEN	tbl_800b0010	in-region read-only/addr-taken by 1 fns (static xrefs)
+800b0018	PROVEN	psx_800a0018	PSXMAP 800a0018 x1, 4 fns
+800b0020	PROVEN	tbl_800b0020	in-region read-only/addr-taken by 2 fns (static xrefs)
+800b0024	PROVEN	tbl_800b0024	in-region read-only/addr-taken by 1 fns (static xrefs)
+800b0030	PROVEN	var_800b0030	in-region RW by 4 fns (static xrefs)
+800b003c	PROVEN	tbl_800b003c	in-region read-only/addr-taken by 2 fns (static xrefs)
+800b003f	PROVEN	tbl_800b003f	in-region read-only/addr-taken by 3 fns (static xrefs)
+800b0040	PROVEN	tbl_800b0040	in-region read-only/addr-taken by 1 fns (static xrefs)
+800b0048	PROVEN	tbl_800b0048	in-region read-only/addr-taken by 1 fns (static xrefs)
+800b0060	PROVEN	psx_800a0024	PSXMAP 800a0024 x1, 4 fns
+800b0074	PROVEN	tbl_800b0074	in-region read-only/addr-taken by 2 fns (static xrefs)
+800b0080	PROVEN	tbl_800b0080	in-region read-only/addr-taken by 1 fns (static xrefs)
+800b0090	PROVEN	tbl_800b0090	in-region read-only/addr-taken by 1 fns (static xrefs)
+800b03d4	PROVEN	tbl_800b03d4	in-region read-only/addr-taken by 2 fns (static xrefs)
+800b0564	PROVEN	tbl_800b0564	in-region read-only/addr-taken by 1 fns (static xrefs)
+800b05b8	PROVEN	tbl_800b05b8	in-region read-only/addr-taken by 1 fns (static xrefs)
+800b06bc	PROVEN	tbl_800b06bc	in-region read-only/addr-taken by 1 fns (static xrefs)
+800b0800	PROVEN	tbl_800b0800	in-region read-only/addr-taken by 1 fns (static xrefs)
+800bbe54	PROVEN	tbl_800bbe54	in-region read-only/addr-taken by 1 fns (static xrefs)
+800bcc7c	PROVEN	tbl_800bcc7c	in-region read-only/addr-taken by 2 fns (static xrefs)
+800bf110	PROVEN	tbl_800bf110	in-region read-only/addr-taken by 1 fns (static xrefs)
+800bf434	PROVEN	tbl_800bf434	in-region read-only/addr-taken by 1 fns (static xrefs)
+800c00e4	PROVEN	tbl_800c00e4	in-region read-only/addr-taken by 2 fns (static xrefs)
+800c2a4c	PROVEN	tbl_800c2a4c	in-region read-only/addr-taken by 1 fns (static xrefs)
+800cae3c	PROVEN	tbl_800cae3c	in-region read-only/addr-taken by 1 fns (static xrefs)
+800ce240	PROVEN	tbl_800ce240	in-region read-only/addr-taken by 1 fns (static xrefs)
+800dd018	PROVEN	tbl_800dd018	in-region read-only/addr-taken by 1 fns (static xrefs)
+800e7220	PROVEN	tbl_800e7220	in-region read-only/addr-taken by 2 fns (static xrefs)
+800ee004	PROVEN	tbl_800ee004	in-region read-only/addr-taken by 1 fns (static xrefs)
+800f3952	PROVEN	tbl_800f3952	in-region read-only/addr-taken by 1 fns (static xrefs)
+800fcf40	PROVEN	tbl_800fcf40	in-region read-only/addr-taken by 1 fns (static xrefs)
+800ff000	PROVEN	tbl_800ff000	in-region read-only/addr-taken by 1 fns (static xrefs)
+800ff2a8	PROVEN	tbl_800ff2a8	in-region read-only/addr-taken by 1 fns (static xrefs)
+800ffe28	PROVEN	ptr_fighter_model_table	PSXMAP 800e539c x4, 4 fns
+800ffe30	PROVEN	tbl_fighter_effect_ids	PSXMAP 800e53a8 x2, 2 fns
+800ffe34	PROVEN	tbl_fighter_effect_param_a	PSXMAP 800e53ac x1, 1 fns
+800ffe38	PROVEN	tbl_fighter_effect_param_b	PSXMAP 800e53b0 x1, 1 fns
+800ffe3c	PROVEN	tbl_fighter_effect_param_c	PSXMAP 800e53b4 x1, 1 fns
+800fff7a	PROVEN	psx_800eff7a	PSXMAP 800eff7a x1, 1 fns
+800fff7c	PROVEN	psx_800eff7c	PSXMAP 800eff7c x1, 1 fns
+800fff7e	PROVEN	psx_800eff7e	PSXMAP 800eff7e x1, 1 fns
+800ffff3	PROVEN	tbl_800ffff3	in-region read-only/addr-taken by 1 fns (static xrefs)
+800ffff7	PROVEN	tbl_800ffff7	in-region read-only/addr-taken by 1 fns (static xrefs)
+800ffff8	PROVEN	tbl_800ffff8	in-region read-only/addr-taken by 2 fns (static xrefs)
+800ffffb	PROVEN	tbl_800ffffb	in-region read-only/addr-taken by 1 fns (static xrefs)
+800fffff	PROVEN	psx_800effff	PSXMAP 800effff x1, 2 fns
+80100000	PROVEN	psx_800e0000	PSXMAP 800e0000 x17, 13 fns
+80100001	PROVEN	psx_800f0001	PSXMAP 800f0001 x4, 9 fns
+80100002	PROVEN	psx_800f0002	PSXMAP 800f0002 x1, 4 fns
+80100003	PROVEN	tbl_80100003	in-region read-only/addr-taken by 1 fns (static xrefs)
+80100004	PROVEN	psx_800e0004	PSXMAP 800e0004 x14, 12 fns
+80100006	PROVEN	tbl_80100006	in-region read-only/addr-taken by 1 fns (static xrefs)
+80100008	PROVEN	psx_800e0008	PSXMAP 800e0008 x6, 9 fns
+8010000c	PROVEN	psx_800e000c	PSXMAP 800e000c x4, 2 fns
+80100010	PROVEN	psx_800e0010	PSXMAP 800e0010 x4, 3 fns
+80100014	PROVEN	psx_800f0014	PSXMAP 800f0014 x1, 1 fns
+80100018	PROVEN	psx_800f0018	PSXMAP 800f0018 x1, 2 fns
+8010001a	PROVEN	tbl_8010001a	in-region read-only/addr-taken by 1 fns (static xrefs)
+8010001c	PROVEN	psx_800f001c	PSXMAP 800f001c x1, 1 fns
+8010002e	PROVEN	psx_800f002e	PSXMAP 800f002e x1, 1 fns
+80100030	PROVEN	tbl_80100030	in-region read-only/addr-taken by 1 fns (static xrefs)
+80100034	PROVEN	tbl_80100034	in-region read-only/addr-taken by 1 fns (static xrefs)
+80100038	PROVEN	psx_800f0038	PSXMAP 800f0038 x1, 3 fns
+80100040	PROVEN	tbl_80100040	in-region read-only/addr-taken by 1 fns (static xrefs)
+80100048	PROVEN	tbl_80100048	in-region read-only/addr-taken by 1 fns (static xrefs)
+8010008a	PROVEN	psx_800f008a	PSXMAP 800f008a x1, 1 fns
+801000ff	PROVEN	tbl_801000ff	in-region read-only/addr-taken by 1 fns (static xrefs)
+80100100	PROVEN	psx_800e5678	PSXMAP 800e5678 x1, 1 fns
+80100108	PROVEN	psx_800e5680	PSXMAP 800e5680 x2, 3 fns
+80100118	PROVEN	tbl_motion_pointers_a int[4]	PSXMAP 800e5690 x3, 2 fns
+80100128	PROVEN	tbl_motion_pointers_b	PSXMAP 800e56a0 x3, 2 fns
+80100138	PROVEN	tbl_motion_pointers_c	PSXMAP 800e56b0 x3, 2 fns
+80100174	PROVEN	tbl_motion_pointers_d	PSXMAP 800e56ec x3, 2 fns
+801001b0	PROVEN	psx_800e5808	PSXMAP 800e5808 x1, 1 fns
+801001d0	PROVEN	psx_800e5828	PSXMAP 800e5828 x2, 2 fns
+801001f0	PROVEN	psx_800e5848	PSXMAP 800e5848 x6, 8 fns
+80100210	PROVEN	psx_800e5868	PSXMAP 800e5868 x3, 2 fns
+80100230	PROVEN	psx_800e5888	PSXMAP 800e5888 x3, 3 fns
+80100240	PROVEN	tbl_80100240	in-region read-only/addr-taken by 1 fns (static xrefs)
+801002bc	PROVEN	tbl_801002bc	in-region read-only/addr-taken by 1 fns (static xrefs)
+80100338	PROVEN	tbl_80100338	in-region read-only/addr-taken by 1 fns (static xrefs)
+801003b4	PROVEN	tbl_801003b4	in-region read-only/addr-taken by 1 fns (static xrefs)
+80100430	PROVEN	tbl_80100430	in-region read-only/addr-taken by 1 fns (static xrefs)
+801004ac	PROVEN	tbl_801004ac	in-region read-only/addr-taken by 1 fns (static xrefs)
+8010052d	PROVEN	psx_800f052d	PSXMAP 800f052d x1, 1 fns
+80100530	PROVEN	tbl_80100530	in-region read-only/addr-taken by 1 fns (static xrefs)
+80100534	PROVEN	tbl_80100534	in-region read-only/addr-taken by 1 fns (static xrefs)
+80100810	PROVEN	tbl_80100810	in-region read-only/addr-taken by 1 fns (static xrefs)
+80100814	PROVEN	tbl_80100814	in-region read-only/addr-taken by 1 fns (static xrefs)
+80100900	PROVEN	tbl_80100900	in-region read-only/addr-taken by 1 fns (static xrefs)
+80100968	PROVEN	tbl_80100968	in-region read-only/addr-taken by 1 fns (static xrefs)
+80101094	PROVEN	tbl_80101094	in-region read-only/addr-taken by 1 fns (static xrefs)
+801011ac	PROVEN	tbl_801011ac	in-region read-only/addr-taken by 1 fns (static xrefs)
+801011c8	PROVEN	tbl_801011c8	in-region read-only/addr-taken by 1 fns (static xrefs)
+801011d8	PROVEN	tbl_801011d8	in-region read-only/addr-taken by 4 fns (static xrefs)
+80101b80	PROVEN	tbl_80101b80	in-region read-only/addr-taken by 1 fns (static xrefs)
+80101d40	PROVEN	tbl_80101d40	in-region read-only/addr-taken by 1 fns (static xrefs)
+80101ec8	PROVEN	tbl_80101ec8	in-region read-only/addr-taken by 1 fns (static xrefs)
+80102238	PROVEN	psx_800e79a0	PSXMAP 800e79a0 x2, 2 fns
+80102248	PROVEN	tbl_80102248	in-region read-only/addr-taken by 4 fns (static xrefs)
+80102268	PROVEN	psx_800e79fc	PSXMAP 800e79fc x1, 1 fns
+80102288	PROVEN	psx_800e7a1c	PSXMAP 800e7a1c x1, 1 fns
+801022a8	PROVEN	psx_800e7a3c	PSXMAP 800e7a3c x1, 1 fns
+801022c8	PROVEN	psx_800e7a5c	PSXMAP 800e7a5c x1, 1 fns
+801022e8	PROVEN	psx_800e7a7c	PSXMAP 800e7a7c x1, 1 fns
+8010239c	PROVEN	psx_800e7b30	PSXMAP 800e7b30 x1, 1 fns
+801023a8	PROVEN	tbl_801023a8	in-region read-only/addr-taken by 1 fns (static xrefs)
+801023e4	PROVEN	tbl_801023e4	in-region read-only/addr-taken by 1 fns (static xrefs)
+801024c4	PROVEN	tbl_801024c4	in-region read-only/addr-taken by 1 fns (static xrefs)
+801025a4	PROVEN	tbl_801025a4	in-region read-only/addr-taken by 1 fns (static xrefs)
+801025c0	PROVEN	tbl_801025c0	in-region read-only/addr-taken by 1 fns (static xrefs)
+801025dc	PROVEN	psx_800e7f68	PSXMAP 800e7f68 x1, 2 fns
+80102690	PROVEN	psx_800e801c	PSXMAP 800e801c x2, 1 fns
+801026a0	PROVEN	psx_800e802c	PSXMAP 800e802c x1, 1 fns
+801026b0	PROVEN	psx_800e803c	PSXMAP 800e803c x1, 1 fns
+801026c0	PROVEN	psx_800e804c	PSXMAP 800e804c x1, 1 fns
+801027f8	PROVEN	tbl_801027f8	in-region read-only/addr-taken by 1 fns (static xrefs)
+80102828	PROVEN	tbl_80102828	in-region read-only/addr-taken by 1 fns (static xrefs)
+80102900	PROVEN	tbl_80102900	in-region read-only/addr-taken by 1 fns (static xrefs)
+80102adc	PROVEN	psx_800e8460	PSXMAP 800e8460 x1, 1 fns
+80103ab8	PROVEN	psx_800e914c	PSXMAP 800e914c x1, 1 fns
+80103eb4	PROVEN	tbl_80103eb4	in-region read-only/addr-taken by 1 fns (static xrefs)
+80103ed0	PROVEN	tbl_80103ed0	in-region read-only/addr-taken by 1 fns (static xrefs)
+80103f2c	PROVEN	tbl_80103f2c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80103f38	PROVEN	tbl_80103f38	in-region read-only/addr-taken by 1 fns (static xrefs)
+80103f44	PROVEN	tbl_80103f44	in-region read-only/addr-taken by 1 fns (static xrefs)
+80103f48	PROVEN	tbl_80103f48	in-region read-only/addr-taken by 1 fns (static xrefs)
+80103f4c	PROVEN	tbl_80103f4c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80103f50	PROVEN	tbl_80103f50	in-region read-only/addr-taken by 1 fns (static xrefs)
+8010549c	PROVEN	tbl_fighter_anim_init DOA_AnimInit[33]	PSXMAP 800ea5a8 x1, 1 fns
+801055f4	PROVEN	tbl_801055f4	in-region read-only/addr-taken by 1 fns (static xrefs)
+801055fc	PROVEN	tbl_801055fc	in-region read-only/addr-taken by 1 fns (static xrefs)
+80105608	PROVEN	tbl_part_flags_by_move_a	PSXMAP 800ea6b8 x1, 1 fns
+80105610	PROVEN	tbl_part_flags_by_move_b	PSXMAP 800ea6c0 x1, 1 fns
+80105618	PROVEN	tbl_part_flags_by_move_c	PSXMAP 800ea6c8 x1, 1 fns
+80105620	PROVEN	tbl_80105620	in-region read-only/addr-taken by 1 fns (static xrefs)
+80105630	PROVEN	tbl_80105630	in-region read-only/addr-taken by 2 fns (static xrefs)
+80105638	PROVEN	tbl_80105638	in-region read-only/addr-taken by 2 fns (static xrefs)
+80105640	PROVEN	tbl_80105640	in-region read-only/addr-taken by 6 fns (static xrefs)
+80105680	PROVEN	tbl_80105680	in-region read-only/addr-taken by 3 fns (static xrefs)
+801056c0	PROVEN	tbl_801056c0	in-region read-only/addr-taken by 1 fns (static xrefs)
+80105700	PROVEN	tbl_80105700	in-region read-only/addr-taken by 2 fns (static xrefs)
+80105740	PROVEN	tbl_80105740	in-region read-only/addr-taken by 1 fns (static xrefs)
+80105780	PROVEN	tbl_80105780	in-region read-only/addr-taken by 6 fns (static xrefs)
+801057c0	PROVEN	tbl_801057c0	in-region read-only/addr-taken by 4 fns (static xrefs)
+80105800	PROVEN	tbl_80105800	in-region read-only/addr-taken by 8 fns (static xrefs)
+80105840	PROVEN	tbl_80105840	in-region read-only/addr-taken by 6 fns (static xrefs)
+80105880	PROVEN	tbl_80105880	in-region read-only/addr-taken by 2 fns (static xrefs)
+801058c0	PROVEN	tbl_801058c0	in-region read-only/addr-taken by 1 fns (static xrefs)
+80105900	PROVEN	tbl_80105900	in-region read-only/addr-taken by 4 fns (static xrefs)
+80105940	PROVEN	tbl_80105940	in-region read-only/addr-taken by 2 fns (static xrefs)
+80105980	PROVEN	tbl_80105980	in-region read-only/addr-taken by 8 fns (static xrefs)
+801059c0	PROVEN	tbl_801059c0	in-region read-only/addr-taken by 6 fns (static xrefs)
+80105a00	PROVEN	tbl_80105a00	in-region read-only/addr-taken by 2 fns (static xrefs)
+80105a40	PROVEN	tbl_80105a40	in-region read-only/addr-taken by 2 fns (static xrefs)
+80105a80	PROVEN	tbl_80105a80	in-region read-only/addr-taken by 5 fns (static xrefs)
+80105ac0	PROVEN	tbl_80105ac0	in-region read-only/addr-taken by 7 fns (static xrefs)
+80105b00	PROVEN	tbl_80105b00	in-region read-only/addr-taken by 2 fns (static xrefs)
+80105b40	PROVEN	tbl_80105b40	in-region read-only/addr-taken by 3 fns (static xrefs)
+80105b80	PROVEN	tbl_80105b80	in-region read-only/addr-taken by 6 fns (static xrefs)
+8010653c	PROVEN	tbl_8010653c	in-region read-only/addr-taken by 1 fns (static xrefs)
+801065bc	PROVEN	tbl_801065bc	in-region read-only/addr-taken by 1 fns (static xrefs)
+801065c0	PROVEN	tbl_801065c0	in-region read-only/addr-taken by 1 fns (static xrefs)
+8010663c	PROVEN	tbl_8010663c	in-region read-only/addr-taken by 1 fns (static xrefs)
+8010663e	PROVEN	tbl_8010663e	in-region read-only/addr-taken by 1 fns (static xrefs)
+8010663f	PROVEN	tbl_8010663f	in-region read-only/addr-taken by 1 fns (static xrefs)
+80106640	PROVEN	tbl_80106640	in-region read-only/addr-taken by 1 fns (static xrefs)
+80106642	PROVEN	tbl_80106642	in-region read-only/addr-taken by 1 fns (static xrefs)
+801066b4	PROVEN	tbl_801066b4	in-region read-only/addr-taken by 1 fns (static xrefs)
+801066cc	PROVEN	tbl_801066cc	in-region read-only/addr-taken by 1 fns (static xrefs)
+801066ce	PROVEN	tbl_801066ce	in-region read-only/addr-taken by 1 fns (static xrefs)
+801066d0	PROVEN	tbl_801066d0	in-region read-only/addr-taken by 1 fns (static xrefs)
+801066d2	PROVEN	tbl_801066d2	in-region read-only/addr-taken by 1 fns (static xrefs)
+801066d4	PROVEN	tbl_801066d4	in-region read-only/addr-taken by 1 fns (static xrefs)
+801066d5	PROVEN	tbl_801066d5	in-region read-only/addr-taken by 1 fns (static xrefs)
+801066d6	PROVEN	tbl_801066d6	in-region read-only/addr-taken by 1 fns (static xrefs)
+80106700	PROVEN	tbl_80106700	in-region read-only/addr-taken by 1 fns (static xrefs)
+80106720	PROVEN	tbl_80106720	in-region read-only/addr-taken by 1 fns (static xrefs)
+80106884	PROVEN	tbl_80106884	in-region read-only/addr-taken by 1 fns (static xrefs)
+80106ed4	PROVEN	tbl_80106ed4	in-region read-only/addr-taken by 1 fns (static xrefs)
+80106edc	PROVEN	tbl_80106edc	in-region read-only/addr-taken by 1 fns (static xrefs)
+80106ee0	PROVEN	tbl_80106ee0	in-region read-only/addr-taken by 1 fns (static xrefs)
+80106eec	PROVEN	tbl_80106eec	in-region read-only/addr-taken by 1 fns (static xrefs)
+801075f4	PROVEN	tbl_801075f4	in-region read-only/addr-taken by 1 fns (static xrefs)
+8010ff80	PROVEN	tbl_8010ff80	in-region read-only/addr-taken by 1 fns (static xrefs)
+8010ffc6	PROVEN	tbl_8010ffc6	in-region read-only/addr-taken by 1 fns (static xrefs)
+8010ffce	PROVEN	tbl_8010ffce	in-region read-only/addr-taken by 1 fns (static xrefs)
+8010ffd6	PROVEN	tbl_8010ffd6	in-region read-only/addr-taken by 1 fns (static xrefs)
+8010ffde	PROVEN	tbl_8010ffde	in-region read-only/addr-taken by 1 fns (static xrefs)
+8010ffe6	PROVEN	tbl_8010ffe6	in-region read-only/addr-taken by 1 fns (static xrefs)
+8010fff4	PROVEN	tbl_8010fff4	in-region read-only/addr-taken by 1 fns (static xrefs)
+8010fff8	PROVEN	tbl_8010fff8	in-region read-only/addr-taken by 2 fns (static xrefs)
+8010fffa	PROVEN	tbl_8010fffa	in-region read-only/addr-taken by 1 fns (static xrefs)
+8010fffc	PROVEN	tbl_8010fffc	in-region read-only/addr-taken by 2 fns (static xrefs)
+8010fffe	PROVEN	tbl_8010fffe	in-region read-only/addr-taken by 1 fns (static xrefs)
+8010ffff	PROVEN	psx_800effff	PSXMAP 800effff x14, 5 fns
+80110000	PROVEN	psx_800f0000	PSXMAP 800f0000 x11, 16 fns
+80110001	PROVEN	tbl_80110001	in-region read-only/addr-taken by 2 fns (static xrefs)
+80110002	PROVEN	psx_800f0002	PSXMAP 800f0002 x2, 4 fns
+80110003	PROVEN	tbl_80110003	in-region read-only/addr-taken by 1 fns (static xrefs)
+80110004	PROVEN	psx_800f0004	PSXMAP 800f0004 x3, 3 fns
+80110006	PROVEN	psx_800f0006	PSXMAP 800f0006 x1, 1 fns
+80110008	PROVEN	psx_800f0008	PSXMAP 800f0008 x2, 2 fns
+8011000a	PROVEN	psx_800f000a	PSXMAP 800f000a x1, 2 fns
+8011000b	PROVEN	tbl_8011000b	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011000c	PROVEN	psx_800f000c	PSXMAP 800f000c x2, 3 fns
+8011000e	PROVEN	psx_800f000e	PSXMAP 800f000e x1, 3 fns
+8011000f	PROVEN	tbl_8011000f	in-region read-only/addr-taken by 1 fns (static xrefs)
+80110010	PROVEN	psx_800f0010	PSXMAP 800f0010 x1, 1 fns
+80110018	PROVEN	tbl_80110018	in-region read-only/addr-taken by 1 fns (static xrefs)
+80110020	PROVEN	psx_800f0020	PSXMAP 800f0020 x1, 3 fns
+80110030	PROVEN	tbl_80110030	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011003c	PROVEN	tbl_8011003c	in-region read-only/addr-taken by 1 fns (static xrefs)
+801109d4	PROVEN	tbl_801109d4	in-region read-only/addr-taken by 1 fns (static xrefs)
+801109e0	PROVEN	tbl_801109e0	in-region read-only/addr-taken by 1 fns (static xrefs)
+80110fff	PROVEN	psx_800f0fff	PSXMAP 800f0fff x1, 3 fns
+80112538	PROVEN	tbl_80112538	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112578	PROVEN	tbl_80112578	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112604	PROVEN	tbl_80112604	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112614	PROVEN	tbl_80112614	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112624	PROVEN	tbl_80112624	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112628	PROVEN	tbl_80112628	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011262c	PROVEN	tbl_8011262c	in-region read-only/addr-taken by 1 fns (static xrefs)
+801128f4	PROVEN	tbl_801128f4	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112900	PROVEN	tbl_80112900	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112924	PROVEN	tbl_80112924	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112928	PROVEN	tbl_80112928	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112988	PROVEN	tbl_80112988	in-region read-only/addr-taken by 1 fns (static xrefs)
+801129cc	PROVEN	g_launch_vel_offset	PSXMAP 800eb9ec x1, 1 fns
+801129d8	PROVEN	tbl_801129d8	in-region read-only/addr-taken by 1 fns (static xrefs)
+801129dc	PROVEN	tbl_801129dc	in-region read-only/addr-taken by 1 fns (static xrefs)
+801129e0	PROVEN	tbl_801129e0	in-region read-only/addr-taken by 1 fns (static xrefs)
+801129e4	PROVEN	tbl_801129e4	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112a24	PROVEN	psx_800eba44	PSXMAP 800eba44 x1, 2 fns
+80112afc	PROVEN	psx_800ebafc	PSXMAP 800ebafc x1, 2 fns
+80112b9c	PROVEN	tbl_80112b9c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112ba0	PROVEN	psx_800ebba0	PSXMAP 800ebba0 x1, 2 fns
+80112bcc	PROVEN	tbl_80112bcc	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112be0	PROVEN	psx_800ebbe0	PSXMAP 800ebbe0 x2, 1 fns
+80112bf0	PROVEN	tbl_80112bf0	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112c9c	PROVEN	tbl_80112c9c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112ca4	PROVEN	tbl_80112ca4	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112cb4	PROVEN	tbl_80112cb4	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112cc0	PROVEN	tbl_80112cc0	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112ccc	PROVEN	tbl_80112ccc	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112cce	PROVEN	tbl_80112cce	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112cd0	PROVEN	tbl_80112cd0	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112cd2	PROVEN	tbl_80112cd2	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112d24	PROVEN	tbl_80112d24	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112d44	PROVEN	psx_800ebcb0	PSXMAP 800ebcb0 x2, 2 fns
+80112d5c	PROVEN	tbl_80112d5c	in-region read-only/addr-taken by 3 fns (static xrefs)
+80112d68	PROVEN	tbl_80112d68	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112d94	PROVEN	tbl_80112d94	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112da0	PROVEN	tbl_80112da0	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112dac	PROVEN	tbl_80112dac	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112db8	PROVEN	tbl_80112db8	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112dc4	PROVEN	tbl_80112dc4	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112e34	PROVEN	tbl_80112e34	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112e40	PROVEN	tbl_80112e40	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112e4c	PROVEN	tbl_80112e4c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80112e58	PROVEN	tbl_80112e58	in-region read-only/addr-taken by 3 fns (static xrefs)
+80112e7c	PROVEN	tbl_80112e7c	in-region read-only/addr-taken by 3 fns (static xrefs)
+80112e98	PROVEN	psx_800ebd60	PSXMAP 800ebd60 x1, 1 fns
+80112eec	PROVEN	psx_800ebdb4	PSXMAP 800ebdb4 x1, 1 fns
+80112f18	PROVEN	psx_800ebde0	PSXMAP 800ebde0 x1, 1 fns
+80112f40	PROVEN	psx_800ebe08	PSXMAP 800ebe08 x3, 2 fns
+80112f42	PROVEN	psx_800ebe0a	PSXMAP 800ebe0a x3, 2 fns
+80112f44	PROVEN	psx_800ebe0c	PSXMAP 800ebe0c x2, 2 fns
+80112f80	PROVEN	tbl_80112f80	in-region read-only/addr-taken by 3 fns (static xrefs)
+80112f84	PROVEN	g_kumite_result_pos_x	PSXMAP 800ebe4c x1, 1 fns
+80112f98	PROVEN	tbl_80112f98	in-region read-only/addr-taken by 1 fns (static xrefs)
+80113024	PROVEN	tbl_80113024	in-region read-only/addr-taken by 1 fns (static xrefs)
+801130a4	PROVEN	tbl_801130a4	in-region read-only/addr-taken by 1 fns (static xrefs)
+801130e0	PROVEN	tbl_801130e0	in-region read-only/addr-taken by 1 fns (static xrefs)
+80113118	PROVEN	tbl_80113118	in-region read-only/addr-taken by 1 fns (static xrefs)
+80113130	PROVEN	tbl_80113130	in-region read-only/addr-taken by 1 fns (static xrefs)
+80113160	PROVEN	tbl_80113160	in-region read-only/addr-taken by 1 fns (static xrefs)
+80113274	PROVEN	tbl_80113274	in-region read-only/addr-taken by 1 fns (static xrefs)
+801132ac	PROVEN	tbl_801132ac	in-region read-only/addr-taken by 1 fns (static xrefs)
+80113300	PROVEN	tbl_80113300	in-region read-only/addr-taken by 1 fns (static xrefs)
+80113444	PROVEN	ptr_ai_defense_handler_0	PSXMAP 800ec010 x1, 1 fns
+8011387c	PROVEN	tbl_8011387c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80113890	PROVEN	tbl_80113890	in-region read-only/addr-taken by 1 fns (static xrefs)
+801138a8	PROVEN	tbl_801138a8	in-region read-only/addr-taken by 1 fns (static xrefs)
+801138ac	PROVEN	tbl_801138ac	in-region read-only/addr-taken by 1 fns (static xrefs)
+801138b0	PROVEN	tbl_801138b0	in-region read-only/addr-taken by 1 fns (static xrefs)
+801138b4	PROVEN	tbl_801138b4	in-region read-only/addr-taken by 1 fns (static xrefs)
+801138f8	PROVEN	tbl_801138f8	in-region read-only/addr-taken by 1 fns (static xrefs)
+80113908	PROVEN	tbl_80113908	in-region read-only/addr-taken by 1 fns (static xrefs)
+80113910	PROVEN	tbl_80113910	in-region read-only/addr-taken by 1 fns (static xrefs)
+80113918	PROVEN	tbl_80113918	in-region read-only/addr-taken by 3 fns (static xrefs)
+80113950	PROVEN	tbl_80113950	in-region read-only/addr-taken by 1 fns (static xrefs)
+80113970	PROVEN	tbl_80113970	in-region read-only/addr-taken by 1 fns (static xrefs)
+80113972	PROVEN	tbl_80113972	in-region read-only/addr-taken by 1 fns (static xrefs)
+80113b18	PROVEN	tbl_80113b18	in-region read-only/addr-taken by 1 fns (static xrefs)
+80113b70	PROVEN	tbl_80113b70	in-region read-only/addr-taken by 1 fns (static xrefs)
+80113b98	PROVEN	tbl_80113b98	in-region read-only/addr-taken by 1 fns (static xrefs)
+801143c0	PROVEN	psx_800ed1a4	PSXMAP 800ed1a4 x1, 2 fns
+80114440	PROVEN	psx_800ed224	PSXMAP 800ed224 x3, 4 fns
+80114db0	PROVEN	g_knockdown_height_offset	PSXMAP 800edb24 x1, 1 fns
+80114db4	PROVEN	tbl_80114db4	in-region read-only/addr-taken by 1 fns (static xrefs)
+80114df4	PROVEN	tbl_80114df4	in-region read-only/addr-taken by 1 fns (static xrefs)
+80114df8	PROVEN	tbl_80114df8	in-region read-only/addr-taken by 1 fns (static xrefs)
+80114e84	PROVEN	tbl_80114e84	in-region read-only/addr-taken by 3 fns (static xrefs)
+80114e86	PROVEN	tbl_80114e86	in-region read-only/addr-taken by 3 fns (static xrefs)
+80114f64	PROVEN	psx_800edc5c	PSXMAP 800edc5c x2, 1 fns
+80115224	PROVEN	psx_800edf90	PSXMAP 800edf90 x2, 3 fns
+80115254	PROVEN	psx_800edfc0	PSXMAP 800edfc0 x2, 4 fns
+80115284	PROVEN	tbl_effect_piece_sets byte[72]	PSXMAP 800edff0 x2, 2 fns
+8011529c	PROVEN	tbl_effect_piece_set	PSXMAP 800ee008 x2, 2 fns
+801152b4	PROVEN	tbl_801152b4	in-region read-only/addr-taken by 1 fns (static xrefs)
+801152cc	PROVEN	psx_800ee038	PSXMAP 800ee038 x2, 2 fns
+80115314	PROVEN	tbl_80115314	in-region read-only/addr-taken by 1 fns (static xrefs)
+80115324	PROVEN	tbl_80115324	in-region read-only/addr-taken by 1 fns (static xrefs)
+80115328	PROVEN	psx_800ee094	PSXMAP 800ee094 x1, 1 fns
+80115330	PROVEN	psx_800ee09c	PSXMAP 800ee09c x1, 1 fns
+80115338	PROVEN	psx_800ee0a4	PSXMAP 800ee0a4 x1, 1 fns
+80115340	PROVEN	tbl_80115340	in-region read-only/addr-taken by 1 fns (static xrefs)
+80115344	PROVEN	tbl_80115344	in-region read-only/addr-taken by 1 fns (static xrefs)
+80115348	PROVEN	psx_800ee0b4	PSXMAP 800ee0b4 x1, 1 fns
+80115350	PROVEN	psx_800ee0bc	PSXMAP 800ee0bc x1, 1 fns
+80115360	PROVEN	psx_800ee0cc	PSXMAP 800ee0cc x1, 1 fns
+80115368	PROVEN	psx_800ee0d4	PSXMAP 800ee0d4 x1, 1 fns
+80115370	PROVEN	psx_800ee0dc	PSXMAP 800ee0dc x1, 1 fns
+80115378	PROVEN	psx_800ee0e4	PSXMAP 800ee0e4 x1, 1 fns
+80115398	PROVEN	psx_800ee104	PSXMAP 800ee104 x1, 1 fns
+801153bc	PROVEN	tbl_801153bc	in-region read-only/addr-taken by 1 fns (static xrefs)
+801153c0	PROVEN	psx_800ee12c	PSXMAP 800ee12c x1, 1 fns
+801153c4	PROVEN	psx_800ee130	PSXMAP 800ee130 x1, 1 fns
+801153c8	PROVEN	psx_800ee134	PSXMAP 800ee134 x1, 1 fns
+801153d8	PROVEN	psx_800ee144	PSXMAP 800ee144 x1, 1 fns
+801153e8	PROVEN	psx_800ee154	PSXMAP 800ee154 x1, 1 fns
+801153f8	PROVEN	psx_800ee164	PSXMAP 800ee164 x1, 1 fns
+80115408	PROVEN	psx_800ee174	PSXMAP 800ee174 x2, 2 fns
+80115428	PROVEN	psx_800ee194	PSXMAP 800ee194 x1, 1 fns
+8011542c	PROVEN	psx_800ee198	PSXMAP 800ee198 x1, 1 fns
+80115430	PROVEN	psx_800ee19c	PSXMAP 800ee19c x1, 1 fns
+80115434	PROVEN	psx_800ee1a0	PSXMAP 800ee1a0 x1, 1 fns
+80115438	PROVEN	tbl_80115438	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011543c	PROVEN	psx_800ee1a8	PSXMAP 800ee1a8 x1, 1 fns
+80115440	PROVEN	psx_800ee1a4	PSXMAP 800ee1a4 x1, 1 fns
+80115444	PROVEN	psx_800ee1b0	PSXMAP 800ee1b0 x3, 3 fns
+80115448	PROVEN	psx_800ee1b4	PSXMAP 800ee1b4 x1, 1 fns
+80115478	PROVEN	psx_800ee1b4	PSXMAP 800ee1b4 x1, 1 fns
+801154a8	PROVEN	tbl_801154a8	in-region read-only/addr-taken by 1 fns (static xrefs)
+801154b8	PROVEN	tbl_801154b8	in-region read-only/addr-taken by 1 fns (static xrefs)
+801154c8	PROVEN	tbl_801154c8	in-region read-only/addr-taken by 2 fns (static xrefs)
+801154e8	PROVEN	tbl_801154e8	in-region read-only/addr-taken by 1 fns (static xrefs)
+801155a8	PROVEN	tbl_801155a8	in-region read-only/addr-taken by 1 fns (static xrefs)
+80115668	PROVEN	tbl_80115668	in-region read-only/addr-taken by 1 fns (static xrefs)
+801156c8	PROVEN	tbl_801156c8	in-region read-only/addr-taken by 1 fns (static xrefs)
+801156c9	PROVEN	tbl_801156c9	in-region read-only/addr-taken by 1 fns (static xrefs)
+801156ca	PROVEN	tbl_801156ca	in-region read-only/addr-taken by 1 fns (static xrefs)
+801156cb	PROVEN	tbl_801156cb	in-region read-only/addr-taken by 1 fns (static xrefs)
+801156cc	PROVEN	tbl_801156cc	in-region read-only/addr-taken by 1 fns (static xrefs)
+801156cd	PROVEN	tbl_801156cd	in-region read-only/addr-taken by 1 fns (static xrefs)
+80115730	PROVEN	psx_800ee264	PSXMAP 800ee264 x1, 1 fns
+80115732	PROVEN	psx_800ee266	PSXMAP 800ee266 x1, 1 fns
+80115734	PROVEN	psx_800ee268	PSXMAP 800ee268 x1, 1 fns
+80115798	PROVEN	psx_800ee2c4	PSXMAP 800ee2c4 x1, 1 fns
+801159fc	PROVEN	tbl_801159fc	in-region read-only/addr-taken by 1 fns (static xrefs)
+80115a10	PROVEN	tbl_80115a10	in-region read-only/addr-taken by 1 fns (static xrefs)
+80115a54	PROVEN	psx_800ee554	PSXMAP 800ee554 x2, 2 fns
+80115a55	PROVEN	psx_800ee555	PSXMAP 800ee555 x2, 1 fns
+80115a56	PROVEN	psx_800ee556	PSXMAP 800ee556 x2, 1 fns
+80115c64	PROVEN	psx_800ee764	PSXMAP 800ee764 x4, 4 fns
+80115c65	PROVEN	psx_800ee765	PSXMAP 800ee765 x4, 2 fns
+80116148	PROVEN	psx_800eec48	PSXMAP 800eec48 x1, 1 fns
+80116164	PROVEN	tbl_80116164	in-region read-only/addr-taken by 1 fns (static xrefs)
+80116178	PROVEN	psx_800eec74	PSXMAP 800eec74 x2, 2 fns
+8011618c	PROVEN	psx_800eec84	PSXMAP 800eec84 x4, 2 fns
+8011618e	PROVEN	psx_800eec86	PSXMAP 800eec86 x3, 2 fns
+801162b8	PROVEN	psx_800eed74	PSXMAP 800eed74 x1, 2 fns
+801162cc	PROVEN	psx_800eed84	PSXMAP 800eed84 x1, 1 fns
+80116318	PROVEN	tbl_80116318	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011631a	PROVEN	tbl_8011631a	in-region read-only/addr-taken by 1 fns (static xrefs)
+80116444	PROVEN	psx_800eeeb0	PSXMAP 800eeeb0 x8, 1 fns
+80116446	PROVEN	psx_800eeeb2	PSXMAP 800eeeb2 x7, 1 fns
+80116570	PROVEN	psx_800eefa0	PSXMAP 800eefa0 x1, 1 fns
+80116608	PROVEN	psx_800ef018	PSXMAP 800ef018 x1, 1 fns
+8011661c	PROVEN	psx_800ef028	PSXMAP 800ef028 x1, 1 fns
+801166d0	PROVEN	psx_800ef0c0	PSXMAP 800ef0c0 x1, 1 fns
+801166e4	PROVEN	tbl_801166e4	in-region read-only/addr-taken by 1 fns (static xrefs)
+80116710	PROVEN	tbl_80116710	in-region read-only/addr-taken by 1 fns (static xrefs)
+80116718	PROVEN	tbl_80116718	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011671c	PROVEN	tbl_8011671c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80116770	PROVEN	tbl_80116770	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011679c	PROVEN	tbl_8011679c	in-region read-only/addr-taken by 1 fns (static xrefs)
+801167a8	PROVEN	tbl_801167a8	in-region read-only/addr-taken by 1 fns (static xrefs)
+801167e8	PROVEN	tbl_801167e8	in-region read-only/addr-taken by 1 fns (static xrefs)
+80116808	PROVEN	tbl_80116808	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011682c	PROVEN	psx_800ef11c	PSXMAP 800ef11c x1, 2 fns
+80116870	PROVEN	tbl_80116870	in-region read-only/addr-taken by 1 fns (static xrefs)
+80116894	PROVEN	tbl_80116894	in-region read-only/addr-taken by 1 fns (static xrefs)
+801168b8	PROVEN	tbl_801168b8	in-region read-only/addr-taken by 1 fns (static xrefs)
+801168e0	PROVEN	psx_800ef1c0	PSXMAP 800ef1c0 x1, 1 fns
+80116904	PROVEN	psx_800ef1e0	PSXMAP 800ef1e0 x1, 1 fns
+80116d04	PROVEN	psx_800ef5e0	PSXMAP 800ef5e0 x1, 1 fns
+80116f04	PROVEN	psx_800ef7e0	PSXMAP 800ef7e0 x4, 1 fns
+80116f18	PROVEN	psx_800ef7f0	PSXMAP 800ef7f0 x1, 1 fns
+80116f2c	PROVEN	psx_800ef804	PSXMAP 800ef804 x1, 2 fns
+80116f40	PROVEN	psx_800ef814	PSXMAP 800ef814 x2, 1 fns
+80116f41	PROVEN	psx_800ef815	PSXMAP 800ef815 x2, 1 fns
+80116f42	PROVEN	psx_800ef816	PSXMAP 800ef816 x2, 1 fns
+80116f88	PROVEN	psx_800ef85c	PSXMAP 800ef85c x1, 1 fns
+80116f8c	PROVEN	psx_800ef860	PSXMAP 800ef860 x1, 1 fns
+80116faa	PROVEN	psx_800ef87e	PSXMAP 800ef87e x1, 1 fns
+80116fc8	PROVEN	tbl_80116fc8	in-region read-only/addr-taken by 2 fns (static xrefs)
+80117700	PROVEN	tbl_80117700	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117704	PROVEN	tbl_80117704	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117744	PROVEN	tbl_80117744	in-region read-only/addr-taken by 1 fns (static xrefs)
+801178bc	PROVEN	tbl_801178bc	in-region read-only/addr-taken by 1 fns (static xrefs)
+801178be	PROVEN	tbl_801178be	in-region read-only/addr-taken by 1 fns (static xrefs)
+801178c4	PROVEN	tbl_801178c4	in-region read-only/addr-taken by 2 fns (static xrefs)
+80117904	PROVEN	tbl_80117904	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117924	PROVEN	tbl_80117924	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117950	PROVEN	tbl_80117950	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117954	PROVEN	tbl_80117954	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117958	PROVEN	tbl_80117958	in-region read-only/addr-taken by 2 fns (static xrefs)
+801179d4	PROVEN	tbl_801179d4	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117a08	PROVEN	tbl_80117a08	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117a38	PROVEN	tbl_80117a38	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117a44	PROVEN	tbl_80117a44	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117a46	PROVEN	tbl_80117a46	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117a48	PROVEN	tbl_80117a48	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117a4a	PROVEN	tbl_80117a4a	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117a4c	PROVEN	tbl_80117a4c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117adc	PROVEN	tbl_80117adc	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117b18	PROVEN	tbl_80117b18	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117b54	PROVEN	tbl_80117b54	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117b90	PROVEN	tbl_80117b90	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117b94	PROVEN	tbl_80117b94	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117ba4	PROVEN	tbl_80117ba4	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117ba6	PROVEN	tbl_80117ba6	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117ba8	PROVEN	tbl_80117ba8	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117baa	PROVEN	tbl_80117baa	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117bac	PROVEN	tbl_80117bac	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117bae	PROVEN	tbl_80117bae	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117bb0	PROVEN	tbl_80117bb0	in-region read-only/addr-taken by 2 fns (static xrefs)
+80117bfa	PROVEN	tbl_80117bfa	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117c02	PROVEN	tbl_80117c02	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117c04	PROVEN	tbl_80117c04	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117c24	PROVEN	tbl_80117c24	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117c26	PROVEN	tbl_80117c26	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117c28	PROVEN	tbl_80117c28	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117c2a	PROVEN	tbl_80117c2a	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117c2c	PROVEN	tbl_80117c2c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117cbc	PROVEN	tbl_80117cbc	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117cc4	PROVEN	tbl_80117cc4	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117d80	PROVEN	tbl_80117d80	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117dbc	PROVEN	tbl_80117dbc	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117dc8	PROVEN	tbl_80117dc8	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117dca	PROVEN	tbl_80117dca	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117dcc	PROVEN	tbl_80117dcc	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117dce	PROVEN	tbl_80117dce	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117dd0	PROVEN	tbl_80117dd0	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117e78	PROVEN	tbl_80117e78	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117e98	PROVEN	tbl_80117e98	in-region read-only/addr-taken by 1 fns (static xrefs)
+80117ea0	PROVEN	tbl_80117ea0	in-region read-only/addr-taken by 1 fns (static xrefs)
+80118378	PROVEN	psx_800fd6e0	PSXMAP 800fd6e0 x1, 1 fns
+8011837c	PROVEN	psx_800fd6e4	PSXMAP 800fd6e4 x1, 1 fns
+80118384	PROVEN	tbl_80118384	in-region read-only/addr-taken by 1 fns (static xrefs)
+80118650	PROVEN	psx_800fffb8	PSXMAP 800fffb8 x1, 1 fns
+80118658	PROVEN	psx_80100208	PSXMAP 80100208 x1, 1 fns
+8011a658	PROVEN	psx_80102818	PSXMAP 80102818 x3, 5 fns
+8011a65c	PROVEN	psx_8010281c	PSXMAP 8010281c x1, 1 fns
+8011a66c	PROVEN	psx_8010282c	PSXMAP 8010282c x1, 1 fns
+8011a694	PROVEN	psx_80102854	PSXMAP 80102854 x1, 1 fns
+8011a698	PROVEN	psx_80102858	PSXMAP 80102858 x1, 1 fns
+8011a6a8	PROVEN	psx_80102868	PSXMAP 80102868 x3, 5 fns
+8011a9e2	PROVEN	tbl_8011a9e2	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011ab84	PROVEN	g_fighter_p1_parts_disabled_flag	PSXMAP 80102d44 x1, 4 fns
+8011ab88	PROVEN	psx_80102d48	PSXMAP 80102d48 x2, 2 fns
+8011ab8c	PROVEN	psx_80102d4c	PSXMAP 80102d4c x1, 1 fns
+8011af1a	PROVEN	tbl_8011af1a	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011b0bc	PROVEN	g_fighter_p2_parts_handle	PSXMAP 8010327c x1, 2 fns
+8011b0c8	PROVEN	psx_80103700	PSXMAP 80103700 x2, 3 fns
+8011b0cc	PROVEN	psx_80103704	PSXMAP 80103704 x1, 2 fns
+8011b0f0	PROVEN	psx_801038a8	PSXMAP 801038a8 x8, 20 fns
+8011b0f4	PROVEN	psx_801038ac	PSXMAP 801038ac x1, 4 fns
+8011b118	PROVEN	var_8011b118	in-region RW by 3 fns (static xrefs)
+8011b120	PROVEN	g_stage_floor_tile_a	PSXMAP 800fff18 x1, 2 fns
+8011b121	PROVEN	g_stage_floor_tile_b	PSXMAP 800fff19 x2, 2 fns
+8011b124	PROVEN	g_tile_wrap_shift_x_saved	PSXMAP 800fff1c x1, 2 fns
+8011b128	PROVEN	g_tile_wrap_shift_z_saved	PSXMAP 800fff20 x1, 2 fns
+8011b130	PROVEN	g_fighter_sway_param_a	PSXMAP 800f6336 x1, 3 fns
+8011b131	DEAD	g_8011b131	in-region, written never read (static)
+8011b138	PROVEN	psx_800f7ee8	PSXMAP 800f7ee8 x1, 2 fns
+8011b1d0	PROVEN	var_8011b1d0	in-region RW by 3 fns (static xrefs)
+8011b1d4	DEAD	g_8011b1d4	in-region, written never read (static)
+8011b1d8	PROVEN	tbl_8011b1d8	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011b1f8	PROVEN	var_8011b1f8	in-region RW by 2 fns (static xrefs)
+8011b1fa	PROVEN	var_8011b1fa	in-region RW by 3 fns (static xrefs)
+8011b1fc	DEAD	g_8011b1fc	in-region, written never read (static)
+8011b200	PROVEN	var_8011b200	in-region RW by 5 fns (static xrefs)
+8011b202	PROVEN	var_8011b202	in-region RW by 5 fns (static xrefs)
+8011b208	PROVEN	var_8011b208	in-region RW by 4 fns (static xrefs)
+8011b20a	PROVEN	var_8011b20a	in-region RW by 4 fns (static xrefs)
+8011b210	DEAD	g_8011b210	in-region, written never read (static)
+8011b218	PROVEN	var_8011b218	in-region RW by 3 fns (static xrefs)
+8011b21c	PROVEN	var_8011b21c	in-region RW by 2 fns (static xrefs)
+8011b220	PROVEN	var_8011b220	in-region RW by 2 fns (static xrefs)
+8011b238	PROVEN	var_8011b238	in-region RW by 5 fns (static xrefs)
+8011b23a	PROVEN	var_8011b23a	in-region RW by 5 fns (static xrefs)
+8011b240	PROVEN	var_8011b240	in-region RW by 2 fns (static xrefs)
+8011b244	DEAD	g_8011b244	in-region, written never read (static)
+8011b248	PROVEN	tbl_8011b248	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011b260	PROVEN	var_8011b260	in-region RW by 4 fns (static xrefs)
+8011b262	PROVEN	var_8011b262	in-region RW by 6 fns (static xrefs)
+8011b264	PROVEN	var_8011b264	in-region RW by 4 fns (static xrefs)
+8011b268	PROVEN	var_8011b268	in-region RW by 4 fns (static xrefs)
+8011b270	PROVEN	psx_800ef980	PSXMAP 800ef980 x4, 4 fns
+8011b2a0	PROVEN	psx_800ef9b0	PSXMAP 800ef9b0 x1, 1 fns
+8011b2e4	PROVEN	psx_800f0054	PSXMAP 800f0054 x1, 2 fns
+8011b2e8	PROVEN	psx_800f005c	PSXMAP 800f005c x1, 4 fns
+8011b2f0	PROVEN	psx_800f0060	PSXMAP 800f0060 x6, 5 fns
+8011b2f4	PROVEN	psx_800f0064	PSXMAP 800f0064 x1, 1 fns
+8011b30c	PROVEN	psx_800f007c	PSXMAP 800f007c x1, 1 fns
+8011b328	PROVEN	psx_800f0098	PSXMAP 800f0098 x1, 1 fns
+8011b440	PROVEN	psx_800f01b0	PSXMAP 800f01b0 x4, 5 fns
+8011b444	PROVEN	psx_800f01b4	PSXMAP 800f01b4 x2, 3 fns
+8011b458	PROVEN	psx_800f01c8	PSXMAP 800f01c8 x1, 2 fns
+8011b638	DEAD	g_8011b638	in-region, written never read (static)
+8011b640	PROVEN	psx_800f03f8	PSXMAP 800f03f8 x2, 6 fns
+8011b648	PROVEN	psx_800f0438	PSXMAP 800f0438 x3, 3 fns
+8011b658	PROVEN	psx_800f0448	PSXMAP 800f0448 x2, 7 fns
+8011b65c	PROVEN	g_fighter_hit_history_index	PSXMAP 800f0454 x3, 9 fns
+8011b65e	PROVEN	var_8011b65e	in-region RW by 3 fns (static xrefs)
+8011b660	PROVEN	psx_800f0480	PSXMAP 800f0480 x2, 2 fns
+8011b690	PROVEN	psx_800f04b0	PSXMAP 800f04b0 x1, 1 fns
+8011b6c0	PROVEN	var_8011b6c0	in-region RW by 8 fns (static xrefs)
+8011b6c2	PROVEN	var_8011b6c2	in-region RW by 6 fns (static xrefs)
+8011b6c4	DEAD	g_8011b6c4	in-region, written never read (static)
+8011b6c6	PROVEN	var_8011b6c6	in-region RW by 2 fns (static xrefs)
+8011b6c8	DEAD	g_8011b6c8	in-region, written never read (static)
+8011b6ca	DEAD	g_8011b6ca	in-region, written never read (static)
+8011b6cc	DEAD	g_8011b6cc	in-region, written never read (static)
+8011b6e0	PROVEN	psx_800f0558	PSXMAP 800f0558 x2, 6 fns
+8011b6e8	PROVEN	psx_800f0570	PSXMAP 800f0570 x7, 6 fns
+8011b6ec	PROVEN	psx_800f0574	PSXMAP 800f0574 x6, 9 fns
+8011b6f0	PROVEN	psx_800f0578	PSXMAP 800f0578 x6, 5 fns
+8011b700	PROVEN	var_8011b700	in-region RW by 4 fns (static xrefs)
+8011b702	PROVEN	var_8011b702	in-region RW by 5 fns (static xrefs)
+8011b708	PROVEN	psx_800f3e98	PSXMAP 800f3e98 x1, 3 fns
+8011b710	PROVEN	psx_800f3ebc	PSXMAP 800f3ebc x1, 4 fns
+8011b714	PROVEN	psx_800f3f80	PSXMAP 800f3f80 x2, 4 fns
+8011c528	PROVEN	var_8011c528	in-region RW by 4 fns (static xrefs)
+8011c529	DEAD	g_8011c529	in-region, written never read (static)
+8011c52a	PROVEN	var_8011c52a	in-region RW by 5 fns (static xrefs)
+8011c52c	PROVEN	var_8011c52c	in-region RW by 3 fns (static xrefs)
+8011c530	PROVEN	psx_800f4e06	PSXMAP 800f4e06 x2, 6 fns
+8011c538	PROVEN	psx_800f4e68	PSXMAP 800f4e68 x1, 2 fns
+8011c540	PROVEN	psx_8010347c	PSXMAP 8010347c x2, 7 fns
+8011c548	PROVEN	psx_800f4ea0	PSXMAP 800f4ea0 x1, 2 fns
+8011c54c	PROVEN	psx_800f4ea4	PSXMAP 800f4ea4 x1, 2 fns
+8011c550	PROVEN	psx_800f4ea8	PSXMAP 800f4ea8 x1, 2 fns
+8011c554	PROVEN	psx_800f4eac	PSXMAP 800f4eac x1, 3 fns
+8011c558	PROVEN	psx_800f4eb0	PSXMAP 800f4eb0 x1, 2 fns
+8011c570	PROVEN	psx_800f5ed0	PSXMAP 800f5ed0 x7, 6 fns
+8011c5e8	DEAD	g_8011c5e8	in-region, written never read (static)
+8011c5ec	DEAD	g_8011c5ec	in-region, written never read (static)
+8011c5f0	DEAD	g_8011c5f0	in-region, written never read (static)
+8011c768	PROVEN	psx_800f6300	PSXMAP 800f6300 x6, 5 fns
+8011c788	PROVEN	var_8011c788	in-region RW by 5 fns (static xrefs)
+8011c790	PROVEN	psx_800f6400	PSXMAP 800f6400 x12, 13 fns
+8011c794	PROVEN	psx_800f6404	PSXMAP 800f6404 x10, 4 fns
+8011c798	PROVEN	psx_800f6408	PSXMAP 800f6408 x11, 4 fns
+8011c79c	PROVEN	tbl_8011c79c	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011c7a0	PROVEN	tbl_8011c7a0	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011c7a4	PROVEN	tbl_8011c7a4	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011c7a8	PROVEN	tbl_8011c7a8	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011c7b0	PROVEN	psx_800f6420	PSXMAP 800f6420 x1, 2 fns
+8011c8f8	PROVEN	var_8011c8f8	in-region RW by 5 fns (static xrefs)
+8011c8fa	PROVEN	g_prev_p1_fighter_id	PSXMAP 800f6590 x1, 4 fns
+8011c8fb	PROVEN	g_prev_p2_fighter_id	PSXMAP 800f6591 x1, 2 fns
+8011c8fc	PROVEN	psx_800f6598	PSXMAP 800f6598 x1, 6 fns
+8011c900	PROVEN	psx_800f6620	PSXMAP 800f6620 x2, 6 fns
+8011c904	PROVEN	psx_800f6624	PSXMAP 800f6624 x1, 2 fns
+8011c908	PROVEN	psx_800f6628	PSXMAP 800f6628 x2, 6 fns
+8011c90c	PROVEN	psx_800f662c	PSXMAP 800f662c x1, 5 fns
+8011c910	PROVEN	g_fighter_motion_flag_tbl	PSXMAP 800f6630 x4, 10 fns
+8011c924	PROVEN	g_fighter_motion_cmd_flag	PSXMAP 800f6644 x2, 1 fns
+8011c92c	PROVEN	psx_800f6664	PSXMAP 800f6664 x1, 3 fns
+8011c92e	DEAD	g_8011c92e	in-region, written never read (static)
+8011c932	PROVEN	tbl_8011c932	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011c9a0	PROVEN	var_8011c9a0	in-region RW by 3 fns (static xrefs)
+8011c9a8	PROVEN	var_8011c9a8	in-region RW by 2 fns (static xrefs)
+8011c9ac	DEAD	g_8011c9ac	in-region, written never read (static)
+8011c9b0	DEAD	g_8011c9b0	in-region, written never read (static)
+8011c9c0	PROVEN	psx_800f7190	PSXMAP 800f7190 x2, 4 fns
+8011c9c2	DEAD	g_8011c9c2	in-region, written never read (static)
+8011c9c4	PROVEN	psx_800f7928	PSXMAP 800f7928 x1, 5 fns
+8011c9c6	PROVEN	var_8011c9c6	in-region RW by 3 fns (static xrefs)
+8011c9c7	PROVEN	g_fighter_hit_history_index	PSXMAP 800f0454 x5, 7 fns
+8011c9c8	DEAD	g_8011c9c8	in-region, written never read (static)
+8011c9cc	DEAD	g_8011c9cc	in-region, written never read (static)
+8011c9d0	DEAD	g_8011c9d0	in-region, written never read (static)
+8011c9e0	PROVEN	g_fighter_slot_index	PSXMAP 800f7d40 x4, 15 fns
+8011c9e8	PROVEN	var_8011c9e8	in-region RW by 11 fns (static xrefs)
+8011c9ec	PROVEN	tbl_8011c9ec	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011c9f0	PROVEN	psx_800f7df8	PSXMAP 800f7df8 x2, 6 fns
+8011ca58	PROVEN	var_8011ca58	in-region RW by 8 fns (static xrefs)
+8011ca5c	PROVEN	psx_800fc65c	PSXMAP 800fc65c x9, 15 fns
+8011ca60	PROVEN	psx_800fc6d0	PSXMAP 800fc6d0 x1, 6 fns
+8011ca7c	PROVEN	tbl_8011ca7c	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011ca80	PROVEN	var_8011ca80	in-region RW by 4 fns (static xrefs)
+8011ca84	DEAD	g_8011ca84	in-region, written never read (static)
+8011ca88	DEAD	g_8011ca88	in-region, written never read (static)
+8011ca8c	DEAD	g_8011ca8c	in-region, written never read (static)
+8011ca90	DEAD	g_8011ca90	in-region, written never read (static)
+8011ca94	DEAD	g_8011ca94	in-region, written never read (static)
+8011ca98	DEAD	g_8011ca98	in-region, written never read (static)
+8011ca9c	DEAD	g_8011ca9c	in-region, written never read (static)
+8011cca0	PROVEN	tbl_8011cca0	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011cda0	PROVEN	tbl_8011cda0	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011d0e0	PROVEN	psx_800fcd50	PSXMAP 800fcd50 x1, 3 fns
+8011d0e8	PROVEN	tbl_8011d0e8	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011d0f8	PROVEN	tbl_8011d0f8	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011d108	PROVEN	var_8011d108	in-region RW by 4 fns (static xrefs)
+8011d10c	PROVEN	g_motion_skip_flag	PSXMAP 800fce48 x2, 3 fns
+8011d10e	PROVEN	g_prev_p1_fighter_sub	PSXMAP 800fce58 x1, 4 fns
+8011d10f	PROVEN	g_prev_p2_fighter_sub	PSXMAP 800fce59 x1, 2 fns
+8011d110	PROVEN	psx_800fd330	PSXMAP 800fd330 x10, 5 fns
+8011d114	PROVEN	psx_800fd334	PSXMAP 800fd334 x6, 2 fns
+8011d118	PROVEN	psx_800fd338	PSXMAP 800fd338 x4, 2 fns
+8011d298	PROVEN	psx_800fd4e0	PSXMAP 800fd4e0 x5, 6 fns
+8011d2a0	PROVEN	psx_800fd4f0	PSXMAP 800fd4f0 x2, 2 fns
+8011d2a8	PROVEN	psx_800fd500	PSXMAP 800fd500 x2, 3 fns
+8011d2b0	PROVEN	psx_800fd508	PSXMAP 800fd508 x1, 1 fns
+8011d2b8	DEAD	g_8011d2b8	in-region, written never read (static)
+8011d2bc	PROVEN	psx_800fd580	PSXMAP 800fd580 x2, 4 fns
+8011d2c0	PROVEN	psx_800fd5f0	PSXMAP 800fd5f0 x4, 2 fns
+8011d2c4	PROVEN	psx_800fd5f4	PSXMAP 800fd5f4 x6, 3 fns
+8011d300	PROVEN	g_fighter_facing_tbl	PSXMAP 800fd630 x3, 3 fns
+8011d308	PROVEN	psx_800fd660	PSXMAP 800fd660 x1, 5 fns
+8011d30c	PROVEN	g_fighter_sway_state_tbl	PSXMAP 800fd69c x2, 10 fns
+8011d30e	DEAD	g_8011d30e	in-region, written never read (static)
+8011d318	PROVEN	psx_800fd6b2	PSXMAP 800fd6b2 x4, 5 fns
+8011d31a	PROVEN	psx_800fd6dc	PSXMAP 800fd6dc x2, 4 fns
+8011d31c	PROVEN	var_8011d31c	in-region RW by 4 fns (static xrefs)
+8011d320	PROVEN	psx_800fda00	PSXMAP 800fda00 x1, 3 fns
+8011d324	PROVEN	psx_800fda20	PSXMAP 800fda20 x1, 2 fns
+8011d328	PROVEN	psx_800fdc30	PSXMAP 800fdc30 x1, 7 fns
+8011d330	PROVEN	psx_800fdc40	PSXMAP 800fdc40 x3, 2 fns
+8011d3b0	PROVEN	psx_800fdcc8	PSXMAP 800fdcc8 x4, 3 fns
+8011d3d0	PROVEN	psx_800fdd18	PSXMAP 800fdd18 x2, 2 fns
+8011d3e0	PROVEN	psx_800fdd28	PSXMAP 800fdd28 x1, 1 fns
+8011d3f0	PROVEN	var_8011d3f0	in-region RW by 3 fns (static xrefs)
+8011d3f4	PROVEN	var_8011d3f4	in-region RW by 2 fns (static xrefs)
+8011d3f8	PROVEN	var_8011d3f8	in-region RW by 2 fns (static xrefs)
+8011d408	PROVEN	psx_800fddb0	PSXMAP 800fddb0 x10, 14 fns
+8011d40c	PROVEN	g_fighter_reaction_hi_tbl	PSXMAP 800fea08 x3, 7 fns
+8011d40d	PROVEN	g_fighter_reaction_lo_tbl	PSXMAP 800fea09 x1, 5 fns
+8011d410	PROVEN	var_8011d410	in-region RW by 2 fns (static xrefs)
+8011d414	DEAD	g_8011d414	in-region, written never read (static)
+8011d418	DEAD	g_8011d418	in-region, written never read (static)
+8011d428	PROVEN	psx_800fea68	PSXMAP 800fea68 x3, 5 fns
+8011d430	PROVEN	psx_800fea78	PSXMAP 800fea78 x3, 6 fns
+8011d432	PROVEN	g_bone_rot_table_flag	PSXMAP 800ff701 x8, 8 fns
+8011d434	PROVEN	psx_800ff702	PSXMAP 800ff702 x1, 3 fns
+8011d438	PROVEN	psx_800ff70c	PSXMAP 800ff70c x4, 4 fns
+8011d440	PROVEN	psx_800ff718	PSXMAP 800ff718 x3, 4 fns
+8011d444	PROVEN	psx_800ff71c	PSXMAP 800ff71c x3, 4 fns
+8011d448	PROVEN	psx_800ff720	PSXMAP 800ff720 x3, 4 fns
+8011d470	PROVEN	psx_800ff748	PSXMAP 800ff748 x4, 2 fns
+8011d474	PROVEN	psx_800ff74c	PSXMAP 800ff74c x4, 2 fns
+8011d478	PROVEN	psx_800ff750	PSXMAP 800ff750 x4, 2 fns
+8011d4b8	PROVEN	psx_800ff790	PSXMAP 800ff790 x2, 8 fns
+8011d4e8	PROVEN	psx_800ff8d0	PSXMAP 800ff8d0 x7, 8 fns
+8011d4eb	PROVEN	tbl_8011d4eb	in-region read-only/addr-taken by 3 fns (static xrefs)
+8011d4ec	PROVEN	psx_800ff8e0	PSXMAP 800ff8e0 x4, 7 fns
+8011d51c	PROVEN	psx_800ff910	PSXMAP 800ff910 x4, 2 fns
+8011d530	PROVEN	psx_800ff924	PSXMAP 800ff924 x5, 5 fns
+8011d534	PROVEN	psx_800ff928	PSXMAP 800ff928 x4, 3 fns
+8011d538	PROVEN	psx_800ff92c	PSXMAP 800ff92c x5, 5 fns
+8011d7a8	PROVEN	psx_800fff40	PSXMAP 800fff40 x7, 10 fns
+8011d7ac	PROVEN	psx_800fff70	PSXMAP 800fff70 x2, 7 fns
+8011d7b0	PROVEN	var_8011d7b0	in-region RW by 3 fns (static xrefs)
+8011d7b8	DEAD	g_8011d7b8	in-region, written never read (static)
+8011d7ba	PROVEN	psx_801001d8	PSXMAP 801001d8 x1, 4 fns
+8011d7bc	DEAD	g_8011d7bc	in-region, written never read (static)
+8011d7c0	PROVEN	psx_801001e0	PSXMAP 801001e0 x4, 3 fns
+8011d7c8	DEAD	g_8011d7c8	in-region, written never read (static)
+8011d7cc	DEAD	g_8011d7cc	in-region, written never read (static)
+8011d7d0	DEAD	g_8011d7d0	in-region, written never read (static)
+8011d7e0	PROVEN	var_8011d7e0	in-region RW by 6 fns (static xrefs)
+8011d7e2	PROVEN	psx_80102218	PSXMAP 80102218 x7, 4 fns
+8011d7e8	PROVEN	var_8011d7e8	in-region RW by 4 fns (static xrefs)
+8011d7f0	PROVEN	var_8011d7f0	in-region RW by 7 fns (static xrefs)
+8011d7f2	DEAD	g_8011d7f2	in-region, written never read (static)
+8011d7f8	PROVEN	psx_801022a8	PSXMAP 801022a8 x1, 3 fns
+8011d80c	PROVEN	psx_801022cc	PSXMAP 801022cc x1, 2 fns
+8011d818	PROVEN	psx_801022d8	PSXMAP 801022d8 x1, 2 fns
+8011d968	PROVEN	var_8011d968	in-region RW by 2 fns (static xrefs)
+8011d96c	PROVEN	var_8011d96c	in-region RW by 2 fns (static xrefs)
+8011d970	DEAD	g_8011d970	in-region, written never read (static)
+8011d980	PROVEN	psx_80102620	PSXMAP 80102620 x2, 3 fns
+8011d984	PROVEN	psx_80102624	PSXMAP 80102624 x1, 1 fns
+8011d988	PROVEN	psx_80102628	PSXMAP 80102628 x1, 1 fns
+8011d9a0	PROVEN	psx_80102640	PSXMAP 80102640 x2, 1 fns
+8011d9ac	PROVEN	psx_8010264c	PSXMAP 8010264c x1, 1 fns
+8011d9e0	PROVEN	var_8011d9e0	in-region RW by 3 fns (static xrefs)
+8011d9e4	PROVEN	var_8011d9e4	in-region RW by 4 fns (static xrefs)
+8011d9e8	PROVEN	psx_80103290	PSXMAP 80103290 x4, 5 fns
+8011d9f0	PROVEN	psx_801032c0	PSXMAP 801032c0 x2, 4 fns
+8011d9f2	PROVEN	psx_80103302	PSXMAP 80103302 x2, 4 fns
+8011d9f8	PROVEN	psx_80103308	PSXMAP 80103308 x6, 4 fns
+8011da00	PROVEN	psx_80103310	PSXMAP 80103310 x5, 4 fns
+8011da10	PROVEN	psx_80103320	PSXMAP 80103320 x1, 4 fns
+8011da18	PROVEN	psx_80103328	PSXMAP 80103328 x6, 9 fns
+8011da20	PROVEN	psx_801032e0	PSXMAP 801032e0 x2, 13 fns
+8011da40	PROVEN	psx_8010332c	PSXMAP 8010332c x5, 11 fns
+8011da44	PROVEN	var_8011da44	in-region RW by 4 fns (static xrefs)
+8011da48	PROVEN	psx_80103358	PSXMAP 80103358 x4, 4 fns
+8011da4c	PROVEN	psx_8010335c	PSXMAP 8010335c x4, 4 fns
+8011da50	PROVEN	psx_80103360	PSXMAP 80103360 x4, 4 fns
+8011da60	DEAD	g_8011da60	in-region, written never read (static)
+8011da68	PROVEN	psx_8010337a	PSXMAP 8010337a x5, 4 fns
+8011da70	PROVEN	psx_80103398	PSXMAP 80103398 x1, 2 fns
+8011dad0	PROVEN	psx_801033f8	PSXMAP 801033f8 x1, 1 fns
+8011db30	PROVEN	psx_80103470	PSXMAP 80103470 x9, 22 fns
+8011db32	DEAD	g_8011db32	in-region, written never read (static)
+8011db34	PROVEN	g_fight_demo_mode_flag	PSXMAP 80103478 x4, 7 fns
+8011db38	PROVEN	psx_8010347c	PSXMAP 8010347c x3, 5 fns
+8011db40	PROVEN	psx_80103480	PSXMAP 80103480 x70, 4 fns
+8011db50	PROVEN	psx_801034b8	PSXMAP 801034b8 x2, 5 fns
+8011db58	PROVEN	psx_80103570	PSXMAP 80103570 x1, 3 fns
+8011db5c	DEAD	g_8011db5c	in-region, written never read (static)
+8011db60	DEAD	g_8011db60	in-region, written never read (static)
+8011dcc0	PROVEN	psx_801036e0	PSXMAP 801036e0 x7, 6 fns
+8011dcc4	PROVEN	psx_801036e4	PSXMAP 801036e4 x3, 4 fns
+8011dcc8	PROVEN	psx_801036e8	PSXMAP 801036e8 x6, 5 fns
+8011dcd8	PROVEN	psx_80103730	PSXMAP 80103730 x6, 10 fns
+8011dcda	PROVEN	var_8011dcda	in-region RW by 2 fns (static xrefs)
+8011dcdc	DEAD	g_8011dcdc	in-region, written never read (static)
+8011dcde	PROVEN	var_8011dcde	in-region RW by 5 fns (static xrefs)
+8011dce0	PROVEN	psx_8010388a	PSXMAP 8010388a x3, 4 fns
+8011dce2	PROVEN	psx_8010388c	PSXMAP 8010388c x1, 5 fns
+8011dce4	DEAD	g_8011dce4	in-region, written never read (static)
+8011dce8	PROVEN	var_8011dce8	in-region RW by 3 fns (static xrefs)
+8011dcec	DEAD	g_8011dcec	in-region, written never read (static)
+8011dcf0	DEAD	g_8011dcf0	in-region, written never read (static)
+8011dd00	PROVEN	tbl_8011dd00	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011dd0c	DEAD	g_8011dd0c	in-region, written never read (static)
+8011dd10	DEAD	g_8011dd10	in-region, written never read (static)
+8011dd14	DEAD	g_8011dd14	in-region, written never read (static)
+8011dd30	PROVEN	psx_801039f0	PSXMAP 801039f0 x5, 7 fns
+8011dd34	PROVEN	psx_801039f4	PSXMAP 801039f4 x4, 5 fns
+8011dd38	PROVEN	psx_801039f8	PSXMAP 801039f8 x4, 7 fns
+8011dd48	PROVEN	g_spring_axis_angle	PSXMAP 800f03ac x3, 3 fns
+8011dd4c	PROVEN	var_8011dd4c	in-region RW by 4 fns (static xrefs)
+8011dd4d	PROVEN	g_part_spring_reset_flag	PSXMAP 800fd4f9 x1, 3 fns
+8011dd50	PROVEN	psx_800fea88	PSXMAP 800fea88 x1, 4 fns
+8011e890	PROVEN	tbl_8011e890	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011e9c8	PROVEN	var_8011e9c8	in-region RW by 3 fns (static xrefs)
+8011e9cc	PROVEN	var_8011e9cc	in-region RW by 3 fns (static xrefs)
+8011e9d0	PROVEN	psx_800f4ed0	PSXMAP 800f4ed0 x1, 3 fns
+8011f000	PROVEN	psx_800ff000	PSXMAP 800ff000 x14, 3 fns
+8011f060	PROVEN	tbl_8011f060	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011f7ff	PROVEN	tbl_8011f7ff	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011f9b8	PROVEN	psx_800f66e0	PSXMAP 800f66e0 x1, 2 fns
+8011f9c0	PROVEN	g_model_anim_reset_flag	PSXMAP 801038d4 x2, 4 fns
+8011f9c8	PROVEN	tbl_8011f9c8	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011fa08	DEAD	g_8011fa08	in-region, written never read (static)
+8011fa0a	DEAD	g_8011fa0a	in-region, written never read (static)
+8011fa0c	PROVEN	var_8011fa0c	in-region RW by 2 fns (static xrefs)
+8011fa18	PROVEN	tbl_8011fa18	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011fa68	PROVEN	tbl_8011fa68	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011fa78	PROVEN	tbl_8011fa78	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011fa88	PROVEN	tbl_8011fa88	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011fa90	PROVEN	tbl_8011fa90	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011fa98	PROVEN	tbl_8011fa98	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011faa8	PROVEN	tbl_8011faa8	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011faab	PROVEN	tbl_8011faab	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011fab8	PROVEN	tbl_8011fab8	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011fac0	PROVEN	var_8011fac0	in-region RW by 2 fns (static xrefs)
+8011fac8	PROVEN	tbl_8011fac8	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011fad8	PROVEN	tbl_8011fad8	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011fae8	PROVEN	tbl_8011fae8	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011faf8	PROVEN	tbl_8011faf8	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011fb08	PROVEN	tbl_8011fb08	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011fb18	PROVEN	tbl_8011fb18	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011fb6c	DEAD	g_8011fb6c	in-region, written never read (static)
+8011fb6e	PROVEN	var_8011fb6e	in-region RW by 3 fns (static xrefs)
+8011fb6f	DEAD	g_8011fb6f	in-region, written never read (static)
+8011fb78	PROVEN	tbl_8011fb78	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011fb86	PROVEN	tbl_8011fb86	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011fc00	PROVEN	tbl_8011fc00	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011fcb8	PROVEN	tbl_8011fcb8	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011fcd8	PROVEN	var_8011fcd8	in-region RW by 12 fns (static xrefs)
+8011fcda	DEAD	g_8011fcda	in-region, written never read (static)
+8011fcf8	PROVEN	var_8011fcf8	in-region RW by 4 fns (static xrefs)
+8011fcfa	DEAD	g_8011fcfa	in-region, written never read (static)
+8011fd18	PROVEN	var_8011fd18	in-region RW by 10 fns (static xrefs)
+8011fd1a	DEAD	g_8011fd1a	in-region, written never read (static)
+8011fd38	PROVEN	var_8011fd38	in-region RW by 8 fns (static xrefs)
+8011fd3a	DEAD	g_8011fd3a	in-region, written never read (static)
+8011fd58	PROVEN	var_8011fd58	in-region RW by 6 fns (static xrefs)
+8011fd5a	DEAD	g_8011fd5a	in-region, written never read (static)
+8011fd78	PROVEN	tbl_8011fd78	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011fd7a	DEAD	g_8011fd7a	in-region, written never read (static)
+8011fd86	DEAD	g_8011fd86	in-region, written never read (static)
+8011fd98	PROVEN	var_8011fd98	in-region RW by 2 fns (static xrefs)
+8011fd9a	PROVEN	var_8011fd9a	in-region RW by 2 fns (static xrefs)
+8011fd9c	PROVEN	var_8011fd9c	in-region RW by 2 fns (static xrefs)
+8011fd9e	PROVEN	var_8011fd9e	in-region RW by 2 fns (static xrefs)
+8011fda0	PROVEN	var_8011fda0	in-region RW by 4 fns (static xrefs)
+8011fda4	PROVEN	var_8011fda4	in-region RW by 7 fns (static xrefs)
+8011fda8	PROVEN	var_8011fda8	in-region RW by 3 fns (static xrefs)
+8011fdac	PROVEN	tbl_8011fdac	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011fdb0	PROVEN	var_8011fdb0	in-region RW by 4 fns (static xrefs)
+8011fdb1	PROVEN	var_8011fdb1	in-region RW by 2 fns (static xrefs)
+8011fdb2	PROVEN	var_8011fdb2	in-region RW by 2 fns (static xrefs)
+8011fdb3	PROVEN	tbl_8011fdb3	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011fdb8	PROVEN	tbl_8011fdb8	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011fdc8	PROVEN	tbl_8011fdc8	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011fdd4	DEAD	g_8011fdd4	in-region, written never read (static)
+8011fde8	DEAD	g_8011fde8	in-region, written never read (static)
+8011fdfc	DEAD	g_8011fdfc	in-region, written never read (static)
+8011fe00	PROVEN	tbl_8011fe00	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011fe10	DEAD	g_8011fe10	in-region, written never read (static)
+8011fe24	DEAD	g_8011fe24	in-region, written never read (static)
+8011fe38	DEAD	g_8011fe38	in-region, written never read (static)
+8011fee9	PROVEN	tbl_8011fee9	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011feff	PROVEN	tbl_8011feff	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011ff00	PROVEN	tbl_8011ff00	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011ff08	PROVEN	tbl_8011ff08	in-region read-only/addr-taken by 5 fns (static xrefs)
+8011ff0f	PROVEN	tbl_8011ff0f	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011ff10	PROVEN	tbl_8011ff10	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011ff34	PROVEN	tbl_8011ff34	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011ff82	PROVEN	tbl_8011ff82	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011ff88	PROVEN	tbl_8011ff88	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011ff98	PROVEN	tbl_8011ff98	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011ff9a	PROVEN	tbl_8011ff9a	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011ff9c	PROVEN	tbl_8011ff9c	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011ffa4	DEAD	g_8011ffa4	in-region, written never read (static)
+8011ffbc	PROVEN	tbl_8011ffbc	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011ffc0	PROVEN	psx_800fffc0	PSXMAP 800fffc0 x1, 2 fns
+8011ffcc	PROVEN	tbl_8011ffcc	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011ffd6	PROVEN	tbl_8011ffd6	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011ffe0	PROVEN	tbl_8011ffe0	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011ffe2	PROVEN	var_8011ffe2	in-region RW by 4 fns (static xrefs)
+8011ffe3	DEAD	g_8011ffe3	in-region, written never read (static)
+8011ffe6	PROVEN	tbl_8011ffe6	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011ffe8	PROVEN	tbl_8011ffe8	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011ffec	PROVEN	psx_800fffec	PSXMAP 800fffec x1, 1 fns
+8011ffee	PROVEN	tbl_8011ffee	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011fff0	PROVEN	tbl_8011fff0	in-region read-only/addr-taken by 5 fns (static xrefs)
+8011fff1	PROVEN	tbl_8011fff1	in-region read-only/addr-taken by 2 fns (static xrefs)
+8011fff2	PROVEN	tbl_8011fff2	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011fff3	PROVEN	tbl_8011fff3	in-region read-only/addr-taken by 1 fns (static xrefs)
+8011fff4	PROVEN	tbl_8011fff4	in-region read-only/addr-taken by 3 fns (static xrefs)
+8011fff5	PROVEN	var_8011fff5	in-region RW by 2 fns (static xrefs)
+8011fff6	PROVEN	tbl_8011fff6	in-region read-only/addr-taken by 5 fns (static xrefs)
+8011fff8	PROVEN	var_8011fff8	in-region RW by 9 fns (static xrefs)
+8011fff9	PROVEN	var_8011fff9	in-region RW by 5 fns (static xrefs)
+8011fffb	PROVEN	psx_800ffffb	PSXMAP 800ffffb x1, 2 fns
+8011fffc	PROVEN	psx_800ffffc	PSXMAP 800ffffc x1, 10 fns
+8011fffd	PROVEN	psx_800ffffd	PSXMAP 800ffffd x1, 6 fns
+8011fffe	PROVEN	psx_800ffffe	PSXMAP 800ffffe x2, 21 fns
+8011ffff	PROVEN	psx_800effff	PSXMAP 800effff x23, 60 fns
+80120000	PROVEN	psx_80100000	PSXMAP 80100000 x200, 207 fns
+80120001	PROVEN	psx_80100001	PSXMAP 80100001 x23, 65 fns
+80120002	PROVEN	psx_80100002	PSXMAP 80100002 x47, 57 fns
+80120003	PROVEN	psx_800f0003	PSXMAP 800f0003 x14, 24 fns
+80120004	PROVEN	psx_80100004	PSXMAP 80100004 x16, 89 fns
+80120005	PROVEN	psx_80100005	PSXMAP 80100005 x4, 13 fns
+80120006	PROVEN	psx_80100006	PSXMAP 80100006 x7, 23 fns
+80120007	PROVEN	psx_80100007	PSXMAP 80100007 x1, 6 fns
+80120008	PROVEN	psx_80100008	PSXMAP 80100008 x11, 73 fns
+80120009	PROVEN	tbl_80120009	in-region read-only/addr-taken by 1 fns (static xrefs)
+8012000a	PROVEN	psx_8010000a	PSXMAP 8010000a x2, 11 fns
+8012000b	PROVEN	tbl_8012000b	in-region read-only/addr-taken by 1 fns (static xrefs)
+8012000c	PROVEN	psx_8010000c	PSXMAP 8010000c x6, 39 fns
+8012000d	PROVEN	psx_8010000d	PSXMAP 8010000d x1, 3 fns
+8012000e	PROVEN	psx_8010000e	PSXMAP 8010000e x3, 10 fns
+8012000f	PROVEN	tbl_8012000f	in-region read-only/addr-taken by 2 fns (static xrefs)
+80120010	PROVEN	psx_80100010	PSXMAP 80100010 x2, 28 fns
+80120011	PROVEN	psx_80100011	PSXMAP 80100011 x1, 1 fns
+80120012	PROVEN	psx_800f0012	PSXMAP 800f0012 x1, 8 fns
+80120013	PROVEN	tbl_80120013	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120014	PROVEN	psx_80100014	PSXMAP 80100014 x6, 29 fns
+80120015	PROVEN	var_80120015	in-region RW by 3 fns (static xrefs)
+80120016	PROVEN	psx_800f0018	PSXMAP 800f0018 x3, 8 fns
+80120017	PROVEN	psx_80100017	PSXMAP 80100017 x1, 4 fns
+80120018	PROVEN	psx_800f001a	PSXMAP 800f001a x3, 21 fns
+80120019	PROVEN	var_80120019	in-region RW by 2 fns (static xrefs)
+8012001a	PROVEN	psx_800f001c	PSXMAP 800f001c x3, 7 fns
+8012001b	PROVEN	psx_8010001b	PSXMAP 8010001b x2, 7 fns
+8012001c	PROVEN	g_fx_slot_far_dist	PSXMAP 8010001c x5, 21 fns
+8012001d	PROVEN	psx_8010001d	PSXMAP 8010001d x1, 2 fns
+8012001e	PROVEN	psx_8010001e	PSXMAP 8010001e x2, 10 fns
+8012001f	PROVEN	psx_8010001f	PSXMAP 8010001f x2, 3 fns
+80120020	PROVEN	psx_800f0020	PSXMAP 800f0020 x3, 21 fns
+80120021	PROVEN	psx_80100021	PSXMAP 80100021 x2, 4 fns
+80120022	PROVEN	var_80120022	in-region RW by 5 fns (static xrefs)
+80120023	PROVEN	var_80120023	in-region RW by 4 fns (static xrefs)
+80120024	PROVEN	psx_800f0024	PSXMAP 800f0024 x3, 11 fns
+80120025	PROVEN	psx_800f0025	PSXMAP 800f0025 x3, 7 fns
+80120026	PROVEN	psx_800f0026	PSXMAP 800f0026 x3, 9 fns
+80120027	PROVEN	psx_800f0027	PSXMAP 800f0027 x3, 7 fns
+80120028	PROVEN	psx_800f0028	PSXMAP 800f0028 x4, 14 fns
+8012002a	PROVEN	psx_80100026	PSXMAP 80100026 x4, 5 fns
+8012002c	PROVEN	psx_800f002c	PSXMAP 800f002c x3, 9 fns
+8012002d	PROVEN	psx_800f002d	PSXMAP 800f002d x2, 5 fns
+8012002e	PROVEN	psx_800f002d	PSXMAP 800f002d x2, 23 fns
+8012002f	PROVEN	psx_800f002f	PSXMAP 800f002f x3, 4 fns
+80120030	PROVEN	psx_800f0030	PSXMAP 800f0030 x3, 37 fns
+80120031	PROVEN	psx_800f0031	PSXMAP 800f0031 x3, 4 fns
+80120032	PROVEN	psx_800f0032	PSXMAP 800f0032 x3, 5 fns
+80120033	PROVEN	psx_800f002d	PSXMAP 800f002d x3, 21 fns
+80120034	PROVEN	psx_800f002e	PSXMAP 800f002e x2, 12 fns
+80120036	PROVEN	tbl_80120036	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120038	PROVEN	psx_800f0038	PSXMAP 800f0038 x3, 5 fns
+80120039	PROVEN	psx_800f0033	PSXMAP 800f0033 x4, 12 fns
+8012003b	PROVEN	tbl_8012003b	in-region read-only/addr-taken by 3 fns (static xrefs)
+8012003c	PROVEN	psx_800f003c	PSXMAP 800f003c x2, 8 fns
+8012003e	DEAD	g_8012003e	in-region, written never read (static)
+8012003f	DEAD	g_8012003f	in-region, written never read (static)
+80120040	PROVEN	psx_800f0040	PSXMAP 800f0040 x2, 17 fns
+80120041	PROVEN	tbl_80120041	in-region read-only/addr-taken by 2 fns (static xrefs)
+80120042	PROVEN	tbl_80120042	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120044	DEAD	g_80120044	in-region, written never read (static)
+80120045	PROVEN	tbl_80120045	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120046	PROVEN	var_80120046	in-region RW by 2 fns (static xrefs)
+80120047	PROVEN	tbl_80120047	in-region read-only/addr-taken by 3 fns (static xrefs)
+80120048	PROVEN	psx_80100048	PSXMAP 80100048 x1, 5 fns
+80120049	PROVEN	tbl_80120049	in-region read-only/addr-taken by 4 fns (static xrefs)
+8012004a	PROVEN	psx_8010004a	PSXMAP 8010004a x1, 10 fns
+8012004c	PROVEN	g_free_cam_pad_counter	PSXMAP 80100040 x1, 6 fns
+8012004d	DEAD	g_8012004d	in-region, written never read (static)
+80120050	PROVEN	g_cam_orbit_angle_0044	PSXMAP 80100044 x1, 3 fns
+80120051	PROVEN	tbl_80120051	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120052	PROVEN	psx_800f0052	PSXMAP 800f0052 x1, 1 fns
+80120053	PROVEN	psx_8010004c	PSXMAP 8010004c x3, 2 fns
+80120054	PROVEN	psx_800f004d	PSXMAP 800f004d x1, 6 fns
+80120056	PROVEN	psx_800f0056	PSXMAP 800f0056 x1, 1 fns
+80120057	PROVEN	var_80120057	in-region RW by 5 fns (static xrefs)
+80120058	PROVEN	psx_801000c4	PSXMAP 801000c4 x2, 9 fns
+8012005c	PROVEN	var_8012005c	in-region RW by 2 fns (static xrefs)
+80120060	PROVEN	var_80120060	in-region RW by 4 fns (static xrefs)
+80120064	PROVEN	var_80120064	in-region RW by 2 fns (static xrefs)
+80120065	DEAD	g_80120065	in-region, written never read (static)
+80120068	PROVEN	tbl_80120068	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120078	PROVEN	tbl_80120078	in-region read-only/addr-taken by 2 fns (static xrefs)
+8012007c	PROVEN	tbl_8012007c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120080	PROVEN	psx_800f0080	PSXMAP 800f0080 x1, 7 fns
+80120084	PROVEN	tbl_80120084	in-region read-only/addr-taken by 2 fns (static xrefs)
+8012008c	PROVEN	tbl_8012008c	in-region read-only/addr-taken by 2 fns (static xrefs)
+80120090	PROVEN	tbl_80120090	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120094	PROVEN	tbl_80120094	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120098	PROVEN	tbl_80120098	in-region read-only/addr-taken by 1 fns (static xrefs)
+8012009c	PROVEN	tbl_8012009c	in-region read-only/addr-taken by 1 fns (static xrefs)
+801200a0	PROVEN	tbl_801200a0	in-region read-only/addr-taken by 2 fns (static xrefs)
+801200a4	PROVEN	tbl_801200a4	in-region read-only/addr-taken by 1 fns (static xrefs)
+801200a8	PROVEN	var_801200a8	in-region RW by 5 fns (static xrefs)
+801200aa	PROVEN	var_801200aa	in-region RW by 3 fns (static xrefs)
+801200ac	PROVEN	tbl_801200ac	in-region read-only/addr-taken by 1 fns (static xrefs)
+801200b0	PROVEN	tbl_801200b0	in-region read-only/addr-taken by 1 fns (static xrefs)
+801200b4	PROVEN	var_801200b4	in-region RW by 4 fns (static xrefs)
+801200b8	PROVEN	var_801200b8	in-region RW by 2 fns (static xrefs)
+801200bc	PROVEN	var_801200bc	in-region RW by 2 fns (static xrefs)
+801200c4	DEAD	g_801200c4	in-region, written never read (static)
+801200c8	PROVEN	tbl_801200c8	in-region read-only/addr-taken by 1 fns (static xrefs)
+801200cc	PROVEN	tbl_801200cc	in-region read-only/addr-taken by 1 fns (static xrefs)
+801200d0	PROVEN	tbl_801200d0	in-region read-only/addr-taken by 1 fns (static xrefs)
+801200dc	PROVEN	tbl_801200dc	in-region read-only/addr-taken by 1 fns (static xrefs)
+801200e8	PROVEN	var_801200e8	in-region RW by 3 fns (static xrefs)
+801200e9	PROVEN	var_801200e9	in-region RW by 2 fns (static xrefs)
+801200ea	PROVEN	var_801200ea	in-region RW by 3 fns (static xrefs)
+801200f0	PROVEN	tbl_801200f0	in-region read-only/addr-taken by 1 fns (static xrefs)
+801200f8	PROVEN	tbl_801200f8	in-region read-only/addr-taken by 1 fns (static xrefs)
+801200fc	PROVEN	tbl_801200fc	in-region read-only/addr-taken by 1 fns (static xrefs)
+801200fe	PROVEN	tbl_801200fe	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120104	PROVEN	tbl_80120104	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120108	PROVEN	tbl_80120108	in-region read-only/addr-taken by 5 fns (static xrefs)
+8012010e	PROVEN	tbl_8012010e	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120118	PROVEN	tbl_80120118	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120120	PROVEN	tbl_80120120	in-region read-only/addr-taken by 2 fns (static xrefs)
+80120124	PROVEN	tbl_80120124	in-region read-only/addr-taken by 2 fns (static xrefs)
+80120126	PROVEN	tbl_80120126	in-region read-only/addr-taken by 2 fns (static xrefs)
+8012012c	PROVEN	tbl_8012012c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120130	PROVEN	tbl_80120130	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120134	PROVEN	tbl_80120134	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120138	PROVEN	tbl_80120138	in-region read-only/addr-taken by 1 fns (static xrefs)
+8012013c	PROVEN	tbl_8012013c	in-region read-only/addr-taken by 1 fns (static xrefs)
+8012013e	PROVEN	tbl_8012013e	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120140	PROVEN	tbl_80120140	in-region read-only/addr-taken by 2 fns (static xrefs)
+80120144	PROVEN	tbl_80120144	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120146	PROVEN	tbl_80120146	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120154	PROVEN	tbl_80120154	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120168	PROVEN	tbl_80120168	in-region read-only/addr-taken by 1 fns (static xrefs)
+8012017c	PROVEN	tbl_8012017c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120190	PROVEN	tbl_80120190	in-region read-only/addr-taken by 1 fns (static xrefs)
+801201a4	PROVEN	tbl_801201a4	in-region read-only/addr-taken by 1 fns (static xrefs)
+801201b8	PROVEN	tbl_801201b8	in-region read-only/addr-taken by 1 fns (static xrefs)
+801201cc	PROVEN	tbl_801201cc	in-region read-only/addr-taken by 1 fns (static xrefs)
+801201e0	PROVEN	tbl_801201e0	in-region read-only/addr-taken by 1 fns (static xrefs)
+801201e8	PROVEN	tbl_801201e8	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120200	PROVEN	tbl_80120200	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120288	PROVEN	tbl_80120288	in-region read-only/addr-taken by 2 fns (static xrefs)
+801202bc	PROVEN	tbl_801202bc	in-region read-only/addr-taken by 2 fns (static xrefs)
+801202d0	PROVEN	tbl_801202d0	in-region read-only/addr-taken by 1 fns (static xrefs)
+801202e4	PROVEN	tbl_801202e4	in-region read-only/addr-taken by 1 fns (static xrefs)
+801202f8	PROVEN	tbl_801202f8	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120340	PROVEN	psx_80100340	PSXMAP 80100340 x2, 1 fns
+801203e8	PROVEN	tbl_801203e8	in-region read-only/addr-taken by 2 fns (static xrefs)
+80120400	PROVEN	psx_800f0400	PSXMAP 800f0400 x2, 3 fns
+80120514	PROVEN	tbl_80120514	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120555	PROVEN	tbl_80120555	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120600	PROVEN	tbl_80120600	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120648	PROVEN	tbl_80120648	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120658	PROVEN	tbl_80120658	in-region read-only/addr-taken by 1 fns (static xrefs)
+801206a8	PROVEN	tbl_801206a8	in-region read-only/addr-taken by 1 fns (static xrefs)
+801206b8	PROVEN	tbl_801206b8	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120738	PROVEN	tbl_80120738	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120740	PROVEN	tbl_80120740	in-region read-only/addr-taken by 2 fns (static xrefs)
+80120758	PROVEN	tbl_80120758	in-region read-only/addr-taken by 1 fns (static xrefs)
+801207d0	PROVEN	tbl_801207d0	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120800	PROVEN	psx_800f0800	PSXMAP 800f0800 x2, 4 fns
+80120834	PROVEN	tbl_80120834	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120938	PROVEN	tbl_80120938	in-region read-only/addr-taken by 2 fns (static xrefs)
+80120948	PROVEN	tbl_80120948	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120958	PROVEN	tbl_80120958	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120988	PROVEN	tbl_80120988	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120998	PROVEN	tbl_80120998	in-region read-only/addr-taken by 1 fns (static xrefs)
+801209a8	PROVEN	tbl_801209a8	in-region read-only/addr-taken by 1 fns (static xrefs)
+801209b0	DEAD	g_801209b0	in-region, written never read (static)
+801209b4	DEAD	g_801209b4	in-region, written never read (static)
+801209c0	DEAD	g_801209c0	in-region, written never read (static)
+801209c4	DEAD	g_801209c4	in-region, written never read (static)
+801209d0	DEAD	g_801209d0	in-region, written never read (static)
+801209d4	DEAD	g_801209d4	in-region, written never read (static)
+801209e0	DEAD	g_801209e0	in-region, written never read (static)
+801209e4	DEAD	g_801209e4	in-region, written never read (static)
+801209f0	DEAD	g_801209f0	in-region, written never read (static)
+80120aa8	PROVEN	tbl_80120aa8	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120c28	PROVEN	tbl_80120c28	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120c38	PROVEN	tbl_80120c38	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120c40	PROVEN	tbl_80120c40	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120c4c	PROVEN	tbl_80120c4c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120c54	PROVEN	tbl_80120c54	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120cb8	PROVEN	tbl_80120cb8	in-region read-only/addr-taken by 2 fns (static xrefs)
+80120cc0	PROVEN	tbl_80120cc0	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120cd8	PROVEN	tbl_80120cd8	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120d58	PROVEN	tbl_80120d58	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120d60	PROVEN	tbl_80120d60	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120d78	PROVEN	tbl_80120d78	in-region read-only/addr-taken by 2 fns (static xrefs)
+80120d90	PROVEN	tbl_80120d90	in-region read-only/addr-taken by 7 fns (static xrefs)
+80120fa0	PROVEN	tbl_80120fa0	in-region read-only/addr-taken by 1 fns (static xrefs)
+80120fff	PROVEN	psx_800f0fff	PSXMAP 800f0fff x2, 14 fns
+80121000	PROVEN	psx_80101000	PSXMAP 80101000 x2, 2 fns
+801210b4	PROVEN	var_801210b4	in-region RW by 7 fns (static xrefs)
+801210bc	DEAD	g_801210bc	in-region, written never read (static)
+801210be	PROVEN	var_801210be	in-region RW by 3 fns (static xrefs)
+801210c0	PROVEN	var_801210c0	in-region RW by 3 fns (static xrefs)
+801210c2	PROVEN	var_801210c2	in-region RW by 3 fns (static xrefs)
+801210c4	PROVEN	var_801210c4	in-region RW by 3 fns (static xrefs)
+801210c6	PROVEN	var_801210c6	in-region RW by 3 fns (static xrefs)
+801210d0	PROVEN	psx_800fcd60	PSXMAP 800fcd60 x2, 1 fns
+80121190	PROVEN	psx_80102688	PSXMAP 80102688 x1, 3 fns
+801211b0	PROVEN	tbl_801211b0	in-region read-only/addr-taken by 2 fns (static xrefs)
+801211b8	PROVEN	tbl_801211b8	in-region read-only/addr-taken by 2 fns (static xrefs)
+801211c0	PROVEN	var_801211c0	in-region RW by 3 fns (static xrefs)
+801211c1	PROVEN	var_801211c1	in-region RW by 3 fns (static xrefs)
+801211c2	PROVEN	var_801211c2	in-region RW by 3 fns (static xrefs)
+801211c3	PROVEN	var_801211c3	in-region RW by 3 fns (static xrefs)
+801211c8	PROVEN	tbl_801211c8	in-region read-only/addr-taken by 2 fns (static xrefs)
+801211cc	PROVEN	var_801211cc	in-region RW by 2 fns (static xrefs)
+801211d0	PROVEN	var_801211d0	in-region RW by 2 fns (static xrefs)
+801211d1	DEAD	g_801211d1	in-region, written never read (static)
+801211d2	PROVEN	var_801211d2	in-region RW by 3 fns (static xrefs)
+801211d3	PROVEN	var_801211d3	in-region RW by 3 fns (static xrefs)
+801211d4	PROVEN	var_801211d4	in-region RW by 3 fns (static xrefs)
+801211d8	PROVEN	var_801211d8	in-region RW by 2 fns (static xrefs)
+801211e0	PROVEN	tbl_801211e0	in-region read-only/addr-taken by 2 fns (static xrefs)
+801211e4	PROVEN	var_801211e4	in-region RW by 2 fns (static xrefs)
+801211e8	PROVEN	var_801211e8	in-region RW by 2 fns (static xrefs)
+801211e9	PROVEN	var_801211e9	in-region RW by 3 fns (static xrefs)
+801211ea	PROVEN	var_801211ea	in-region RW by 4 fns (static xrefs)
+801211ec	DEAD	g_801211ec	in-region, written never read (static)
+801211ee	DEAD	g_801211ee	in-region, written never read (static)
+801211f0	PROVEN	var_801211f0	in-region RW by 3 fns (static xrefs)
+80121200	PROVEN	var_80121200	in-region RW by 2 fns (static xrefs)
+80121204	PROVEN	var_80121204	in-region RW by 3 fns (static xrefs)
+80121208	PROVEN	var_80121208	in-region RW by 3 fns (static xrefs)
+80121220	PROVEN	var_80121220	in-region RW by 4 fns (static xrefs)
+80121228	PROVEN	var_80121228	in-region RW by 3 fns (static xrefs)
+80121230	PROVEN	var_80121230	in-region RW by 4 fns (static xrefs)
+80121238	PROVEN	var_80121238	in-region RW by 3 fns (static xrefs)
+80121240	PROVEN	var_80121240	in-region RW by 2 fns (static xrefs)
+80121244	PROVEN	var_80121244	in-region RW by 2 fns (static xrefs)
+80121248	PROVEN	var_80121248	in-region RW by 2 fns (static xrefs)
+8012124c	PROVEN	var_8012124c	in-region RW by 3 fns (static xrefs)
+80121250	PROVEN	var_80121250	in-region RW by 3 fns (static xrefs)
+80121258	PROVEN	var_80121258	in-region RW by 7 fns (static xrefs)
+8012125c	PROVEN	var_8012125c	in-region RW by 5 fns (static xrefs)
+80121260	PROVEN	var_80121260	in-region RW by 5 fns (static xrefs)
+80121268	PROVEN	var_80121268	in-region RW by 2 fns (static xrefs)
+8012126c	PROVEN	var_8012126c	in-region RW by 2 fns (static xrefs)
+80121270	PROVEN	var_80121270	in-region RW by 2 fns (static xrefs)
+80121278	PROVEN	var_80121278	in-region RW by 8 fns (static xrefs)
+8012127c	PROVEN	var_8012127c	in-region RW by 6 fns (static xrefs)
+80121280	PROVEN	var_80121280	in-region RW by 7 fns (static xrefs)
+80121288	PROVEN	var_80121288	in-region RW by 3 fns (static xrefs)
+80121290	PROVEN	tbl_80121290	in-region read-only/addr-taken by 1 fns (static xrefs)
+801212e8	PROVEN	tbl_801212e8	in-region read-only/addr-taken by 2 fns (static xrefs)
+80121328	PROVEN	tbl_80121328	in-region read-only/addr-taken by 2 fns (static xrefs)
+80121340	PROVEN	tbl_80121340	in-region read-only/addr-taken by 2 fns (static xrefs)
+80121388	PROVEN	tbl_80121388	in-region read-only/addr-taken by 2 fns (static xrefs)
+80121404	PROVEN	g_tile_cur_x	PSXMAP 801022a0 x5, 3 fns
+80121408	PROVEN	g_tile_cur_z	PSXMAP 801022a4 x7, 3 fns
+8012140c	PROVEN	g_stage_tile_id	PSXMAP 80103568 x22, 3 fns
+80121424	PROVEN	g_tile_wrap_shift_x	PSXMAP 800f66ec x4, 7 fns
+80121428	PROVEN	g_tile_wrap_shift_z	PSXMAP 800f6e74 x4, 6 fns
+80121430	PROVEN	tbl_airborne_state_data int[2]	PSXMAP 800ef8d0 x1, 1 fns
+80121438	DEAD	g_80121438	in-region, written never read (static)
+80121439	DEAD	g_80121439	in-region, written never read (static)
+8012143a	DEAD	g_8012143a	in-region, written never read (static)
+8012143d	PROVEN	var_8012143d	in-region RW by 2 fns (static xrefs)
+80121440	PROVEN	g_fighter_vel_x	PSXMAP 800f04e0 x1, 3 fns
+80121444	PROVEN	g_fighter_vel_z	PSXMAP 800f0510 x1, 3 fns
+80121448	PROVEN	g_fighter_vel_x_alt	PSXMAP 800f053c x1, 3 fns
+80121450	PROVEN	g_recoil_vel_x	PSXMAP 800f4db0 x2, 4 fns
+80121458	PROVEN	g_recoil_vel_z	PSXMAP 800f4dd8 x2, 4 fns
+80121460	PROVEN	tbl_80121460	in-region read-only/addr-taken by 2 fns (static xrefs)
+80121468	PROVEN	tbl_80121468	in-region read-only/addr-taken by 2 fns (static xrefs)
+80121470	PROVEN	g_fighter_knock_vel_x_tbl	PSXMAP 800f71b0 x2, 9 fns
+80121478	PROVEN	g_fighter_knock_vel_y_tbl	PSXMAP 800f71c0 x2, 9 fns
+80121480	PROVEN	g_fighter_knock_vel_z_tbl	PSXMAP 800f71d0 x2, 9 fns
+80121488	PROVEN	var_80121488	in-region RW by 2 fns (static xrefs)
+8012148c	PROVEN	var_8012148c	in-region RW by 2 fns (static xrefs)
+80121490	PROVEN	var_80121490	in-region RW by 2 fns (static xrefs)
+80121494	PROVEN	var_80121494	in-region RW by 2 fns (static xrefs)
+80121498	PROVEN	g_fighter_task_state	PSXMAP 800fd520 x1, 2 fns
+801214a0	PROVEN	var_801214a0	in-region RW by 3 fns (static xrefs)
+801214a4	PROVEN	g_trade_hit_flag_p1	PSXMAP 800fd9d0 x2, 4 fns
+801214a5	PROVEN	g_trade_hit_flag_p2	PSXMAP 800fd9d1 x1, 2 fns
+801214a6	PROVEN	g_trade_priority_p1	PSXMAP 800fda04 x3, 3 fns
+801214a7	PROVEN	g_trade_priority_p2	PSXMAP 800fda05 x2, 2 fns
+801214a8	PROVEN	var_801214a8	in-region RW by 4 fns (static xrefs)
+801214ac	PROVEN	var_801214ac	in-region RW by 3 fns (static xrefs)
+801214b0	PROVEN	var_801214b0	in-region RW by 2 fns (static xrefs)
+801214b8	PROVEN	var_801214b8	in-region RW by 2 fns (static xrefs)
+801214c0	PROVEN	var_801214c0	in-region RW by 2 fns (static xrefs)
+801214c8	PROVEN	g_fighter_airborne_state_tbl	PSXMAP 801022b8 x3, 1 fns
+801214d0	PROVEN	var_801214d0	in-region RW by 2 fns (static xrefs)
+801214d8	PROVEN	var_801214d8	in-region RW by 3 fns (static xrefs)
+801214dc	PROVEN	var_801214dc	in-region RW by 5 fns (static xrefs)
+801214e0	PROVEN	var_801214e0	in-region RW by 3 fns (static xrefs)
+801214e4	PROVEN	var_801214e4	in-region RW by 3 fns (static xrefs)
+801214e8	PROVEN	var_801214e8	in-region RW by 3 fns (static xrefs)
+801214ec	PROVEN	var_801214ec	in-region RW by 2 fns (static xrefs)
+801214ed	PROVEN	var_801214ed	in-region RW by 2 fns (static xrefs)
+801214ee	PROVEN	var_801214ee	in-region RW by 2 fns (static xrefs)
+801214ef	PROVEN	var_801214ef	in-region RW by 4 fns (static xrefs)
+801214f0	PROVEN	var_801214f0	in-region RW by 2 fns (static xrefs)
+801214f1	DEAD	g_801214f1	in-region, written never read (static)
+801214f4	PROVEN	var_801214f4	in-region RW by 4 fns (static xrefs)
+801214f8	PROVEN	var_801214f8	in-region RW by 2 fns (static xrefs)
+80121501	PROVEN	tbl_80121501	in-region read-only/addr-taken by 1 fns (static xrefs)
+80121504	PROVEN	g_fight_round_state	PSXMAP 800fff98 x2, 8 fns
+80121508	PROVEN	tbl_80121508	in-region read-only/addr-taken by 1 fns (static xrefs)
+80121588	PROVEN	var_80121588	in-region RW by 3 fns (static xrefs)
+80121590	PROVEN	tbl_80121590	in-region read-only/addr-taken by 1 fns (static xrefs)
+80121611	PROVEN	var_80121611	in-region RW by 13 fns (static xrefs)
+80121618	PROVEN	g_timeattack_stage_start	PSXMAP 800f3ea9 x2, 3 fns
+80121619	PROVEN	g_timeattack_stage_time_ref	PSXMAP 800f4de8 x2, 3 fns
+8012161a	PROVEN	g_timeattack_stage_count	PSXMAP 800f4e10 x2, 3 fns
+80121620	PROVEN	g_timeattack_stage_min	PSXMAP 800fd538 x1, 2 fns
+80121650	PROVEN	g_team_battle_results	PSXMAP 800fd640 x1, 2 fns
+80121670	PROVEN	g_team_win_count_tbl	PSXMAP 80102268 x1, 2 fns
+80121690	PROVEN	var_80121690	in-region RW by 2 fns (static xrefs)
+80121692	DEAD	g_80121692	in-region, written never read (static)
+80121693	DEAD	g_80121693	in-region, written never read (static)
+80121694	DEAD	g_80121694	in-region, written never read (static)
+80121695	DEAD	g_80121695	in-region, written never read (static)
+80121698	PROVEN	var_80121698	in-region RW by 2 fns (static xrefs)
+8012169c	PROVEN	var_8012169c	in-region RW by 3 fns (static xrefs)
+801216a0	PROVEN	var_801216a0	in-region RW by 17 fns (static xrefs)
+801216a4	PROVEN	ptr_cur_fighter_input	PSXMAP 800f0428 x38, 24 fns
+801216a8	PROVEN	g_cur_player_idx	PSXMAP 801034c4 x1, 17 fns
+801216aa	PROVEN	var_801216aa	in-region RW by 4 fns (static xrefs)
+801216ac	PROVEN	psx_800f0544	PSXMAP 800f0544 x3, 9 fns
+801216ae	DEAD	g_801216ae	in-region, written never read (static)
+801216b0	PROVEN	var_801216b0	in-region RW by 5 fns (static xrefs)
+801216b4	PROVEN	var_801216b4	in-region RW by 5 fns (static xrefs)
+801216be	PROVEN	psx_800f4e90	PSXMAP 800f4e90 x3, 7 fns
+801216c0	PROVEN	ptr_opponent_fighter	PSXMAP 800f4ecc x11, 26 fns
+801216c8	PROVEN	var_801216c8	in-region RW by 8 fns (static xrefs)
+801216d8	DEAD	g_801216d8	in-region, written never read (static)
+801216dd	PROVEN	var_801216dd	in-region RW by 3 fns (static xrefs)
+801216e2	PROVEN	var_801216e2	in-region RW by 3 fns (static xrefs)
+801216e3	PROVEN	tbl_801216e3	in-region read-only/addr-taken by 1 fns (static xrefs)
+801216e4	PROVEN	var_801216e4	in-region RW by 2 fns (static xrefs)
+801216e8	PROVEN	var_801216e8	in-region RW by 4 fns (static xrefs)
+801216ec	PROVEN	psx_800f71b8	PSXMAP 800f71b8 x14, 15 fns
+801216ee	PROVEN	var_801216ee	in-region RW by 3 fns (static xrefs)
+801216f0	PROVEN	var_801216f0	in-region RW by 4 fns (static xrefs)
+801216f2	PROVEN	var_801216f2	in-region RW by 4 fns (static xrefs)
+801216f4	PROVEN	var_801216f4	in-region RW by 2 fns (static xrefs)
+801216f6	PROVEN	psx_800f7d22	PSXMAP 800f7d22 x3, 11 fns
+801216f8	PROVEN	var_801216f8	in-region RW by 6 fns (static xrefs)
+801216fa	DEAD	g_801216fa	in-region, written never read (static)
+801216fc	PROVEN	var_801216fc	in-region RW by 3 fns (static xrefs)
+80121700	PROVEN	var_80121700	in-region RW by 2 fns (static xrefs)
+80121704	PROVEN	tbl_80121704	in-region read-only/addr-taken by 2 fns (static xrefs)
+80121708	PROVEN	var_80121708	in-region RW by 2 fns (static xrefs)
+80121710	DEAD	g_80121710	in-region, written never read (static)
+80121714	DEAD	g_80121714	in-region, written never read (static)
+80121718	PROVEN	var_80121718	in-region RW by 3 fns (static xrefs)
+80121720	PROVEN	psx_800fce60	PSXMAP 800fce60 x1, 6 fns
+80121726	PROVEN	tbl_80121726	in-region read-only/addr-taken by 1 fns (static xrefs)
+80121730	PROVEN	var_80121730	in-region RW by 38 fns (static xrefs)
+80121732	PROVEN	var_80121732	in-region RW by 2 fns (static xrefs)
+80121734	PROVEN	var_80121734	in-region RW by 6 fns (static xrefs)
+80121738	PROVEN	var_80121738	in-region RW by 2 fns (static xrefs)
+8012173c	PROVEN	tbl_8012173c	in-region read-only/addr-taken by 15 fns (static xrefs)
+80121740	DEAD	g_80121740	in-region, written never read (static)
+80121744	PROVEN	var_80121744	in-region RW by 2 fns (static xrefs)
+8012174a	PROVEN	var_8012174a	in-region RW by 3 fns (static xrefs)
+8012174c	PROVEN	var_8012174c	in-region RW by 5 fns (static xrefs)
+8012174e	DEAD	g_8012174e	in-region, written never read (static)
+80121752	PROVEN	var_80121752	in-region RW by 4 fns (static xrefs)
+80121754	DEAD	g_80121754	in-region, written never read (static)
+80121756	PROVEN	var_80121756	in-region RW by 2 fns (static xrefs)
+80121758	PROVEN	var_80121758	in-region RW by 2 fns (static xrefs)
+8012175c	PROVEN	g_ai_cur_fighter_ptr	PSXMAP 800fdd10 x18, 23 fns
+80121760	PROVEN	var_80121760	in-region RW by 3 fns (static xrefs)
+80121762	DEAD	g_80121762	in-region, written never read (static)
+80121764	PROVEN	var_80121764	in-region RW by 5 fns (static xrefs)
+80121768	PROVEN	g_option_screen_index	PSXMAP 800ff700 x3, 6 fns
+8012176c	PROVEN	g_ai_params_ptr	PSXMAP 800fea7c x2, 15 fns
+80121770	PROVEN	var_80121770	in-region RW by 5 fns (static xrefs)
+80121774	PROVEN	psx_800ff708	PSXMAP 800ff708 x1, 5 fns
+80121778	PROVEN	var_80121778	in-region RW by 3 fns (static xrefs)
+80121780	PROVEN	tbl_80121780	in-region read-only/addr-taken by 2 fns (static xrefs)
+80121786	DEAD	g_80121786	in-region, written never read (static)
+801217f8	PROVEN	psx_800ff80c	PSXMAP 800ff80c x4, 9 fns
+801217ff	PROVEN	psx_800f17ff	PSXMAP 800f17ff x2, 1 fns
+80121808	PROVEN	tbl_80121808	in-region read-only/addr-taken by 2 fns (static xrefs)
+80121828	PROVEN	tbl_80121828	in-region read-only/addr-taken by 1 fns (static xrefs)
+80121868	DEAD	g_80121868	in-region, written never read (static)
+8012186a	DEAD	g_8012186a	in-region, written never read (static)
+80121968	PROVEN	g_ai_move_table_ptr	PSXMAP 800fff48 x3, 6 fns
+80121970	PROVEN	var_80121970	in-region RW by 5 fns (static xrefs)
+80121972	PROVEN	var_80121972	in-region RW by 3 fns (static xrefs)
+80121974	PROVEN	var_80121974	in-region RW by 7 fns (static xrefs)
+80121978	PROVEN	g_cur_fighter_ptr	PSXMAP 80102284 x5, 28 fns
+8012197c	PROVEN	var_8012197c	in-region RW by 5 fns (static xrefs)
+80121984	PROVEN	tbl_80121984	in-region read-only/addr-taken by 2 fns (static xrefs)
+8012198a	PROVEN	var_8012198a	in-region RW by 3 fns (static xrefs)
+8012198b	PROVEN	g_cpu_input_history_byte	PSXMAP 80102680 x1, 4 fns
+8012198c	PROVEN	var_8012198c	in-region RW by 5 fns (static xrefs)
+80121991	PROVEN	g_cpu_move_script_flag	PSXMAP 80103390 x1, 4 fns
+80121992	PROVEN	g_cur_player_idx	PSXMAP 801034c4 x28, 53 fns
+80121994	PROVEN	psx_801036d8	PSXMAP 801036d8 x1, 8 fns
+801219a0	PROVEN	tbl_801219a0	in-region read-only/addr-taken by 2 fns (static xrefs)
+80121a28	PROVEN	var_80121a28	in-region RW by 2 fns (static xrefs)
+80121a2c	PROVEN	var_80121a2c	in-region RW by 3 fns (static xrefs)
+80121a30	PROVEN	var_80121a30	in-region RW by 2 fns (static xrefs)
+80121a32	PROVEN	var_80121a32	in-region RW by 2 fns (static xrefs)
+80121a38	PROVEN	var_80121a38	in-region RW by 2 fns (static xrefs)
+80121a3c	PROVEN	var_80121a3c	in-region RW by 4 fns (static xrefs)
+80121a40	PROVEN	g_paired_move_flag	PSXMAP 800ef934 x2, 5 fns
+80121a41	PROVEN	var_80121a41	in-region RW by 3 fns (static xrefs)
+80121a42	PROVEN	var_80121a42	in-region RW by 3 fns (static xrefs)
+80121a43	DEAD	g_80121a43	in-region, written never read (static)
+80121a44	PROVEN	var_80121a44	in-region RW by 3 fns (static xrefs)
+80121a45	DEAD	g_80121a45	in-region, written never read (static)
+80121a46	PROVEN	psx_800ef93a	PSXMAP 800ef93a x4, 4 fns
+80121a48	PROVEN	tbl_80121a48	in-region read-only/addr-taken by 1 fns (static xrefs)
+80121a5c	PROVEN	var_80121a5c	in-region RW by 2 fns (static xrefs)
+80121a76	PROVEN	var_80121a76	in-region RW by 5 fns (static xrefs)
+80121a78	PROVEN	var_80121a78	in-region RW by 2 fns (static xrefs)
+80121a7a	PROVEN	psx_800ef93e	PSXMAP 800ef93e x1, 5 fns
+80121a7b	PROVEN	var_80121a7b	in-region RW by 3 fns (static xrefs)
+80121a82	PROVEN	var_80121a82	in-region RW by 2 fns (static xrefs)
+80121a84	PROVEN	var_80121a84	in-region RW by 4 fns (static xrefs)
+80121a8c	PROVEN	var_80121a8c	in-region RW by 4 fns (static xrefs)
+80121a8d	PROVEN	var_80121a8d	in-region RW by 2 fns (static xrefs)
+80121b08	PROVEN	var_80121b08	in-region RW by 2 fns (static xrefs)
+80121b09	PROVEN	var_80121b09	in-region RW by 3 fns (static xrefs)
+80121b0a	PROVEN	var_80121b0a	in-region RW by 8 fns (static xrefs)
+80121b0b	DEAD	g_80121b0b	in-region, written never read (static)
+80121b0c	PROVEN	var_80121b0c	in-region RW by 5 fns (static xrefs)
+80121b0d	DEAD	g_80121b0d	in-region, written never read (static)
+80121b10	PROVEN	psx_800f0410	PSXMAP 800f0410 x2, 2 fns
+80121b18	PROVEN	var_80121b18	in-region RW by 3 fns (static xrefs)
+80121b19	DEAD	g_80121b19	in-region, written never read (static)
+80121b1a	PROVEN	var_80121b1a	in-region RW by 7 fns (static xrefs)
+80121b1b	PROVEN	var_80121b1b	in-region RW by 3 fns (static xrefs)
+80121b1c	PROVEN	g_fighter_counter_state	PSXMAP 800f60fe x2, 8 fns
+80121b1d	DEAD	g_80121b1d	in-region, written never read (static)
+80121b20	PROVEN	var_80121b20	in-region RW by 3 fns (static xrefs)
+80121b22	DEAD	g_80121b22	in-region, written never read (static)
+80121b24	PROVEN	var_80121b24	in-region RW by 7 fns (static xrefs)
+80121b25	DEAD	g_80121b25	in-region, written never read (static)
+80121b26	PROVEN	var_80121b26	in-region RW by 4 fns (static xrefs)
+80121b27	DEAD	g_80121b27	in-region, written never read (static)
+80121b28	PROVEN	psx_800f7d24	PSXMAP 800f7d24 x2, 4 fns
+80121b2a	PROVEN	psx_800f7d4c	PSXMAP 800f7d4c x3, 7 fns
+80121b30	PROVEN	var_80121b30	in-region RW by 5 fns (static xrefs)
+80121b32	PROVEN	var_80121b32	in-region RW by 3 fns (static xrefs)
+80121b34	DEAD	g_80121b34	in-region, written never read (static)
+80121b36	DEAD	g_80121b36	in-region, written never read (static)
+80121b38	PROVEN	var_80121b38	in-region RW by 8 fns (static xrefs)
+80121b39	PROVEN	var_80121b39	in-region RW by 3 fns (static xrefs)
+80121b3c	PROVEN	var_80121b3c	in-region RW by 4 fns (static xrefs)
+80121b3e	DEAD	g_80121b3e	in-region, written never read (static)
+80121b40	PROVEN	var_80121b40	in-region RW by 4 fns (static xrefs)
+80121b41	PROVEN	var_80121b41	in-region RW by 2 fns (static xrefs)
+80121b48	PROVEN	var_80121b48	in-region RW by 4 fns (static xrefs)
+80121b50	PROVEN	var_80121b50	in-region RW by 5 fns (static xrefs)
+80121b52	DEAD	g_80121b52	in-region, written never read (static)
+80121b54	PROVEN	var_80121b54	in-region RW by 3 fns (static xrefs)
+80121b56	DEAD	g_80121b56	in-region, written never read (static)
+80121b58	PROVEN	psx_800fddb4	PSXMAP 800fddb4 x1, 7 fns
+80121b60	PROVEN	tbl_80121b60	in-region read-only/addr-taken by 1 fns (static xrefs)
+80121b68	DEAD	g_80121b68	in-region, written never read (static)
+80121b6c	PROVEN	var_80121b6c	in-region RW by 4 fns (static xrefs)
+80121b6d	DEAD	g_80121b6d	in-region, written never read (static)
+80121b6e	PROVEN	var_80121b6e	in-region RW by 2 fns (static xrefs)
+80121b6f	DEAD	g_80121b6f	in-region, written never read (static)
+80121b70	PROVEN	var_80121b70	in-region RW by 6 fns (static xrefs)
+80121b71	DEAD	g_80121b71	in-region, written never read (static)
+80121b72	PROVEN	var_80121b72	in-region RW by 3 fns (static xrefs)
+80121b73	DEAD	g_80121b73	in-region, written never read (static)
+80121b74	PROVEN	var_80121b74	in-region RW by 3 fns (static xrefs)
+80121b75	DEAD	g_80121b75	in-region, written never read (static)
+80121b78	PROVEN	g_state_history2_0	PSXMAP 801037c4 x1, 4 fns
+80121b79	DEAD	g_80121b79	in-region, written never read (static)
+80121b7a	DEAD	g_80121b7a	in-region, written never read (static)
+80121b7b	DEAD	g_80121b7b	in-region, written never read (static)
+80121b7c	PROVEN	var_80121b7c	in-region RW by 3 fns (static xrefs)
+80121b7d	DEAD	g_80121b7d	in-region, written never read (static)
+80121b90	PROVEN	var_80121b90	in-region RW by 2 fns (static xrefs)
+80121b98	PROVEN	g_hit_body_table_ptr_a	PSXMAP 800f7508 x4, 3 fns
+80121b9c	PROVEN	g_hit_body_table_ptr_b	PSXMAP 800f750c x2, 2 fns
+80121ba0	PROVEN	tbl_80121ba0	in-region read-only/addr-taken by 1 fns (static xrefs)
+80121ba4	PROVEN	tbl_80121ba4	in-region read-only/addr-taken by 1 fns (static xrefs)
+80121ba8	PROVEN	tbl_80121ba8	in-region read-only/addr-taken by 1 fns (static xrefs)
+80121bac	PROVEN	tbl_80121bac	in-region read-only/addr-taken by 1 fns (static xrefs)
+80121bb0	PROVEN	var_80121bb0	in-region RW by 2 fns (static xrefs)
+80121bb8	PROVEN	g_fight_continue_prompt_flag	PSXMAP 800fff94 x5, 4 fns
+80121bc0	PROVEN	var_80121bc0	in-region RW by 2 fns (static xrefs)
+80121bc4	PROVEN	tbl_80121bc4	in-region read-only/addr-taken by 1 fns (static xrefs)
+80121bd0	PROVEN	tbl_dust_triggers char[2]	PSXMAP 800ef970 x1, 1 fns
+80121bd2	PROVEN	g_fx_spawn_counter	PSXMAP 800ef972 x2, 5 fns
+80121bd4	PROVEN	var_80121bd4	in-region RW by 2 fns (static xrefs)
+80121bd8	PROVEN	psx_800f04e8	PSXMAP 800f04e8 x3, 5 fns
+80121bdc	DEAD	g_80121bdc	in-region, written never read (static)
+80121c00	DEAD	g_80121c00	in-region, written never read (static)
+80121c08	PROVEN	var_80121c08	in-region RW by 2 fns (static xrefs)
+80121c4c	PROVEN	g_fx_dust_timer_tbl	PSXMAP 800f7084 x2, 3 fns
+80121c4e	DEAD	g_80121c4e	in-region, written never read (static)
+80121c50	PROVEN	g_hit_point_x	PSXMAP 800f7088 x1, 4 fns
+80121c54	PROVEN	g_hit_point_y	PSXMAP 800f708c x1, 4 fns
+80121c58	PROVEN	g_hit_point_z	PSXMAP 800f7090 x1, 4 fns
+80121c60	PROVEN	var_80121c60	in-region RW by 3 fns (static xrefs)
+80121c62	PROVEN	var_80121c62	in-region RW by 3 fns (static xrefs)
+80121c64	DEAD	g_80121c64	in-region, written never read (static)
+80121c66	DEAD	g_80121c66	in-region, written never read (static)
+80121c68	PROVEN	tbl_80121c68	in-region read-only/addr-taken by 1 fns (static xrefs)
+80121c78	PROVEN	var_80121c78	in-region RW by 3 fns (static xrefs)
+80121c80	PROVEN	psx_800f7530	PSXMAP 800f7530 x9, 12 fns
+80121c84	PROVEN	psx_800f7534	PSXMAP 800f7534 x3, 4 fns
+80121c88	PROVEN	psx_800f7538	PSXMAP 800f7538 x3, 4 fns
+80121c90	PROVEN	psx_800f7540	PSXMAP 800f7540 x3, 3 fns
+80121c92	PROVEN	psx_800f7542	PSXMAP 800f7542 x3, 3 fns
+80121c94	PROVEN	psx_800f7544	PSXMAP 800f7544 x3, 3 fns
+80121cac	PROVEN	psx_800f755c	PSXMAP 800f755c x1, 3 fns
+80121cae	PROVEN	psx_800f755e	PSXMAP 800f755e x1, 1 fns
+80121fc0	PROVEN	var_80121fc0	in-region RW by 3 fns (static xrefs)
+80121fc4	PROVEN	var_80121fc4	in-region RW by 2 fns (static xrefs)
+80121fc8	DEAD	g_80121fc8	in-region, written never read (static)
+80121fd0	PROVEN	tbl_80121fd0	in-region read-only/addr-taken by 1 fns (static xrefs)
+80121ff0	PROVEN	g_fx_fighter_effect_flag	PSXMAP 800fd9dd x1, 3 fns
+80121ff8	PROVEN	psx_800fd9e0	PSXMAP 800fd9e0 x4, 4 fns
+80121ffc	PROVEN	psx_800fd9e4	PSXMAP 800fd9e4 x4, 4 fns
+80121fff	PROVEN	tbl_80121fff	in-region read-only/addr-taken by 5 fns (static xrefs)
+80122000	PROVEN	psx_800fd9e8	PSXMAP 800fd9e8 x4, 4 fns
+80122010	PROVEN	psx_800fda38	PSXMAP 800fda38 x2, 4 fns
+80122014	DEAD	g_80122014	in-region, written never read (static)
+80122018	DEAD	g_80122018	in-region, written never read (static)
+8012201c	DEAD	g_8012201c	in-region, written never read (static)
+80122020	PROVEN	psx_800fda48	PSXMAP 800fda48 x2, 4 fns
+80122024	DEAD	g_80122024	in-region, written never read (static)
+80122028	DEAD	g_80122028	in-region, written never read (static)
+8012202c	DEAD	g_8012202c	in-region, written never read (static)
+80122050	PROVEN	tbl_80122050	in-region read-only/addr-taken by 1 fns (static xrefs)
+80122090	PROVEN	var_80122090	in-region RW by 2 fns (static xrefs)
+80122094	PROVEN	var_80122094	in-region RW by 2 fns (static xrefs)
+80122098	PROVEN	g_fx_fighter_effect_id	PSXMAP 801001cd x3, 2 fns
+801220a0	PROVEN	psx_80103298	PSXMAP 80103298 x3, 5 fns
+801220a4	DEAD	g_801220a4	in-region, written never read (static)
+801220c8	PROVEN	g_fx_particle_slot_base	PSXMAP 80103848 x1, 2 fns
+801220ce	PROVEN	g_fx_particle_slot_active	PSXMAP 8010384e x4, 4 fns
+80122158	PROVEN	psx_800f5f78	PSXMAP 800f5f78 x1, 3 fns
+8012215c	PROVEN	psx_800f5f7c	PSXMAP 800f5f7c x1, 2 fns
+80122160	PROVEN	psx_800f5f80	PSXMAP 800f5f80 x1, 2 fns
+801222d8	PROVEN	psx_800f66f0	PSXMAP 800f66f0 x5, 6 fns
+80122a78	PROVEN	psx_80102240	PSXMAP 80102240 x4, 4 fns
+80122a7a	PROVEN	psx_80102240	PSXMAP 80102240 x1, 1 fns
+80122a7c	PROVEN	psx_80102244	PSXMAP 80102244 x1, 1 fns
+80122a80	PROVEN	psx_80102248	PSXMAP 80102248 x1, 1 fns
+80122a98	PROVEN	g_effect_eight_piece_a	PSXMAP 80103458 x1, 1 fns
+80122aa0	PROVEN	psx_80103460	PSXMAP 80103460 x1, 4 fns
+80122ab0	PROVEN	g_effect_eight_piece_b	PSXMAP 801034a0 x1, 1 fns
+80122ab8	PROVEN	psx_8010396c	PSXMAP 8010396c x2, 4 fns
+80122abc	PROVEN	psx_8010396c	PSXMAP 8010396c x1, 4 fns
+80122ac0	PROVEN	psx_80103970	PSXMAP 80103970 x2, 4 fns
+80122af0	PROVEN	psx_800efa18	PSXMAP 800efa18 x1, 1 fns
+80123130	PROVEN	psx_800f03c8	PSXMAP 800f03c8 x3, 3 fns
+80123134	PROVEN	psx_800f03cc	PSXMAP 800f03cc x1, 1 fns
+80123158	PROVEN	psx_800f0588	PSXMAP 800f0588 x3, 4 fns
+80126a60	PROVEN	psx_800f65a0	PSXMAP 800f65a0 x3, 4 fns
+80126a64	PROVEN	psx_800f65a4	PSXMAP 800f65a4 x1, 2 fns
+80126a88	PROVEN	g_light_ambient_r	PSXMAP 800f6e78 x2, 2 fns
+80126a8a	PROVEN	g_light_ambient_g	PSXMAP 800f6e7a x2, 2 fns
+80126a8c	PROVEN	g_light_ambient_b	PSXMAP 800f6e7c x2, 2 fns
+80126c74	PROVEN	g_stage_cam_lights_flag	PSXMAP 800f7192 x1, 1 fns
+80126e08	PROVEN	g_stage_frame_counter	PSXMAP 800f74e6 x2, 3 fns
+80126e0c	PROVEN	g_floor_tile_row_offset	PSXMAP 800f7500 x3, 3 fns
+80126e10	PROVEN	var_80126e10	in-region RW by 5 fns (static xrefs)
+80126e18	PROVEN	var_80126e18	in-region RW by 3 fns (static xrefs)
+80126e19	DEAD	g_80126e19	in-region, written never read (static)
+80126e1a	DEAD	g_80126e1a	in-region, written never read (static)
+80126e1b	DEAD	g_80126e1b	in-region, written never read (static)
+80126e1c	PROVEN	var_80126e1c	in-region RW by 4 fns (static xrefs)
+80126e1d	PROVEN	var_80126e1d	in-region RW by 3 fns (static xrefs)
+80126e1e	PROVEN	g_stage_frame_counter	PSXMAP 800f74e6 x1, 3 fns
+80126e1f	PROVEN	g_stage_scroll_counter	PSXMAP 800f7520 x2, 3 fns
+80126e20	PROVEN	g_stage_active_flag	PSXMAP 800f7d38 x2, 2 fns
+80126e78	PROVEN	g_stage_light_block	PSXMAP 800fc668 x1, 1 fns
+80126e7a	PROVEN	g_stage_ambient_r	PSXMAP 800fc66a x1, 1 fns
+80126e7c	PROVEN	g_stage_ambient_g	PSXMAP 800fc66c x1, 1 fns
+80126e7e	PROVEN	g_stage_ambient_b	PSXMAP 800fc66e x1, 1 fns
+80126e80	PROVEN	g_stage_light_color_r	PSXMAP 800fc670 x1, 1 fns
+80126e81	PROVEN	g_stage_light_color_g	PSXMAP 800fc671 x1, 1 fns
+80126e82	PROVEN	g_stage_light_color_b	PSXMAP 800fc672 x1, 1 fns
+80126e84	PROVEN	g_light_dir_x	PSXMAP 800fc674 x8, 8 fns
+80126e86	PROVEN	g_light_dir_y	PSXMAP 800fc676 x7, 7 fns
+80126e88	PROVEN	g_light_color_r	PSXMAP 800fc678 x4, 5 fns
+80126e89	PROVEN	g_light_color_g	PSXMAP 800fc679 x4, 5 fns
+80126e8a	PROVEN	g_light_color_b	PSXMAP 800fc67a x4, 5 fns
+80126ea0	PROVEN	g_limb_light_tbl_0	PSXMAP 800fc698 x1, 3 fns
+80126ea2	PROVEN	g_limb_light_tbl_1	PSXMAP 800fc69a x1, 2 fns
+80126ea4	PROVEN	g_limb_light_tbl_2	PSXMAP 800fc69c x1, 2 fns
+80126ea6	PROVEN	g_limb_light_tbl_3	PSXMAP 800fc69e x1, 1 fns
+80126ea8	PROVEN	g_limb_light_tbl_4	PSXMAP 800fc6a0 x1, 1 fns
+80126eaa	PROVEN	g_limb_light_tbl_5	PSXMAP 800fc6a2 x1, 1 fns
+80126eb0	PROVEN	psx_800fce80	PSXMAP 800fce80 x1, 2 fns
+80126eb4	PROVEN	psx_800fce84	PSXMAP 800fce84 x1, 1 fns
+80126eb5	PROVEN	psx_800fce85	PSXMAP 800fce85 x1, 1 fns
+80126eb6	PROVEN	psx_800fce86	PSXMAP 800fce86 x1, 1 fns
+80126eb8	DEAD	g_80126eb8	in-region, written never read (static)
+80126eba	DEAD	g_80126eba	in-region, written never read (static)
+80126ebc	PROVEN	psx_800fce8c	PSXMAP 800fce8c x2, 1 fns
+80126ebd	PROVEN	psx_800fce8d	PSXMAP 800fce8d x2, 1 fns
+80126ebe	PROVEN	psx_800fce8e	PSXMAP 800fce8e x1, 2 fns
+80126ec0	DEAD	g_80126ec0	in-region, written never read (static)
+80126ec2	DEAD	g_80126ec2	in-region, written never read (static)
+80126ec4	PROVEN	psx_800fce94	PSXMAP 800fce94 x2, 1 fns
+80126ec5	PROVEN	psx_800fce95	PSXMAP 800fce95 x2, 1 fns
+80126ec6	PROVEN	psx_800fce96	PSXMAP 800fce96 x1, 1 fns
+80126ec8	DEAD	g_80126ec8	in-region, written never read (static)
+80126eca	DEAD	g_80126eca	in-region, written never read (static)
+80126ecc	PROVEN	psx_800fce9c	PSXMAP 800fce9c x2, 1 fns
+80126ecd	PROVEN	psx_800fce9d	PSXMAP 800fce9d x2, 1 fns
+80126ed0	DEAD	g_80126ed0	in-region, written never read (static)
+80126ed2	DEAD	g_80126ed2	in-region, written never read (static)
+80126ed4	PROVEN	psx_800fcea4	PSXMAP 800fcea4 x2, 1 fns
+80126ed5	PROVEN	psx_800fcea5	PSXMAP 800fcea5 x1, 1 fns
+80127360	PROVEN	psx_800fd4b8	PSXMAP 800fd4b8 x1, 1 fns
+80127370	PROVEN	psx_800fd588	PSXMAP 800fd588 x1, 1 fns
+80127380	PROVEN	g_camera_fade_timer	PSXMAP 800fd9d2 x5, 5 fns
+80127384	PROVEN	g_depth_range_offset	PSXMAP 800fdd38 x1, 2 fns
+80127388	PROVEN	psx_800ffef0	PSXMAP 800ffef0 x3, 5 fns
+8012738c	PROVEN	psx_800ffef4	PSXMAP 800ffef4 x2, 2 fns
+80127398	PROVEN	psx_800fff00	PSXMAP 800fff00 x2, 1 fns
+801273b0	PROVEN	psx_800fff28	PSXMAP 800fff28 x1, 1 fns
+801273e8	PROVEN	psx_80100050	PSXMAP 80100050 x2, 2 fns
+801273ec	PROVEN	psx_80100054	PSXMAP 80100054 x1, 1 fns
+801273ed	PROVEN	psx_80100055	PSXMAP 80100055 x1, 1 fns
+801273ee	PROVEN	psx_80100056	PSXMAP 80100056 x1, 1 fns
+801273f0	PROVEN	psx_80100058	PSXMAP 80100058 x1, 1 fns
+801273f2	PROVEN	psx_8010005a	PSXMAP 8010005a x1, 1 fns
+801273f4	PROVEN	psx_8010005c	PSXMAP 8010005c x1, 1 fns
+801273f5	PROVEN	psx_8010005d	PSXMAP 8010005d x1, 1 fns
+801273f6	PROVEN	psx_8010005e	PSXMAP 8010005e x1, 1 fns
+801273f8	PROVEN	psx_80100060	PSXMAP 80100060 x1, 1 fns
+801273fa	PROVEN	psx_80100062	PSXMAP 80100062 x1, 1 fns
+80127550	PROVEN	g_stage_light_dir_y_base	PSXMAP 801001c0 x3, 3 fns
+80127552	PROVEN	g_stage_light_dir_z_base	PSXMAP 801001c2 x3, 3 fns
+80127554	PROVEN	g_stage_light_dir_x_base	PSXMAP 801001c8 x3, 3 fns
+80127556	PROVEN	g_stage_light_dir2_x_base	PSXMAP 801001ca x3, 3 fns
+80127560	PROVEN	psx_80103488	PSXMAP 80103488 x2, 2 fns
+80127580	PROVEN	g_light2_dir_x	PSXMAP 801037d0 x7, 6 fns
+80127582	PROVEN	g_light2_dir_y	PSXMAP 801037d2 x6, 5 fns
+80127584	PROVEN	g_light2_color_r	PSXMAP 801037d4 x5, 4 fns
+80127585	PROVEN	g_light2_color_g	PSXMAP 801037d5 x5, 4 fns
+80127586	PROVEN	g_light2_color_b	PSXMAP 801037d6 x6, 5 fns
+80127630	PROVEN	g_fade_color_r_d4c8	PSXMAP 800fd4c8 x3, 3 fns
+80127631	PROVEN	g_fade_color_g_d4c9	PSXMAP 800fd4c9 x3, 3 fns
+80127632	PROVEN	g_fade_color_b_d4ca	PSXMAP 800fd4ca x3, 3 fns
+80127634	PROVEN	g_fade_color2_r	PSXMAP 800fd4cc x3, 3 fns
+80127635	PROVEN	g_fade_color2_g	PSXMAP 800fd4cd x3, 3 fns
+80127636	PROVEN	g_fade_color2_b	PSXMAP 800fd4ce x3, 3 fns
+80127638	PROVEN	g_camera_fade_saved	PSXMAP 800fda0c x3, 3 fns
+80127640	PROVEN	tbl_80127640	in-region read-only/addr-taken by 2 fns (static xrefs)
+80127644	PROVEN	tbl_80127644	in-region read-only/addr-taken by 1 fns (static xrefs)
+80127648	PROVEN	tbl_80127648	in-region read-only/addr-taken by 2 fns (static xrefs)
+80127664	PROVEN	tbl_80127664	in-region read-only/addr-taken by 1 fns (static xrefs)
+80127668	PROVEN	tbl_80127668	in-region read-only/addr-taken by 1 fns (static xrefs)
+8012766c	PROVEN	tbl_8012766c	in-region read-only/addr-taken by 1 fns (static xrefs)
+8012767c	PROVEN	tbl_8012767c	in-region read-only/addr-taken by 1 fns (static xrefs)
+80127680	PROVEN	tbl_80127680	in-region read-only/addr-taken by 1 fns (static xrefs)
+80127684	PROVEN	tbl_80127684	in-region read-only/addr-taken by 1 fns (static xrefs)
+80127688	PROVEN	var_80127688	in-region RW by 5 fns (static xrefs)
+8012768c	PROVEN	tbl_8012768c	in-region read-only/addr-taken by 1 fns (static xrefs)
+801279b0	PROVEN	var_801279b0	in-region RW by 4 fns (static xrefs)
+801279b1	PROVEN	var_801279b1	in-region RW by 3 fns (static xrefs)
+801279b2	PROVEN	var_801279b2	in-region RW by 6 fns (static xrefs)
+801279b8	PROVEN	var_801279b8	in-region RW by 6 fns (static xrefs)
+801279c0	PROVEN	var_801279c0	in-region RW by 5 fns (static xrefs)
+801279c8	PROVEN	var_801279c8	in-region RW by 5 fns (static xrefs)
+801279cc	PROVEN	var_801279cc	in-region RW by 5 fns (static xrefs)
+801279d0	PROVEN	var_801279d0	in-region RW by 4 fns (static xrefs)
+801279d4	PROVEN	var_801279d4	in-region RW by 6 fns (static xrefs)
+801279d8	PROVEN	var_801279d8	in-region RW by 6 fns (static xrefs)
+801279dc	PROVEN	var_801279dc	in-region RW by 6 fns (static xrefs)
+801279e0	PROVEN	var_801279e0	in-region RW by 3 fns (static xrefs)
+801279e4	PROVEN	var_801279e4	in-region RW by 3 fns (static xrefs)
+801279e8	PROVEN	var_801279e8	in-region RW by 3 fns (static xrefs)
+801279ec	PROVEN	var_801279ec	in-region RW by 3 fns (static xrefs)
+801279f0	PROVEN	var_801279f0	in-region RW by 2 fns (static xrefs)
+801279f4	PROVEN	var_801279f4	in-region RW by 2 fns (static xrefs)
+801279f8	PROVEN	var_801279f8	in-region RW by 3 fns (static xrefs)
+801279fc	PROVEN	var_801279fc	in-region RW by 5 fns (static xrefs)
+80127a00	PROVEN	var_80127a00	in-region RW by 2 fns (static xrefs)
+80127a08	PROVEN	tbl_80127a08	in-region read-only/addr-taken by 2 fns (static xrefs)
+80127a18	PROVEN	var_80127a18	in-region RW by 5 fns (static xrefs)
+80127a20	PROVEN	tbl_80127a20	in-region read-only/addr-taken by 4 fns (static xrefs)
+80127a30	PROVEN	var_80127a30	in-region RW by 5 fns (static xrefs)
+80127a32	PROVEN	var_80127a32	in-region RW by 5 fns (static xrefs)
+80127a34	PROVEN	var_80127a34	in-region RW by 5 fns (static xrefs)
+80127a36	PROVEN	var_80127a36	in-region RW by 8 fns (static xrefs)
+80127a38	PROVEN	var_80127a38	in-region RW by 4 fns (static xrefs)
+80127a3a	PROVEN	var_80127a3a	in-region RW by 8 fns (static xrefs)
+80127a3c	PROVEN	var_80127a3c	in-region RW by 8 fns (static xrefs)
+80127a3e	PROVEN	var_80127a3e	in-region RW by 8 fns (static xrefs)
+80127c24	PROVEN	var_80127c24	in-region RW by 3 fns (static xrefs)
+80127c25	PROVEN	var_80127c25	in-region RW by 3 fns (static xrefs)
+80127c26	PROVEN	var_80127c26	in-region RW by 4 fns (static xrefs)
+80127c27	PROVEN	var_80127c27	in-region RW by 8 fns (static xrefs)
+80127c28	PROVEN	var_80127c28	in-region RW by 2 fns (static xrefs)
+80127c30	PROVEN	tbl_80127c30	in-region read-only/addr-taken by 2 fns (static xrefs)
+80127c36	PROVEN	var_80127c36	in-region RW by 2 fns (static xrefs)
+80127c4e	PROVEN	tbl_80127c4e	in-region read-only/addr-taken by 2 fns (static xrefs)
+80127c5a	PROVEN	var_80127c5a	in-region RW by 2 fns (static xrefs)
+80127c72	PROVEN	var_80127c72	in-region RW by 2 fns (static xrefs)
+80127c78	PROVEN	tbl_80127c78	in-region read-only/addr-taken by 3 fns (static xrefs)
+80127cc0	PROVEN	var_80127cc0	in-region RW by 9 fns (static xrefs)
+80127cc1	PROVEN	var_80127cc1	in-region RW by 3 fns (static xrefs)
+80127cc2	PROVEN	var_80127cc2	in-region RW by 4 fns (static xrefs)
+80127cc3	PROVEN	var_80127cc3	in-region RW by 4 fns (static xrefs)
+80127cc4	PROVEN	var_80127cc4	in-region RW by 3 fns (static xrefs)
+80127cc8	PROVEN	tbl_80127cc8	in-region read-only/addr-taken by 2 fns (static xrefs)
+80127ccc	DEAD	g_80127ccc	in-region, written never read (static)
+80127ccd	DEAD	g_80127ccd	in-region, written never read (static)
+80127cce	DEAD	g_80127cce	in-region, written never read (static)
+80127cd0	DEAD	g_80127cd0	in-region, written never read (static)
+80127cd2	DEAD	g_80127cd2	in-region, written never read (static)
+80127cd4	DEAD	g_80127cd4	in-region, written never read (static)
+80127cd6	DEAD	g_80127cd6	in-region, written never read (static)
+80127ce8	PROVEN	tbl_80127ce8	in-region read-only/addr-taken by 2 fns (static xrefs)
+80128000	PROVEN	tbl_80128000	in-region read-only/addr-taken by 1 fns (static xrefs)
+80128180	PROVEN	var_80128180	in-region RW by 6 fns (static xrefs)
+80128188	PROVEN	tbl_80128188	in-region read-only/addr-taken by 4 fns (static xrefs)
+8012818c	DEAD	g_8012818c	in-region, written never read (static)
+8012818d	DEAD	g_8012818d	in-region, written never read (static)
+8012818e	DEAD	g_8012818e	in-region, written never read (static)
+80128190	DEAD	g_80128190	in-region, written never read (static)
+80128192	DEAD	g_80128192	in-region, written never read (static)
+80128194	DEAD	g_80128194	in-region, written never read (static)
+80128196	DEAD	g_80128196	in-region, written never read (static)
+801281a8	PROVEN	var_801281a8	in-region RW by 3 fns (static xrefs)
+801281aa	PROVEN	var_801281aa	in-region RW by 2 fns (static xrefs)
+801281ac	PROVEN	var_801281ac	in-region RW by 3 fns (static xrefs)
+801281b0	PROVEN	var_801281b0	in-region RW by 2 fns (static xrefs)
+801281b4	PROVEN	var_801281b4	in-region RW by 3 fns (static xrefs)
+801281b8	PROVEN	var_801281b8	in-region RW by 2 fns (static xrefs)
+801281bc	PROVEN	var_801281bc	in-region RW by 2 fns (static xrefs)
+801281c0	PROVEN	var_801281c0	in-region RW by 2 fns (static xrefs)
+801281c4	PROVEN	var_801281c4	in-region RW by 2 fns (static xrefs)
+801281c8	PROVEN	tbl_801281c8	in-region read-only/addr-taken by 2 fns (static xrefs)
+80128258	PROVEN	var_80128258	in-region RW by 3 fns (static xrefs)
+8012825a	PROVEN	var_8012825a	in-region RW by 5 fns (static xrefs)
+8012825c	PROVEN	var_8012825c	in-region RW by 4 fns (static xrefs)
+8012825e	PROVEN	var_8012825e	in-region RW by 2 fns (static xrefs)
+80128262	PROVEN	tbl_80128262	in-region read-only/addr-taken by 1 fns (static xrefs)
+80128268	PROVEN	tbl_80128268	in-region read-only/addr-taken by 3 fns (static xrefs)
+8012826b	DEAD	g_8012826b	in-region, written never read (static)
+80128274	PROVEN	tbl_80128274	in-region read-only/addr-taken by 1 fns (static xrefs)
+80128277	DEAD	g_80128277	in-region, written never read (static)
+80128427	PROVEN	tbl_80128427	in-region read-only/addr-taken by 1 fns (static xrefs)
+80128428	PROVEN	tbl_80128428	in-region read-only/addr-taken by 7 fns (static xrefs)
+80128438	PROVEN	var_80128438	in-region RW by 2 fns (static xrefs)
+80128448	PROVEN	var_80128448	in-region RW by 2 fns (static xrefs)
+80128458	PROVEN	tbl_80128458	in-region read-only/addr-taken by 8 fns (static xrefs)
+80128488	PROVEN	tbl_80128488	in-region read-only/addr-taken by 1 fns (static xrefs)
+801284a8	PROVEN	tbl_801284a8	in-region read-only/addr-taken by 1 fns (static xrefs)
+801284ac	DEAD	g_801284ac	in-region, written never read (static)
+801284b0	DEAD	g_801284b0	in-region, written never read (static)
+801284b4	PROVEN	var_801284b4	in-region RW by 2 fns (static xrefs)
+801284b8	DEAD	g_801284b8	in-region, written never read (static)
+801284bc	DEAD	g_801284bc	in-region, written never read (static)
+801284c0	DEAD	g_801284c0	in-region, written never read (static)
+801284c4	DEAD	g_801284c4	in-region, written never read (static)
+801284c8	PROVEN	tbl_801284c8	in-region read-only/addr-taken by 2 fns (static xrefs)
+801284cc	DEAD	g_801284cc	in-region, written never read (static)
+801284d0	PROVEN	var_801284d0	in-region RW by 2 fns (static xrefs)
+801284d4	PROVEN	var_801284d4	in-region RW by 3 fns (static xrefs)
+801284d8	PROVEN	tbl_801284d8	in-region read-only/addr-taken by 1 fns (static xrefs)
+801284da	PROVEN	tbl_801284da	in-region read-only/addr-taken by 1 fns (static xrefs)
+801284dc	PROVEN	tbl_801284dc	in-region read-only/addr-taken by 1 fns (static xrefs)
+801284e8	PROVEN	var_801284e8	in-region RW by 4 fns (static xrefs)
+801284ec	PROVEN	tbl_801284ec	in-region read-only/addr-taken by 1 fns (static xrefs)
+801284ee	DEAD	g_801284ee	in-region, written never read (static)
+801284f0	PROVEN	tbl_801284f0	in-region read-only/addr-taken by 2 fns (static xrefs)
+801284f2	PROVEN	tbl_801284f2	in-region read-only/addr-taken by 2 fns (static xrefs)
+801284f4	PROVEN	tbl_801284f4	in-region read-only/addr-taken by 1 fns (static xrefs)
+801284f8	DEAD	g_801284f8	in-region, written never read (static)
+801284fc	PROVEN	var_801284fc	in-region RW by 3 fns (static xrefs)
+80128500	PROVEN	var_80128500	in-region RW by 2 fns (static xrefs)
+80128501	PROVEN	var_80128501	in-region RW by 2 fns (static xrefs)
+80128504	PROVEN	var_80128504	in-region RW by 3 fns (static xrefs)
+80128508	PROVEN	var_80128508	in-region RW by 2 fns (static xrefs)
+8012850c	PROVEN	var_8012850c	in-region RW by 3 fns (static xrefs)
+80128510	PROVEN	var_80128510	in-region RW by 2 fns (static xrefs)
+80128518	PROVEN	var_80128518	in-region RW by 3 fns (static xrefs)
+8012851c	DEAD	g_8012851c	in-region, written never read (static)
+8012851e	DEAD	g_8012851e	in-region, written never read (static)
+80128520	DEAD	g_80128520	in-region, written never read (static)
+80128522	DEAD	g_80128522	in-region, written never read (static)
+80128524	PROVEN	var_80128524	in-region RW by 3 fns (static xrefs)
+80128526	DEAD	g_80128526	in-region, written never read (static)
+80128528	PROVEN	var_80128528	in-region RW by 4 fns (static xrefs)
+8012852c	PROVEN	var_8012852c	in-region RW by 3 fns (static xrefs)
+80128530	PROVEN	var_80128530	in-region RW by 3 fns (static xrefs)
+80128538	PROVEN	var_80128538	in-region RW by 3 fns (static xrefs)
+8012853c	DEAD	g_8012853c	in-region, written never read (static)
+8012853e	PROVEN	var_8012853e	in-region RW by 2 fns (static xrefs)
+80128540	DEAD	g_80128540	in-region, written never read (static)
+80128542	DEAD	g_80128542	in-region, written never read (static)
+80128544	DEAD	g_80128544	in-region, written never read (static)
+80128546	DEAD	g_80128546	in-region, written never read (static)
+80128728	PROVEN	tbl_80128728	in-region read-only/addr-taken by 1 fns (static xrefs)
+8012872e	PROVEN	var_8012872e	in-region RW by 2 fns (static xrefs)
+80128738	PROVEN	var_80128738	in-region RW by 2 fns (static xrefs)
+8012873c	PROVEN	var_8012873c	in-region RW by 2 fns (static xrefs)
+80128740	PROVEN	var_80128740	in-region RW by 3 fns (static xrefs)
+80128744	PROVEN	var_80128744	in-region RW by 3 fns (static xrefs)
+8012fff4	PROVEN	tbl_8012fff4	in-region read-only/addr-taken by 2 fns (static xrefs)
+8012fff8	PROVEN	tbl_8012fff8	in-region read-only/addr-taken by 1 fns (static xrefs)
+8012fffc	PROVEN	var_8012fffc	in-region RW by 2 fns (static xrefs)
+8012ffff	PROVEN	tbl_8012ffff	in-region read-only/addr-taken by 4 fns (static xrefs)
+80130000	PROVEN	var_80130000	in-region RW by 17 fns (static xrefs)
+80130001	PROVEN	var_80130001	in-region RW by 10 fns (static xrefs)
+80130002	PROVEN	var_80130002	in-region RW by 5 fns (static xrefs)
+80130003	DEAD	g_80130003	in-region, written never read (static)
+80130004	PROVEN	var_80130004	in-region RW by 7 fns (static xrefs)
+80130005	DEAD	g_80130005	in-region, written never read (static)
+80130006	PROVEN	tbl_80130006	in-region read-only/addr-taken by 2 fns (static xrefs)
+80130008	PROVEN	var_80130008	in-region RW by 7 fns (static xrefs)
+8013000c	PROVEN	var_8013000c	in-region RW by 4 fns (static xrefs)
+8013000e	PROVEN	tbl_8013000e	in-region read-only/addr-taken by 1 fns (static xrefs)
+80130010	PROVEN	var_80130010	in-region RW by 4 fns (static xrefs)
+80130012	PROVEN	var_80130012	in-region RW by 3 fns (static xrefs)
+80130014	DEAD	g_80130014	in-region, written never read (static)
+80130016	DEAD	g_80130016	in-region, written never read (static)
+80130018	DEAD	g_80130018	in-region, written never read (static)
+8013001a	DEAD	g_8013001a	in-region, written never read (static)
+8013001c	DEAD	g_8013001c	in-region, written never read (static)
+8013001e	DEAD	g_8013001e	in-region, written never read (static)
+80130020	PROVEN	tbl_80130020	in-region read-only/addr-taken by 2 fns (static xrefs)
+80130023	PROVEN	var_80130023	in-region RW by 2 fns (static xrefs)
+80130024	DEAD	g_80130024	in-region, written never read (static)
+80130026	DEAD	g_80130026	in-region, written never read (static)
+80130028	DEAD	g_80130028	in-region, written never read (static)
+8013002a	DEAD	g_8013002a	in-region, written never read (static)
+8013002c	PROVEN	var_8013002c	in-region RW by 2 fns (static xrefs)
+80130030	PROVEN	tbl_80130030	in-region read-only/addr-taken by 1 fns (static xrefs)
+80130044	PROVEN	tbl_80130044	in-region read-only/addr-taken by 1 fns (static xrefs)
+80130060	PROVEN	tbl_80130060	in-region read-only/addr-taken by 1 fns (static xrefs)
+80130076	PROVEN	tbl_80130076	in-region read-only/addr-taken by 1 fns (static xrefs)
+801303ff	PROVEN	tbl_801303ff	in-region read-only/addr-taken by 1 fns (static xrefs)
+80130800	PROVEN	tbl_80130800	in-region read-only/addr-taken by 1 fns (static xrefs)
+80130fff	PROVEN	tbl_80130fff	in-region read-only/addr-taken by 1 fns (static xrefs)
+80140000	PROVEN	var_fighter_80140000	RW 7 refs by 4 fns (e.g. data_RelocateLightTablesAndOffsets,sys_LoadAndRelocateModelPointerTables)
+80140004	PROVEN	var_fighter_80140004	RW 4 refs by 4 fns (e.g. data_RelocateLightTablesAndOffsets,sys_LoadAndRelocateModelPointerTables)
+80180000	DEAD	g_80180000	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80180002	DEAD	g_80180002	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80180004	DEAD	g_80180004	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80180010	DEAD	g_80180010	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80180060	DEAD	g_80180060	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+801800f0	DEAD	g_801800f0	no static lui/addiu/ld/st reference in exe+overlay (full-image scan)
+80186800	PROVEN	g_team_battle_buf_a	PSXMAP 8012d000 x2, 17 fns
+80186810	PROVEN	tbl_movie_80186810	read-only/addr-taken 1 refs by 1 fns (e.g. movie_SetupFrameRects)
